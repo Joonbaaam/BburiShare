@@ -3,6 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page session="false"%>
 <header class="content">
+<!-- testtesttest -->
 	<div id="carouselExampleIndicators" class="carousel slide"
 		data-ride="carousel">
 		<ol class="carousel-indicators">
