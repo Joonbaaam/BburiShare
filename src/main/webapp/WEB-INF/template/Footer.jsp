@@ -6,7 +6,7 @@
   
     <!-- 종성이형 테스트 -->
     <!-- Copyright -->
-    <!-- 테스트 후 푸쉬 -->
+    <!-- 테스트 후 푸쉬 22-->
     <div class="footer-copyright text-center">
      
        <p>© 2019, All Rights Reserved. <a href="#">뿌리쉐어</a>	       	
