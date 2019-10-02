@@ -5,7 +5,7 @@
 <header class="content">
 
 <!-- jongtest -->
-<!-- test Jeon -->
+<!-- test Jeon 2nd-->
 
 	<div id="carouselExampleIndicators" class="carousel slide"
 		data-ride="carousel">
