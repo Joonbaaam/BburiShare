@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HomeController {
 	//controller test coding
+	//controller test coding by Beom
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
 	/**
