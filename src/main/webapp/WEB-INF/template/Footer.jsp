@@ -4,10 +4,10 @@
 <!-- Footer -->
 <footer>
   
-    
+    <!-- 종성이형 테스트 -->
     <!-- Copyright -->
     <div class="footer-copyright text-center">
-       	
+     
        <p>© 2019, All Rights Reserved. <a href="#">뿌리쉐어</a>	       	
        </p>
        
