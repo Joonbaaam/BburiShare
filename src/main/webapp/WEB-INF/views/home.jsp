@@ -23,7 +23,7 @@
 		<div class="carousel-inner" role="listbox">
 			<!-- Slide One - Set the background image for this slide in the line below -->
 			<div class="carousel-item active">
-				<img src="resources/images/banner-3.jpg" alt="...">
+				<img src="<c:url value='/resources/images/banner-3.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>첫번째 슬라이드</h3>
@@ -33,7 +33,7 @@
 			</div>
 			<!-- Slide Two - Set the background image for this slide in the line below -->
 			<div class="carousel-item">
-				<img src="resources/images/banner-2.jpg" alt="...">
+				<img src="<c:url value='/resources/images/banner-2.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>두번째 슬라이드</h3>
@@ -45,7 +45,7 @@
 			</div>
 			<!-- Slide Three - Set the background image for this slide in the line below -->
 			<div class="carousel-item">
-				<img src="resources/images/banner-1.jpg" alt="...">
+				<img src="<c:url value='/resources/images/banner-1.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>세번째 슬라이드</h3>
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="resources/images/banner-3.jpg" alt="...">
+				<img src="<c:url value='/resources/images/banner-3.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>네번째 슬라이드</h3>
@@ -67,7 +67,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="resources/images/banner-2.jpg" alt="...">
+				<img src="<c:url value='/resources/images/banner-2.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>다섯번째 슬라이드</h3>
@@ -78,7 +78,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="resources/images/banner-1.jpg" alt="...">
+				<img src="<c:url value='/resources/images/banner-1.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>여섯번째 슬라이드</h3>
@@ -167,7 +167,7 @@ Accordion wrapper
 				<div class="row">
 					<div class="col-lg-6 col-md-12">
 						<div class="image-one">
-							<img src="resources/images/main_sharing1.png" alt=""
+							<img src="<c:url value='/resources/images/main_sharing1.png'/>" alt=""
 								class="img-thumbnail blog-1">
 							<div class="text-block">
 								<!-- 녹색 박스, 삭제도 가능 -->
@@ -195,7 +195,7 @@ Accordion wrapper
 				<div class="row">
 					<div class="col-lg-6 col-md-12">
 						<div class="image-one">
-							<img src="resources/images/main_sharing2.png" alt=""
+							<img src="<c:url value='/resources/images/main_sharing2.png'/>" alt=""
 								class="img-thumbnail blog-1">
 							<div class="text-block">
 								<!-- 녹색 박스, 삭제도 가능 -->
@@ -298,67 +298,67 @@ Accordion wrapper
 					data-ride="carousel">
 					<div class="carousel-inner w-100" role="listbox">
 						<div class="carousel-item active">
-							<a href="resources/images/portfolio4.jpg" data-toggle="lightbox"
+							<a href="<c:url value='/resources/images/portfolio4.jpg'/>" data-toggle="lightbox"
 								data-gallery="example-gallery"
 								class="d-block col-sm-4 col-12 box"> <img
-								src="resources/images/portfolio-4.jpg" class="img-fluid">
+								src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
 								<div class="overlay">
-									<img src="resources/images/plus-img.png" alt="plus-icon">
+									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
 									<div class="text">Beautiful Sunset at Mountain</div>
 								</div>
 							</a>
 						</div>
 						<div class="carousel-item">
-							<a href="resources/images/portfolio3.jpg" data-toggle="lightbox"
+							<a href="<c:url value='/resources/images/portfolio3.jpg'/>" data-toggle="lightbox"
 								data-gallery="example-gallery"
 								class="d-block col-sm-4 col-12 box"> <img
-								src="resources/images/portfolio-3.jpg" class="img-fluid">
+								src="<c:url value='/resources/images/portfolio-3.jpg'/>" class="img-fluid">
 								<div class="overlay">
-									<img src="resources/images/plus-img.png" alt="plus-icon">
+									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
 									<div class="text">Beautiful Sunset at Mountain</div>
 								</div>
 							</a>
 						</div>
 						<div class="carousel-item">
-							<a href="resources/images/portfolio4.jpg" data-toggle="lightbox"
+							<a href="<c:url value='/resources/images/portfolio4.jpg'/>" data-toggle="lightbox"
 								data-gallery="example-gallery"
 								class="d-block col-sm-4 col-12 box"> <img
-								src="resources/images/portfolio-4.jpg" class="img-fluid">
+								src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
 								<div class="overlay">
-									<img src="resources/images/plus-img.png" alt="plus-icon">
+									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
 									<div class="text">Beautiful Sunset at Mountain</div>
 								</div>
 							</a>
 						</div>
 						<div class="carousel-item">
-							<a href="resources/images/portfolio3.jpg" data-toggle="lightbox"
+							<a href="<c:url value='/resources/images/portfolio3.jpg'/>" data-toggle="lightbox"
 								data-gallery="example-gallery"
 								class="d-block col-sm-4 col-12 box"> <img
-								src="resources/images/portfolio-3.jpg" class="img-fluid">
+								src="<c:url value='/resources/images/portfolio-3.jpg'/>" class="img-fluid">
 								<div class="overlay">
-									<img src="resources/images/plus-img.png" alt="plus-icon">
+									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
 									<div class="text">Beautiful Sunset at Mountain</div>
 								</div>
 							</a>
 						</div>
 						<div class="carousel-item">
-							<a href="resources/images/portfolio4.jpg" data-toggle="lightbox"
+							<a href="<c:url value='/resources/images/portfolio4.jpg'/>" data-toggle="lightbox"
 								data-gallery="example-gallery"
 								class="d-block col-sm-4 col-12 box"> <img
-								src="resources/images/portfolio-4.jpg" class="img-fluid">
+								src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
 								<div class="overlay">
-									<img src="resources/images/plus-img.png" alt="plus-icon">
+									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
 									<div class="text">Beautiful Sunset at Mountain</div>
 								</div>
 							</a>
 						</div>
 						<div class="carousel-item">
-							<a href="resources/images/portfolio3.jpg" data-toggle="lightbox"
+							<a href="<c:url value='/resources/images/portfolio3.jpg'/>" data-toggle="lightbox"
 								data-gallery="example-gallery"
 								class="d-block col-sm-4 col-12 box"> <img
-								src="resources/images/portfolio-3.jpg" class="img-fluid">
+								src="<c:url value='/resources/images/portfolio-3.jpg'/>" class="img-fluid">
 								<div class="overlay">
-									<img src="resources/images/plus-img.png" alt="plus-icon">
+									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
 									<div class="text">Beautiful Sunset at Mountain</div>
 								</div>
 							</a>
