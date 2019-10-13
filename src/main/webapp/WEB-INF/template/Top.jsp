@@ -13,7 +13,7 @@
     <!-- Navigation -->
     <nav id="myHeader" class="header navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <a class="navbar-brand" href="<c:url value='/'/>"><img src="<c:url value='/resources/images/logo.png'/>" alt="logo"></a>
+        <a class="navbar-brand" href="<c:url value='/'/>"><img src="<c:url value='/resources/images/bburilogo_size.png'/>" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
