@@ -28,8 +28,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
     <!-- Custom JavaScript -->
-    <script src="resources/js/animate.js"></script>
-    <script src="resources/js/custom.js"></script>
+    <script src="<c:url value='/resources/js/animate.js'/>"></script>
+    <script src="<c:url value='/resources/js/custom.js'/>"></script>
 <script>
 $('.carousel').carousel({
   interval: 2000
