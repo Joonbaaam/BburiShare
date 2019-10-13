@@ -100,55 +100,34 @@
 		</a>
 	</div>
 </header>
-<!-- 실험시작 -->
-<!-- <section class="services" id="sharing">
-Accordion wrapper
-<div class="container">
-   <div class="accordion accordion-1" id="accordionEx23" role="tablist">
-       <div class="card" data-aos="fade-up" data-aos-delay="300">
-           <div class="card-header blue lighten-3 z-depth-1" role="tab" id="heading96">
-               <h2 class="text-uppercase mb-0 py-1">
-                   <a data-toggle="collapse" href="#collapse96" aria-expanded="true" aria-controls="collapse96">
-                       	빌려주는 기쁨, 빌려쓰는 기쁨 : 쉐어링<i class="fa fa-angle-down rotate-icon fa-2x"></i>
-                   </a>
-               </h2>
-           </div>
-           <div id="collapse96" class="collapse show" role="tabpanel" aria-labelledby="heading96" data-parent="#accordionEx23">
-               <div class="card-body">
-                   <div class="row">
-                       <div class="col-md-6">
-                          <div class="inner-content"  data-aos="fade-up" data-aos-delay="300">
-                            <a href="#"><img src="images/main_sharing1.png" alt="about-bg" class="thumbnail image"></a>   
-                          </div>                           
+
+<!-- 지도섹션시작 -->
+<section class="blog">
+    <div class="container">
+    	<div class="col-sm-12 heading">
+			<div class="icon">
+				<i class="fa fa-globe" aria-hidden="true"></i>
+			</div>
+		</div>		
+        <div class="row">
+            <div class="col-sm-12 heading">
+                <h3>우리동네 한눈에 보기</h3>                
+            </div>
+        </div>       
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                       <div class="image-map">
+                       		<img src="<c:url value='/resources/images/map_example.PNG'/>" alt="" class="img-cal blog-1">                      		                      
                        </div>
-                       <div class="col-md-6">
-                          <div class="inner-content"  data-aos="fade-up" data-aos-delay="300">
-                            <a href="#"><img src="images/main_sharing2.png" alt="about-bg" class="thumbnail image"></a>   
-                          </div>                           
-                       </div>
-                       <div class="col-md-6">
-	                       <div class="inner-content" >
-		                       <p class="text-center">물건쉐어링</p>                             
-		                       <p class="text-center">필요한 물건을 이웃과 나누기</p>
-	                       </div>
-                       </div>
-                       <div class="col-md-6">
-	                       <div class="inner-content" >
-		                       <p class="text-center">재능쉐어링</p>
-		                             
-		                       <p class="text-center">자신의 재능을 이웃과 나누기</p>
-	                       </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-       
-   </div>
-   Accordion wrapper
-</div>
-</section> -->
-<!-- 실험끝 -->
+                    </div>                                    
+                </div>                
+            </div>                    
+        </div>        
+    </div>
+</section>
+<!-- 지도섹션끝 -->
 <section class="blog">
 	<div class="container">
 		<div class="row">
@@ -159,223 +138,211 @@ Accordion wrapper
 			</div>
 			<div class="col-sm-12 heading">
 				<h3>빌려주는 기쁨, 빌려쓰는 고마움</h3>
-
-			</div>
+			</div>			
 		</div>
 		<div class="row" data-aos="fade-up">
-			<div class="col-lg-6 col-sm-6">
-				<div class="row">
-					<div class="col-lg-6 col-md-12">
+			<div class="col-lg-12 col-sm-12">
+				<div class="row">					
+					<div class="col-lg-3 col-md-12">
 						<div class="image-one">
-							<img src="<c:url value='/resources/images/main_sharing1.png'/>" alt=""
-								class="img-thumbnail blog-1">
-							<div class="text-block">
-								<!-- 녹색 박스, 삭제도 가능 -->
-								<h4>
-									<a href="blog_single.html">물건쉐어링</a>
-								</h4>
-							</div>
+							<img src="<c:url value='/resources/images/main_sharing1.png'/>" alt="" class="img-thumbnail blog-1">							
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-12">
+					<div class="col-lg-3 col-md-12">
+						<div class="image-one">
+							<img src="<c:url value='/resources/images/main_sharing1.png'/>" alt="" class="img-thumbnail blog-1">							
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-12">
+						<div class="image-one">
+							<img src="<c:url value='/resources/images/main_sharing1.png'/>" alt="" class="img-thumbnail blog-1">							
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-12">
+						<div class="image-one">
+							<img src="<c:url value='/resources/images/main_sharing1.png'/>" alt="" class="img-thumbnail blog-1">							
+						</div>
+					</div>							
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-12">
 						<div class="blog-column1">
 							<h5>
-								<a href="blog_single.html">물건쉐어링</a>
+								<a href="blog_single.html">최근 쉐어링1</a>
 							</h5>
 							<p>
-								이웃들과 필요한 물건을</br> 빌려쓰고 나눠쓸 수 있습니다.
+								쉐어링정보</br>지역,물건 등
+							</p>
+							<a class="btn btn-primary" href="blog_single.html" role="button">More
+								>></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-12">
+						<div class="blog-column1">
+							<h5>
+								<a href="blog_single.html">최근 쉐어링2</a>
+							</h5>
+							<p>
+								쉐어링정보</br>지역,물건 등
+							</p>
+							<a class="btn btn-primary" href="blog_single.html" role="button">More
+								>></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-12">
+						<div class="blog-column1">
+							<h5>
+								<a href="blog_single.html">최근 쉐어링3</a>
+							</h5>
+							<p>
+								쉐어링정보</br>지역,물건 등
+							</p>
+							<a class="btn btn-primary" href="blog_single.html" role="button">More
+								>></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-12">
+						<div class="blog-column1">
+							<h5>
+								<a href="blog_single.html">최근 쉐어링4</a>
+							</h5>
+							<p>
+								쉐어링정보</br>지역,물건 등
 							</p>
 							<a class="btn btn-primary" href="blog_single.html" role="button">More
 								>></a>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-6 col-sm-6">
-				<div class="row">
-					<div class="col-lg-6 col-md-12">
-						<div class="image-one">
-							<img src="<c:url value='/resources/images/main_sharing2.png'/>" alt=""
-								class="img-thumbnail blog-1">
-							<div class="text-block">
-								<!-- 녹색 박스, 삭제도 가능 -->
-								<h4>
-									<a href="blog_single.html">재능쉐어링</a>
-								</h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-12">
-						<div class="blog-column1">
-							<h5>
-								<a href="blog_single.html">재능쉐어링</a>
-							</h5>
-							<p>
-								이웃들과 자신이 가진 재능을</br> 알려주고 배울 수 있습니다.
-							</p>
-							<a class="btn btn-primary" href="blog_single.html" role="button">More
-								>></a>
-						</div>
-					</div>
-				</div>
-			</div>
+			</div>			
 		</div>
 	</div>
 </section>
-
-<section class="about" id="about">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 heading">
-				<div class="icon">
-					<i class="fa fa-paper-plane" aria-hidden="true"></i>
-				</div>
+<!-- 섹션2 -->
+<section class="blog">
+    <div class="container">
+    	<div class="col-sm-12 heading">
+			<div class="icon">
+				<i class="fa fa-handshake-o" aria-hidden="true"></i>
 			</div>
-			<div class="col-sm-12 heading">
-				<h3>All you need to know about jumper agency</h3>
-				<h4>we are well versed in trending web design and creativity</h4>
-			</div>
-		</div>
-		<div class="row" data-aos="fade-up">
-			<div class="col-sm-4 col1">
-				<div class="row">
-					<div class="col-sm-2 box1">
-						<i class="fa fa-desktop" aria-hidden="true"></i>
-					</div>
-					<div class="col-sm-10 inner-content">
-						<h3>design.</h3>
-						<p>Lorem Ipsum is simply dummy text of the printing and
-							scrambled it to make a type specimen book. It has survived not
-							only five</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4 col2">
-				<div class="row">
-					<div class="col-sm-2 box1">
-						<i class="fa fa-cogs" aria-hidden="true"></i>
-					</div>
-					<div class="col-sm-10 inner-content">
-						<h3>Web Designing.</h3>
-						<p>Lorem Ipsum is simply dummy text of the printing and
-							scrambled it to make a type of the printing and scrambled it to
-							of the printing and scrambled it to . It has survived not only
-							five</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4 col3">
-				<div class="row">
-					<div class="col-sm-2 box1">
-						<i class="fa fa-code" aria-hidden="true"></i>
-					</div>
-					<div class="col-sm-10 inner-content">
-						<h3>coding.</h3>
-						<p>Lorem Ipsum is simply dummy text of the printing and
-							scrambled it to make a type specimen book. It has survived not
-							only five</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+		</div>		
+        <div class="row">
+            <div class="col-sm-12 heading">
+                <h3>주간 HOT 클립/모임</h3>                
+            </div>
+        </div>
+        <div class="row">
+	       		<div class="col-lg-6 col-sm-6">	       			
+	       			<h4><i class="fa fa-star"></i> 이번주 HOT 클립</h4>
+	       		</div>
+	       		<div class="col-lg-6 col-sm-6">
+	       			<h4><i class="fa fa-star"></i> 이번주 HOT 소모임</h4>
+	       		</div>
+        	</div>
+        <div class="row" data-aos="fade-up">
+        	
+        	
+            <div class="col-lg-6 col-sm-6">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                       <div class="image-clip">
+                       		<img src="<c:url value='/resources/images/blog-1.jpg'/>" alt="" class="img-clip blog-1">
+                      		<div class="overlay">                           		
+								<i class="fa fa-play-circle-o playfa"></i>								
+                        	</div>                             
+                       </div>
+                    </div>                    
+                </div>
+                <div class="row">
+                	<div class="col-lg-12 col-md-12">
+ 					    <div class="blog-column1">
+ 	            		   <h5><a href="#">이번주 핫클립 제목</a></h5>
+ 						   <p>클립 내용 </p>
+ 						   <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
+ 					   </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+            	<div class="row">
+                    <div class="col-lg-6 col-md-12">
+                       <div class="image-clip">
+                           <img src="<c:url value='/resources/images/blog-1.jpg'/>" alt="" class="img-thumbnail blog-1">                             
+                       </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                       <div class="image-clip">
+                           <img src="<c:url value='/resources/images/blog-1.jpg'/>" alt="" class="img-thumbnail blog-1">                             
+                       </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+ 					    <div class="blog-column1">
+ 	            		   <h5><a href="#">이번주 핫모임1 제목</a></h5>
+ 						   <p>모임소개 등</p>
+ 						   <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
+ 					   </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+ 					    <div class="blog-column1">
+ 	            		   <h5><a href="#">이번주 핫모임2 제목</a></h5>
+ 						   <p>모임소개 등</p>
+ 						   <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
+ 					   </div>
+                    </div>
+                </div>
+            </div>        
+        </div>        
+    </div>
 </section>
 
-
-
-<section class="portfolio container">
-	<div class="gradient"></div>
-	<div class="">
-		<div class="main-content">
-			<div class="row">
-				<div class="col-lg-12 heading">
-					<h3>Look at our stunning portfolio of works</h3>
-					<h4>we are well versed in trending web design and creativity</h4>
-				</div>
+<!-- 섹션2 끝 -->
+<!-- 섹션3 시작-->
+<section class="blog">
+    <div class="container">
+    	<div class="col-sm-12 heading">
+			<div class="icon">
+				<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
 			</div>
-			<div class="row">
-				<div id="recipeCarousel" class="carousel slide w-100"
-					data-ride="carousel">
-					<div class="carousel-inner w-100" role="listbox">
-						<div class="carousel-item active">
-							<a href="<c:url value='/resources/images/portfolio4.jpg'/>" data-toggle="lightbox"
-								data-gallery="example-gallery"
-								class="d-block col-sm-4 col-12 box"> <img
-								src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
-								<div class="overlay">
-									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
-									<div class="text">Beautiful Sunset at Mountain</div>
-								</div>
-							</a>
-						</div>
-						<div class="carousel-item">
-							<a href="<c:url value='/resources/images/portfolio3.jpg'/>" data-toggle="lightbox"
-								data-gallery="example-gallery"
-								class="d-block col-sm-4 col-12 box"> <img
-								src="<c:url value='/resources/images/portfolio-3.jpg'/>" class="img-fluid">
-								<div class="overlay">
-									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
-									<div class="text">Beautiful Sunset at Mountain</div>
-								</div>
-							</a>
-						</div>
-						<div class="carousel-item">
-							<a href="<c:url value='/resources/images/portfolio4.jpg'/>" data-toggle="lightbox"
-								data-gallery="example-gallery"
-								class="d-block col-sm-4 col-12 box"> <img
-								src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
-								<div class="overlay">
-									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
-									<div class="text">Beautiful Sunset at Mountain</div>
-								</div>
-							</a>
-						</div>
-						<div class="carousel-item">
-							<a href="<c:url value='/resources/images/portfolio3.jpg'/>" data-toggle="lightbox"
-								data-gallery="example-gallery"
-								class="d-block col-sm-4 col-12 box"> <img
-								src="<c:url value='/resources/images/portfolio-3.jpg'/>" class="img-fluid">
-								<div class="overlay">
-									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
-									<div class="text">Beautiful Sunset at Mountain</div>
-								</div>
-							</a>
-						</div>
-						<div class="carousel-item">
-							<a href="<c:url value='/resources/images/portfolio4.jpg'/>" data-toggle="lightbox"
-								data-gallery="example-gallery"
-								class="d-block col-sm-4 col-12 box"> <img
-								src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
-								<div class="overlay">
-									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
-									<div class="text">Beautiful Sunset at Mountain</div>
-								</div>
-							</a>
-						</div>
-						<div class="carousel-item">
-							<a href="<c:url value='/resources/images/portfolio3.jpg'/>" data-toggle="lightbox"
-								data-gallery="example-gallery"
-								class="d-block col-sm-4 col-12 box"> <img
-								src="<c:url value='/resources/images/portfolio-3.jpg'/>" class="img-fluid">
-								<div class="overlay">
-									<img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
-									<div class="text">Beautiful Sunset at Mountain</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<a class="carousel-control-prev" href="#recipeCarousel"
-						role="button" data-slide="prev"> <i
-						class="fa fa-long-arrow-left" aria-hidden="true"></i> <span
-						class="sr-only">Previous</span>
-					</a> <a class="carousel-control-next" href="#recipeCarousel"
-						role="button" data-slide="next"> <i
-						class="fa fa-long-arrow-right" aria-hidden="true"></i> <span
-						class="sr-only">Next</span>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
+		</div>		
+        <div class="row">
+            <div class="col-sm-12 heading">
+                <h3>진행중인 공동구매 / 지역정보</h3>                
+            </div>
+        </div>
+        <div class="row">
+	       		<div class="col-lg-9 col-sm-6">	       			
+	       			<h4><i class="fa fa-star"></i> 진행중인 공동구매</h4>
+	       		</div>
+	       		<div class="col-lg-3 col-sm-6">
+	       			<h4><i class="fa fa-star"></i> 지역정보</h4>
+	       		</div>
+        	</div>
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-9 col-sm-6">
+                <div class="row">
+                    <div class="col-lg-9 col-md-12">
+                       <div class="image-cal">
+                       		<img src="<c:url value='/resources/images/cal_example.PNG'/>" alt="" class="img-cal blog-1">                      		                      
+                       </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                       	<h4>공동구매 제목</h4>
+                       	<h5>공동구매 내용</br>일정 클릭 시 노출</h5>
+                       	<p></br>물건:물탱크</br>가격:xxx원</br>지역:노원구</br>인원:15명</p>
+                    </div>                    
+                </div>                
+            </div>
+            <div class="col-lg-3 col-sm-6">
+            	<div class="row">
+                    <div class="col-lg-12 col-md-12">
+                       <div class="image-loc">
+                           <img src="<c:url value='/resources/images/locinfo_example.PNG'/>" alt="" class="img-loc blog-1">                             
+                       </div>
+                    </div>                                   
+                </div>
+            </div>        
+        </div>        
+    </div>
 </section>
 
+<!-- 섹션3 끝 -->
