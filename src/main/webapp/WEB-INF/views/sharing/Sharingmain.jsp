@@ -29,17 +29,17 @@
 			</div>
 			<div class="sharing-content">
 				<div class="container">
-				<h2>SHARING</h2>
-				<div class="align-buttons">
-					<button onclick="myFunction()" class="dropbtn">6개씩 보기</button>
-					<div id="myDropdown" class="dropdown-content">
-						   <a href="#">6개</a>
-						   <a href="#">12개</a>
-						   <a href="#">30개</a>
+					<h2>SHARING</h2>
+					<div class="row">
+						<div class="align-buttons">
+							<select name="resultNum" class="form-control">
+									<option value="hexa">6개씩 보기</option>
+									<option value="dodeca">12개씩 보기</option>
+									<option value="triaconta">30개씩 보기</option>
+									<option value="hexaconta">60개씩 보기</option>
+							</select>
+						</div>
 					</div>
-				</div>
-				
-				
 					<div class="row cont" id="article">
 						<div class="col-sm-4">
 							<img src="<c:url value='/resources/images/blog-1.jpg'/>"/>
@@ -84,32 +84,26 @@
 							</div>
 						</div>
 					</div>
+					
+					<form class="form-inline" method="post">
+						<div class="form-group">
+							<select name="searchColumn" class="form-control">
+								<option value="title">제목</option>
+								<option value="name">작성자</option>
+								<option value="content">내용</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<input type="text" name="searchWord" class="form-control" />
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary">검색</button>
+						</div>
+						
+					</form>
+				
 				</div>
 			</div>
 		</div>
 	</div>
 </body>
-<script>
-	var acc = document.getElementsByClassName("accordion");
-	var i;
-	
-	for (i = 0; i < acc.length; i++) {
-	  acc[i].addEventListener("click", function() {
-	    /* Toggle between adding and removing the "active" class,
-	    to highlight the button that controls the panel */
-	    this.classList.toggle("active");
-	
-	    /* Toggle between hiding and showing the active panel */
-	    var panel = this.nextElementSibling;
-	    if (panel.style.display === "block") {
-	      panel.style.display = "none";
-	    } else {
-	      panel.style.display = "block";
-	    }
-	  });
-	}
-	
-	
-
-
-</script>
