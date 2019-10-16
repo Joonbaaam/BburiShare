@@ -44,43 +44,43 @@
 						<div class="col-sm-4">
 							<img src="<c:url value='/resources/images/blog-1.jpg'/>"/>
 							<div id="img">
-								<h5><a>다람쥐 헌 쳇바퀴에 타고파</a></h5>
-								<a id="writer">곽가</a>
+								<h5><a href="#" class="title" >다람쥐 헌 쳇바퀴에 타고파</a></h5>
+								<a href="#" class="writer">곽가</a>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<img src="<c:url value='/resources/images/blog-1.jpg'/>"/>
 							<div id="img">
-								<h5><a>다람쥐 헌 쳇바퀴에 타고파</a></h5>
-								<a id="writer">순욱</a>
+								<h5><a href="#" class="title">다람쥐 헌 쳇바퀴에 타고파</a></h5>
+								<a href="#" class="writer">순욱</a>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<img src="<c:url value='/resources/images/blog-1.jpg'/>"/>
 							<div id="img">
-								<h5><a>다람쥐 헌 쳇바퀴에 타고파</a></h5>
-								<a id="writer">저수</a>
+								<h5><a href="#" class="title">다람쥐 헌 쳇바퀴에 타고파</a></h5>
+								<a href="#" class="writer">저수</a>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<img src="<c:url value='/resources/images/blog-1.jpg'/>"/>
 							<div id="img">
-								<h5><a>다람쥐 헌 쳇바퀴에 타고파</a></h5>
-								<a id="writer">장소</a>
+								<h5><a href="#" class="title">다람쥐 헌 쳇바퀴에 타고파</a></h5>
+								<a href="#" class="writer">장소</a>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<img src="<c:url value='/resources/images/blog-1.jpg'/>"/>
 							<div id="img">
-								<h5><a>다람쥐 헌 쳇바퀴에 타고파</a></h5>
-								<a id="writer">노숙</a>
+								<h5><a href="#" class="title">다람쥐 헌 쳇바퀴에 타고파</a></h5>
+								<a href="#" class="writer">노숙</a>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<img src="<c:url value='/resources/images/blog-1.jpg'/>"/>
 							<div id="img">
-								<h5><a>다람쥐 헌 쳇바퀴에 타고파</a></h5>
-								<a id="writer">서서</a>
+								<h5><a href="#" class="title">다람쥐 헌 쳇바퀴에 타고파</a></h5>
+								<a href="#" class="writer">서서</a>
 							</div>
 						</div>
 					</div>
