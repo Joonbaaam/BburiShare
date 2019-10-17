@@ -1606,7 +1606,13 @@ textarea.form-control {
 }
 
 #sharing .sharing-content #article{
+	width:inherit;
 	margin-left:50px;
+	margin-top:20px;
+	padding-top:20px;
+	padding-bottom:35px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
 	
 }
 
@@ -1661,5 +1667,97 @@ textarea.form-control {
 	
 }
 
+#sharing .sharing-view{
+	
+	width:auto;
+	height:auto;
+	
+}
 
+#sharing .sharing-view h2{
+	
+	border-bottom:1px solid gray;
+	
+}
+
+
+#sharing .sharing-view .container{
+	
+	align-items: center;
+	
+}
+
+#sharing .sharing-view .view-info{
+	
+	padding-top:40px;
+	
+}
+
+#sharing .sharing-view .view-info .writer-info{
+	
+	border-bottom:1px dotted gray;
+	width:400px;
+	margin-right:200px;
+	margin-left:20px;
+	
+}
+
+#sharing .sharing-view .view-info .stuff-info{
+	
+	
+	width:400px;
+	margin-right:200px;
+	margin-left:20px;
+	
+}
+
+
+#sharing .sharing-view .view-info tr>td{
+	
+	padding-top:12px;
+	padding-bottom:12px;
+	
+	
+}
+
+
+#sharing .sharing-view h2{
+	
+	padding:20px;
+	
+}
+#sharing .sharing-view img{	
+	
+	width: 300px;
+	height:300px;
+	float: left;
+	margin-right:20px;
+	margin-top:40px;
+	margin-left:5px;
+	
+}
+
+#sharing .sharing-view .article-content{
+	
+	padding:20px;
+	margin-top:20px;
+	padding-top:20px;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+	
+}
+#sharing .sharing-view .view-buttons{
+	
+	width:auto;
+	float:right;
+	margin-top:30px;
+	
+	
+}
+
+#sharing .sharing-view .view-buttons button{
+	
+	margin-left:10px;
+	
+}
 

@@ -42,9 +42,9 @@
 					</div>
 					<div class="row cont" id="article">
 						<div class="col-sm-4">
-							<img src="<c:url value='/resources/images/blog-1.jpg'/>"/>
+							<a href="<c:url value='/BburiShare/Sharing/SharingView.bbs'/>" class="image" ><img src="<c:url value='/resources/images/blog-1.jpg'/>"/></a>
 							<div id="img">
-								<h5><a href="#" class="title" >다람쥐 헌 쳇바퀴에 타고파</a></h5>
+								<h5><a href="<c:url value='/BburiShare/Sharing/SharingView.bbs'/>" class="title" >다람쥐 헌 쳇바퀴에 타고파</a></h5>
 								<a href="#" class="writer">곽가</a>
 							</div>
 						</div>
