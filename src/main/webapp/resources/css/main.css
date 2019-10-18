@@ -66,7 +66,8 @@ nav {z-index: 999;transition: all 0.3s;}
 .navbar {padding: 20px 0;z-index: 9999;}
 .navbar-brand {margin-top: -15px;}
 .navbar-dark .navbar-nav .active>.nav-link {color: rgb(255, 255, 0); background: #000;}
-.navbar-expand-lg .navbar-nav .nav-link {color: #fff;font-size: 20px;padding-right: 25px;padding-left: 25px;padding: .2rem 1rem;font-weight: 500;text-transform: uppercase;}
+/* 텍스트사이즈,컬러 변경(재윤) */
+.navbar-expand-lg .navbar-nav .nav-link {color: #3f6853;font-size: 14px;padding-right: 25px;padding-left: 25px;padding: .2rem 1rem;font-weight: 500;text-transform: uppercase;}
 .navbar-dark .navbar-nav .nav-link:hover {color: rgb(255, 255, 0);}
 .navbar-dark .navbar-nav .active:after {display: none;}
 .navbar-dark .navbar-nav li:last-child:after { display: none;}
@@ -690,11 +691,15 @@ footer .footer-copyright a {color: #ffff00;border-bottom: 1px solid #ffff00;}
     position: relative;
     align-items: flex-end;
     padding-bottom: 10px;
+    /* 백그라운드 컬러,텍스트 컬러 변경(재윤) */
+    background-color: #f5f5f5;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: -148px;
-    background-image: url(../images/banner-1.jpg);
+     /*banner 이미지 지움 (재윤)
+    background-image: url(../images/banner-1.jpg);-->
+    */
 }
 .banner .heading {
     color: #fff;
