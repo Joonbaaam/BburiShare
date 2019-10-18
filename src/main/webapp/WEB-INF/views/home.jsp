@@ -8,7 +8,6 @@
 <!-- test Jeon 3-->
 <!-- test park -->
 <!-- 종성 테스트 -->
-
 	<div id="carouselExampleIndicators" class="carousel slide"
 		data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -23,7 +22,8 @@
 		<div class="carousel-inner" role="listbox">
 			<!-- Slide One - Set the background image for this slide in the line below -->
 			<div class="carousel-item active">
-				<img src="<c:url value='/resources/images/banner-3.jpg'/>" alt="...">
+				<!-- 이미지 수정(재윤) -->
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>첫번째 슬라이드</h3>
@@ -33,7 +33,7 @@
 			</div>
 			<!-- Slide Two - Set the background image for this slide in the line below -->
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/banner-2.jpg'/>" alt="...">
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>두번째 슬라이드</h3>
@@ -45,7 +45,7 @@
 			</div>
 			<!-- Slide Three - Set the background image for this slide in the line below -->
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/banner-1.jpg'/>" alt="...">
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>세번째 슬라이드</h3>
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/banner-3.jpg'/>" alt="...">
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>네번째 슬라이드</h3>
@@ -67,7 +67,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/banner-2.jpg'/>" alt="...">
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>다섯번째 슬라이드</h3>
@@ -78,7 +78,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/banner-1.jpg'/>" alt="...">
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>여섯번째 슬라이드</h3>

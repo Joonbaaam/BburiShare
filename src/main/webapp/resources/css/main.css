@@ -66,9 +66,10 @@ nav {z-index: 999;transition: all 0.3s;}
 .navbar {padding: 20px 0;z-index: 9999;}
 .navbar-brand {margin-top: -15px;}
 .navbar-dark .navbar-nav .active>.nav-link {color: rgb(255, 255, 0); background: #000;}
-/* 텍스트사이즈,컬러 변경(재윤) */
+/* font size,color 변경(재윤) */
 .navbar-expand-lg .navbar-nav .nav-link {color: #4f8067;font-size: 14px;padding-right: 25px;padding-left: 25px;padding: .2rem 1rem;font-weight: 500;text-transform: uppercase;}
-.navbar-dark .navbar-nav .nav-link:hover {color: rgb(255, 255, 0);}
+/*font weight,color 변경(재윤)*/
+.navbar-dark .navbar-nav .nav-link:hover {color: #77bc87;font-weight: bold;}
 .navbar-dark .navbar-nav .active:after {display: none;}
 .navbar-dark .navbar-nav li:last-child:after { display: none;}
 .navbar-dark .navbar-nav li:last-child {margin-right: -25px;}
