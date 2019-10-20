@@ -1,22 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<!-- Footer -->
+
 <footer>
-  
-    <!-- 종성이형 테스트 -->
-    <!-- Copyright -->
-    <!-- 테스트 후 푸쉬 22-->
-    <div class="footer-copyright text-center">
-     
+
+	 <div class="footer-copyright text-center">     
        <p>© 2019, All Rights Reserved. <a href="#">뿌리쉐어</a>	       	
-       </p>
-       
+       </p>       
     </div>
-    
-    	
-    
-    <!-- Copyright -->
 
 </footer>
 <!-- Footer -->

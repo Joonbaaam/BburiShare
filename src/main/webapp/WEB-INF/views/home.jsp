@@ -2,12 +2,10 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page session="false"%>
+
+
 <header class="content">
 
-<!-- jongtest -->
-<!-- test Jeon 3-->
-<!-- test park -->
-<!-- 종성 테스트 -->
 
 	<div id="carouselExampleIndicators" class="carousel slide"
 		data-ride="carousel">
