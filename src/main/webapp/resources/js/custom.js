@@ -28,3 +28,7 @@ $('.portfolio .carousel .carousel-item').each(function(){
         next.children(':first-child').clone().appendTo($(this));
       }
 });
+/*재윤*/
+$('#jyCarousel').carousel({
+	  interval: 5000
+	})
