@@ -15,9 +15,11 @@
 <!-- testing for pushing -->
 <!-- Navigation -->
 <nav id="myHeader" class="header navbar navbar-expand-lg navbar-dark">
-	<div class="container">
+	<!-- container -> container-fluid  -->
+	<div class="container-fluid" style="margin-right:50px;margin-left:50px;">
+		<!-- 로고변경(재윤) -->
 		<a class="navbar-brand" href="<c:url value='/'/>"><img
-			src="<c:url value='/resources/images/jyimages/logo-1_size.png'/>"
+			src="<c:url value='/resources/images/jyimages/logo_green_size.png'/>"
 			alt="logo"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarResponsive" aria-controls="navbarResponsive"
