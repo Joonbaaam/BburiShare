@@ -4,21 +4,14 @@
 <%@ page session="false"%>
 
 <header class="banner">
-	<div class="gradient"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 heading">
-				<h1 data-aos="fade-right" data-aos-delay="300">쉐어링-메뉴바 보이게 하기 위한 배너</h1>				
-				
-			</div>
-		</div>
-	</div>
+	
 </header>
 
 <body>
-	<div id="sharing">
-		<div class="row">
-			<div class="sharing-left">
+	<div class="container">
+		<div id="sharing">
+			<div class="row">
+				<div id="sharing-left" class="col-sm-2">
 				<button class="accordion">TEST</button>
 				<div class="panel">
 					<p>TEST01</p>
@@ -27,13 +20,15 @@
 				</div>
 				
 			</div>
-			<div class="sharing-view">
+			<div id="sharing-view" class="col-sm-10">
 				<div class="container">
 					<div class="title">
-						<h2>TITLE</h2>
+						<h2>다람쥐 헌 쳇바퀴에 타고파</h2>
 					</div>
 					<div class="view-article">
-						<img src="<c:url value='/resources/images/blog-1.jpg'/>"/>
+						<div class="view-img">
+							<img src="<c:url value='/resources/images/blog-1.jpg'/>"/>
+						</div>
 						<div class="view-info">
 							<div class="row">
 								<table class="writer-info">
@@ -85,12 +80,13 @@
 						</div>
 					</div>
 					<div class="view-buttons">
-						<button>목록</button>
-						<button>목록</button>
-						<button>목록</button>
+						<button class="btn">수정</button>
+						<button class="btn">삭제</button>
+						<button class="btn">목록</button>
 					</div>
 				</div>
 				
+				</div>
 			</div>
 		</div>
 	</div>
