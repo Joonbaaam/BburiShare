@@ -16,7 +16,7 @@
 <!-- Navigation -->
 <nav id="myHeader" class="header navbar navbar-expand-lg navbar-dark">
 	<!-- container -> container-fluid  -->
-	<div class="container-fluid" style="margin-right:50px;margin-left:50px;">
+	<div class="container">
 		<!-- 로고변경(재윤) -->
 		<a class="navbar-brand" href="<c:url value='/'/>"><img
 			src="<c:url value='/resources/images/jyimages/logo_green_size.png'/>"

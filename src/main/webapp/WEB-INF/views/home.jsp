@@ -20,7 +20,7 @@
 			<!-- Slide One - Set the background image for this slide in the line below -->
 			<div class="carousel-item active">
 				<!-- 백그라운드 이미지 변경(재윤) -->
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>첫번째 슬라이드</h3>
@@ -30,7 +30,7 @@
 			</div>
 			<!-- Slide Two - Set the background image for this slide in the line below -->
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>두번째 슬라이드</h3>
@@ -42,7 +42,7 @@
 			</div>
 			<!-- Slide Three - Set the background image for this slide in the line below -->
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>세번째 슬라이드</h3>
@@ -53,7 +53,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>네번째 슬라이드</h3>
@@ -64,7 +64,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>다섯번째 슬라이드</h3>
@@ -75,7 +75,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.jpg'/>" alt="...">
+				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>여섯번째 슬라이드</h3>
