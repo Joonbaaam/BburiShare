@@ -43,7 +43,7 @@ body {
 	line-height: 1.8;
 	overflow-x: hidden;
 	background-color: #fff;
-	font-family: 'TmonMonsori';
+	font-family: S-CoreDream-3Light;/* 'Montserrat', sans-serif; */
 }
 
 body, html {
@@ -135,6 +135,7 @@ textarea {
 nav {
 	z-index: 999;
 	transition: all 0.3s;
+	font-family: 'TmonMonsori';
 }
 
 .navbar {
@@ -190,6 +191,7 @@ nav {
 	border-radius: .25rem;
 	text-align: center;
 	color: white;
+	font-family: 'S-CoreDream-3Light';
 }
 
 .dropdown-menu a {
@@ -229,6 +231,10 @@ nav {
 	border-top: none;
 	margin-left: 30px;
 	color: white;
+}
+#loginDrop :hover{
+	color: #1a474d;
+	cursor: pointer;
 }
 /* .navbar-expand-lg .navbar-nav li:after { nav바 실선구분 없애는 주석
     content: ' \007C';
@@ -1176,11 +1182,11 @@ footer .footer-copyright {
 	position: relative;
 	width: 100%;
 	height: auto;
-	background: #002F2E;
+	background: #edffe7;
 }
 
 footer .footer-copyright p {
-	color: #fff;
+	color: #4f8067;
 	font-size: 16px;
 	font-weight: bold;
 	padding: 20px 0;
@@ -1188,8 +1194,8 @@ footer .footer-copyright p {
 }
 
 footer .footer-copyright a {
-	color: #ffff00;
-	border-bottom: 1px solid #ffff00;
+	color: #1a474d;
+	border-bottom: 1px solid #1a474d;
 }
 /*==============================
       // Banner Styles //
