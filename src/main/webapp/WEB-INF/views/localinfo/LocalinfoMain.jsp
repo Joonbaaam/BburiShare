@@ -14,7 +14,7 @@
 	margin-bottom: 30px;
 	text-align: left;
 	padding-left: 5px;
-	border-bottom: solid 1px gray;
+	border-bottom: solid 1px lightgray;
 }
 
 #jyButton {
@@ -23,20 +23,21 @@
 
 #jySidebar {
 	text-align: left;
-	color: gray;
-	margin-top: 95px;
+	margin-top: 80px;
 }
 
 #jyCarousel {
-	margin-top: 10px
+	margin-top: 30px
 }
 
 #jyCard {
 	margin: 20px;
 	margin-top: 0px;
 }
-div.panel-body ul p a{
-	font-size:14px;
+
+#sideContent {
+	color: #1a484c;
+	font-size: 14px
 }
 </style>
 <!-- container -->
@@ -77,50 +78,24 @@ div.panel-body ul p a{
 	<!-- jyContnet -->
 	<div id="jyContent">
 		<div class="row">
+			<!-- 사이드바 시작 -->
 			<div class="col-lg-2" id="jySidebar">
-				<div class="panel-group" id="accordion" role="tablist"
-					aria-multiselectable="true">
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="headingOne">
-							<p class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion"
-									href="#collapseOne" aria-expanded="true"
-									aria-controls="collapseOne">
-									<h5>지역정보</h5>
-								</a>
-							</p>
-						</div>
-						<div id="collapseOne" class="panel-collapse collapse in"
-							role="tabpanel" aria-labelledby="headingOne">
-							<div class="panel-body">
+				<!-- 사이드바 상단 시작 -->
+				<div class="card my-4">
+					<h5 class="card-header">Categories</h5>
+					<div class="card-body">
+						<div class="row">
+							<div class="container">
 								<ul>
 									<p>
-										<a href="#">지역정보</a>
+										<a
+											href="<c:url value='/BburiShare/Localinfo/LocalinfoMain.bbs'/>">지역정보</a>
 									</p>
 									<p>
-										<a href="#">글쓰기</a>
+										<a
+											href="<c:url value='/BburiShare/Localinfo/ShinmungoMain.bbs'/>">신문고</a>
 									</p>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="headingTwo">
-							<p class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion"
-									href="#collapseTwo" aria-expanded="true"
-									aria-controls="collapseTwo">
-									<h5>신문고</h5>
-								</a>
-							</p>
-						</div>
-						<div id="collapseTwo" class="panel-collapse collapse in"
-							role="tabpanel" aria-labelledby="headingTwo">
-							<div class="panel-body">
-								<ul>
-									<p>
-										<a href="#">신문고</a>
-									</p>
+
 									<p>
 										<a href="#">글쓰기</a>
 									</p>
@@ -129,8 +104,16 @@ div.panel-body ul p a{
 						</div>
 					</div>
 				</div>
+				<!-- 사이드바 상단 끝 -->
+				<!-- 사이드바 하단 시작 -->
+				<div class="card my-4">
+					<h5 class="card-header">지역정보?</h5>
+					<div class="card-body">지역정보 소개</div>
+				</div>
+				<!-- 사이드바 하단 끝 -->
 			</div>
-			<!-- /.col-lg-3 -->
+			<!-- 사이드바 끝 -->
+			<!-- 컬럼 -->
 			<div class="col-lg-10">
 				<div>
 					<h6 id="jyMonth">12월</h6>
@@ -139,7 +122,24 @@ div.panel-body ul p a{
 					<!-- content -->
 					<div class="col-lg-4 col-md-6 mb-4">
 						<div class="card h-600" id="jyCard">
-							<a href="#"><img class="card-img-top"
+							<a
+								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
+								class="card-img-top"
+								src="http://www.dongatoday.com/imgdata/dongatoday_com/201811/2018113028204690.jpg"
+								alt=""></a>
+							<div class="card-footer">
+								<button class="btn btn-default" id="jyButton" type="submit">일정추가</button>
+								<button class="btn btn-default" id="jyButton" type="submit">상세보기</button>
+							</div>
+						</div>
+					</div>
+					<!-- content -->
+					<!-- content -->
+					<div class="col-lg-4 col-md-6 mb-4">
+						<div class="card h-600" id="jyCard">
+							<a
+								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
+								class="card-img-top"
 								src="http://www.dongatoday.com/imgdata/dongatoday_com/201811/2018113028204690.jpg"
 								alt=""></a>
 							<div class="card-footer">
@@ -157,7 +157,8 @@ div.panel-body ul p a{
 								alt=""></a>
 							<div class="card-footer">
 								<button class="btn btn-default" id="jyButton" type="submit">일정추가</button>
-								<button class="btn btn-default" id="jyButton" type="submit">상세보기</button>
+								<button class="btn btn-default btn-xs" id="jyButton"
+									type="submit">상세보기</button>
 							</div>
 						</div>
 					</div>
@@ -165,7 +166,9 @@ div.panel-body ul p a{
 					<!-- content -->
 					<div class="col-lg-4 col-md-6 mb-4">
 						<div class="card h-600" id="jyCard">
-							<a href="#"><img class="card-img-top"
+							<a
+								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
+								class="card-img-top"
 								src="http://www.dongatoday.com/imgdata/dongatoday_com/201811/2018113028204690.jpg"
 								alt=""></a>
 							<div class="card-footer">
@@ -178,7 +181,9 @@ div.panel-body ul p a{
 					<!-- content -->
 					<div class="col-lg-4 col-md-6 mb-4">
 						<div class="card h-600" id="jyCard">
-							<a href="#"><img class="card-img-top"
+							<a
+								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
+								class="card-img-top"
 								src="http://www.dongatoday.com/imgdata/dongatoday_com/201811/2018113028204690.jpg"
 								alt=""></a>
 							<div class="card-footer">
@@ -191,20 +196,9 @@ div.panel-body ul p a{
 					<!-- content -->
 					<div class="col-lg-4 col-md-6 mb-4">
 						<div class="card h-600" id="jyCard">
-							<a href="#"><img class="card-img-top"
-								src="http://www.dongatoday.com/imgdata/dongatoday_com/201811/2018113028204690.jpg"
-								alt=""></a>
-							<div class="card-footer">
-								<button class="btn btn-default" id="jyButton" type="submit">일정추가</button>
-								<button class="btn btn-default" id="jyButton" type="submit">상세보기</button>
-							</div>
-						</div>
-					</div>
-					<!-- content -->
-					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-600" id="jyCard">
-							<a href="#"><img class="card-img-top"
+							<a
+								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
+								class="card-img-top"
 								src="http://www.dongatoday.com/imgdata/dongatoday_com/201811/2018113028204690.jpg"
 								alt=""></a>
 							<div class="card-footer">
@@ -217,7 +211,7 @@ div.panel-body ul p a{
 				</div>
 				<!-- /.row -->
 			</div>
-			<!-- /.col-lg-9 -->
+			<!-- 컬럼 -->
 		</div>
 		<!-- /.row -->
 	</div>

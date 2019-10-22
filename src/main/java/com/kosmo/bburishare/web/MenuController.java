@@ -38,7 +38,7 @@ public class MenuController {
 	@RequestMapping(value = "/BburiShare/LocalInfo/LocalInfoMain.bbs", method = RequestMethod.GET)
 	public String localInfo() {
 		// 뷰정보 반환]
-		return "localinfo/Localinfomain.tiles";
+		return "localinfo/LocalinfoMain.tiles";
 	}
 	
 	// 회원가입폼으로 이동]

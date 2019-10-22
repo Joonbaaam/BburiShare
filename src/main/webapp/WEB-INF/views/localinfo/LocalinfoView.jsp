@@ -2,25 +2,101 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page session="false"%>
+<style>
+#infoviewDiv {
+	text-align: center;
+}
 
-<header class="banner">
-	<div class="gradient"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 heading">
-				<h1 data-aos="fade-right" data-aos-delay="300">공동구매-메뉴바 보이게 하기 위한 배너</h1>				
-				
+#infoviewComment {
+	text-align: left;
+}
+#infoviewTime{
+	text-align:left;
+}
+#jyTitle{
+	margin-top:30px;
+}
+</style>
+
+
+<!-- 컨테이너 -->
+<div class="container" id="infoviewDiv">
+		<!-- 컬럼 -->
+		<div class="col-md-12 ">
+			<!-- Title -->
+			<h1 id="jyTitle">Title</h1>
+			<hr>
+			<!-- 작성시간 -->
+			<p id="infoviewTime">Posted on January 1, 2019 at 12:00 PM</p>
+
+			<hr>
+			<!-- 이미지 -->
+			<img src="http://placehold.it/600x750" alt="" id=>
+			<hr>
+
+			<!-- 내용 -->
+			<p class="lead">제목제목제목제목제목</p>
+			<p>내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+				내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</p>
+
+			<hr>
+			<!-- 댓글창 시작 -->
+			<div class="container" id="infoviewComment">
+				<div class="card my-4">
+					<h5 class="card-header">Comment:</h5>
+					<div class="card-body">
+						<form>
+							<div class="form-group">
+								<textarea class="form-control" rows="3"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">작성</button>
+							<button type="submit" class="btn btn-primary">좋아요</button>
+						</form>
+					</div>
+				</div>
+
+				<!-- 댓글 -->
+				<div class="media mb-4" id="infoviewComment">
+					<img class="d-flex mr-3 rounded-circle"
+						src="http://placehold.it/50x50" alt="">
+					<div class="media-body">
+						<h5 class="mt-0">아이디</h5>
+						댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글
+					</div>
+				</div>
+				<!-- 댓글 -->
+
+				<!-- 대댓글 -->
+				<div class="media mb-4">
+					<img class="d-flex mr-3 rounded-circle"
+						src="http://placehold.it/50x50" alt="">
+					<div class="media-body">
+						<h5 class="mt-0">아이디</h5>
+						댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글
+
+						<div class="media mt-4">
+							<img class="d-flex mr-3 rounded-circle"
+								src="http://placehold.it/50x50" alt="">
+							<div class="media-body">
+								<h5 class="mt-0">아이디</h5>
+								댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글
+							</div>
+						</div>
+
+						<div class="media mt-4">
+							<img class="d-flex mr-3 rounded-circle"
+								src="http://placehold.it/50x50" alt="">
+							<div class="media-body">
+								<h5 class="mt-0">아이디</h5>
+								댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 대댓글 -->
 			</div>
+			<!-- 댓글창 끝 -->
 		</div>
-	</div>
-</header>
-<div><h1>공페이지</h1></div>
-<div>
-	<h1>스크롤바만들기</h1><h1>스크롤바만들기</h1><h1>스크롤바만들기</h1>
-	<h1>스크롤바만들기</h1><h1>스크롤바만들기</h1><h1>스크롤바만들기</h1>
-	<h1>스크롤바만들기</h1><h1>스크롤바만들기</h1><h1>스크롤바만들기</h1>
-	<h1>스크롤바만들기</h1><h1>스크롤바만들기</h1><h1>스크롤바만들기</h1>
-	<h1>스크롤바만들기</h1><h1>스크롤바만들기</h1><h1>스크롤바만들기</h1>
-	<h1>스크롤바만들기</h1><h1>스크롤바만들기</h1><h1>스크롤바만들기</h1>
-	<h1>스크롤바만들기</h1><h1>스크롤바만들기</h1><h1>스크롤바만들기</h1>
+	<!-- /.row -->
 </div>
+<!-- /.container -->
