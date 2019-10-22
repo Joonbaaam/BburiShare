@@ -22,9 +22,9 @@
 }
 
 #jySidebar {
-	text-align:left;
+	text-align: left;
 	color: gray;
-	margin-top: 95px
+	margin-top: 95px;
 }
 
 #jyCarousel {
@@ -34,6 +34,9 @@
 #jyCard {
 	margin: 20px;
 	margin-top: 0px;
+}
+div.panel-body ul p a{
+	font-size:14px;
 }
 </style>
 <!-- container -->
@@ -71,8 +74,8 @@
 		</a>
 	</div>
 	<!-- jyCarousel -->
+	<!-- jyContnet -->
 	<div id="jyContent">
-		<!-- jyContnet -->
 		<div class="row">
 			<div class="col-lg-2" id="jySidebar">
 				<div class="panel-group" id="accordion" role="tablist"
@@ -82,15 +85,21 @@
 							<p class="panel-title">
 								<a data-toggle="collapse" data-parent="#accordion"
 									href="#collapseOne" aria-expanded="true"
-									aria-controls="collapseOne"> <h5>지역정보</h5> </a>
+									aria-controls="collapseOne">
+									<h5>지역정보</h5>
+								</a>
 							</p>
 						</div>
 						<div id="collapseOne" class="panel-collapse collapse in"
 							role="tabpanel" aria-labelledby="headingOne">
 							<div class="panel-body">
 								<ul>
-									<p><a href="#">지역정보</a></p>
-									<p><a href="#">글쓰기</a></p>
+									<p>
+										<a href="#">지역정보</a>
+									</p>
+									<p>
+										<a href="#">글쓰기</a>
+									</p>
 								</ul>
 							</div>
 						</div>
@@ -100,21 +109,25 @@
 							<p class="panel-title">
 								<a data-toggle="collapse" data-parent="#accordion"
 									href="#collapseTwo" aria-expanded="true"
-									aria-controls="collapseTwo"> <h5>신문고 </h5></a>
+									aria-controls="collapseTwo">
+									<h5>신문고</h5>
+								</a>
 							</p>
 						</div>
 						<div id="collapseTwo" class="panel-collapse collapse in"
 							role="tabpanel" aria-labelledby="headingTwo">
 							<div class="panel-body">
 								<ul>
-									<p><a href="#">지역정보</a></p>
-									<p><a href="#">글쓰기</a></p>
+									<p>
+										<a href="#">신문고</a>
+									</p>
+									<p>
+										<a href="#">글쓰기</a>
+									</p>
 								</ul>
 							</div>
 						</div>
 					</div>
-					
-					
 				</div>
 			</div>
 			<!-- /.col-lg-3 -->
@@ -207,9 +220,7 @@
 			<!-- /.col-lg-9 -->
 		</div>
 		<!-- /.row -->
-
 	</div>
 	<!-- /#jyContent -->
-
 </div>
 <!-- #jyContainer -->

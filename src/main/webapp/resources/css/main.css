@@ -1,6 +1,24 @@
 /*새로 추가한 css 링크*/
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+/* 폰트 시작*/
+@font-face {
+	font-family: 'S-CoreDream-3Light';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: 'TmonMonsori';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+/* 폰트 끝 */
 /*==============================================
           Jumper Website Stylesheet
            Body Core Stylesheet
@@ -25,7 +43,7 @@ body {
 	line-height: 1.8;
 	overflow-x: hidden;
 	background-color: #fff;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'TmonMonsori';
 }
 
 body, html {
@@ -135,7 +153,7 @@ nav {
 /* 텍스트사이즈,컬러 변경(재윤) */
 .navbar-expand-lg .navbar-nav .nav-link {
 	color: #4f8067;
-	font-size: 16px;
+	font-size: 24px;
 	padding-right: 25px;
 	padding-left: 25px;
 	padding: .2rem 1rem;
@@ -144,7 +162,7 @@ nav {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: rgb(255, 255, 0);
+	color: #1a474d;	
 }
 
 .navbar-dark .navbar-nav .active:after {
@@ -171,26 +189,31 @@ nav {
 	background-color: #263814cc;
 	border-radius: .25rem;
 	text-align: center;
-	color: white;	
-}
-.dropdown-menu a{
 	color: white;
 }
-.dropdown-menu a:hover{
+
+.dropdown-menu a {
+	color: white;
+}
+
+.dropdown-menu a:hover {
 	color: white;
 	text-decoration: underline;
 	cursor: pointer;
 }
-.dropdown-menu .dropLi{
+
+.dropdown-menu .dropLi {
 	display: block;
 	margin-bottom: 30px;
 	margin-left: 45px;
 }
-.dropdown-menu .btnLi{
+
+.dropdown-menu .btnLi {
 	display: block;
 	margin-bottom: 30px;
 }
-.loginId{
+
+.loginId {
 	background-color: transparent;
 	border-left: none;
 	border-right: none;
@@ -198,7 +221,8 @@ nav {
 	margin-left: 30px;
 	color: white;
 }
-.loginPwd{
+
+.loginPwd {
 	background-color: transparent;
 	border-left: none;
 	border-right: none;
@@ -3058,7 +3082,6 @@ textarea.form-control {
 }
 
 #sharing #sharing-left {
-	
 	padding-top: 50px;
 	border-right: 1px solid;
 	border-right-color: rgba(200, 200, 200, 0.8);
@@ -3120,12 +3143,12 @@ textarea.form-control {
 	margin-left: auto;
 	margin-bottom: 15px;
 	margin-top: 15px;
-	margin-right:37px;
+	margin-right: 37px;
 }
 
 #sharing #sharing-content .align-buttons .form-control {
 	width: 110%;
-	text-align:right;
+	text-align: right;
 }
 
 #sharing #sharing-content img {
@@ -3139,12 +3162,11 @@ textarea.form-control {
 	padding-left: 21px;
 }
 
-#sharing .write-btn{
-	margin-top:40px;
-	margin-right:10px;
-	text-align:right;
+#sharing .write-btn {
+	margin-top: 40px;
+	margin-right: 10px;
+	text-align: right;
 }
-
 
 #sharing #sharing-content form {
 	width: 60%;
@@ -3157,9 +3179,8 @@ textarea.form-control {
 }
 
 #sharing #sharing-content form .form-group input {
-	width:300px;
+	width: 300px;
 }
-
 
 #sharing #sharing-view {
 	width: auto;
@@ -3221,11 +3242,9 @@ textarea.form-control {
 
 #sharing #sharing-view .view-buttons .btn {
 	margin-left: 20px;
-	background-color:#eeeeee;
+	background-color: #eeeeee;
 }
 
 #sharing #sharing-view .view-buttons .btn:hover {
-	
-	background-color:#cccccc;
+	background-color: #cccccc;
 }
-
