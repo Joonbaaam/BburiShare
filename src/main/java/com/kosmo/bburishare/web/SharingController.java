@@ -13,6 +13,18 @@ public class SharingController {
 		return "sharing/SharingView.tiles";
 	}
 
+	// 쉐어링 작성페이지로 이동]
+	@RequestMapping(value = "/BburiShare/Sharing/SharingWrite.bbs", method = RequestMethod.GET)
+	public String write() {
+		// 뷰정보 반환]
+		return "sharing/SharingWrite.tiles";
+	}
 	
+	// 쉐어링 작성페이지로 이동]
+		@RequestMapping(value = "/BburiShare/Sharing/SharingEdit.bbs", method = RequestMethod.GET)
+		public String edit() {
+			// 뷰정보 반환]
+			return "sharing/SharingEdit.tiles";
+		}
 
 }

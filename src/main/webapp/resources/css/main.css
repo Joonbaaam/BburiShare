@@ -3248,3 +3248,15 @@ textarea.form-control {
 #sharing #sharing-view .view-buttons .btn:hover {
 	background-color: #cccccc;
 }
+
+#sharing #sharing-write, #sharing #sharing-edit {
+	border:1px solid;
+	border-color:#999999;
+	padding-left:10%;
+	padding-top:3%;
+	
+}
+#sharing #sharing-write .write-buttons, #sharing #sharing-edit .edit-buttons {
+	text-align: center;
+	
+}

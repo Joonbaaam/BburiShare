@@ -80,7 +80,7 @@
 						</div>
 					</div>
 					<div class="view-buttons">
-						<button class="btn">수정</button>
+						<a class="btn" href="<c:url value='/BburiShare/Sharing/SharingEdit.bbs'/>">수정</a>
 						<button class="btn">삭제</button>
 						<button class="btn">목록</button>
 					</div>
