@@ -186,7 +186,7 @@ nav {
 /* navbar 로그인메뉴 드롭다운 관련(준범) */
 .navbar .dropdown-menu {
 	width: 400px;
-	height: 450px;
+	height: auto;
 	background-color: #263814cc;
 	border-radius: .25rem;
 	text-align: center;
@@ -209,7 +209,10 @@ nav {
 	margin-bottom: 30px;
 	margin-left: 45px;
 }
-
+.dropdown-menu .dropLaLi {
+	display: block;	
+	margin-bottom: 30px;
+}
 .dropdown-menu .btnLi {
 	display: block;
 	margin-bottom: 30px;
@@ -233,6 +236,10 @@ nav {
 	color: white;
 }
 #loginDrop :hover{
+	color: #1a474d;
+	cursor: pointer;
+}
+#myPageDrop :hover{
 	color: #1a474d;
 	cursor: pointer;
 }
