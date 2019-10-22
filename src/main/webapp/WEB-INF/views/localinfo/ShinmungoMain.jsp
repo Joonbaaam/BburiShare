@@ -23,9 +23,7 @@
 
 #jySidebar {
 	text-align: left;
-	color: gray;
 	margin-top: 80px;
-	color: #1a484c;
 }
 
 #jyCarousel {
@@ -41,10 +39,6 @@ div.panel-body ul p a {
 	font-size: 14px;
 }
 
-.sideContent {
-	color: #1a484c;
-	font-size: 14px
-}
 </style>
 <!-- 컨테이너 -->
 <div class="container" id="jyContainer">

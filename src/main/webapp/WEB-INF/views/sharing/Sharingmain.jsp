@@ -78,7 +78,7 @@
 							</div>
 						</div>
 						<div class="write-btn">
-							<button type="button" class="btn">🖉&nbsp;글쓰기</button>
+							<a class="btn btn-primary" href="<c:url value='/BburiShare/Sharing/SharingWrite.bbs'/>">🖉&nbsp;글쓰기</a>
 						
 						</div>
 						

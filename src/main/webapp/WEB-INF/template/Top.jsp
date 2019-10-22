@@ -43,14 +43,15 @@
 				<li class="nav-item"><a class="nav-link"
 					href="<c:url value='/BburiShare/LocalInfo/LocalInfoMain.bbs'/>">지역정보</a>
 				</li>
-
+				<%-- <!-- 로그인드랍다운 -->
 				<li class="nav-item">					
-					<!-- 실험시작 -->
-					<div class="dropdown">					  
-					  <%-- <img class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="false" src="<c:url value='/resources/images/login.png'/>" style="width: 28px; height: 28px; margin-top: 5px" /> --%>
+					
+					<div class="dropdown">		  
+					  
 					  <div class="icon" id="loginDrop" data-toggle="dropdown" aria-expanded="false">
 					  	<i class="fa fa-user-circle-o" style="font-size: 40px; padding-top: 3px; color:#4f8067;"></i>						  		
-					  </div>
+					  </div>				  
+					  	
 					  <form>					    
 						  <ul class="dropdown-menu" role="menu" aria-labelledby="loginDrop">
 						  	<li>
@@ -95,8 +96,41 @@
 						    </li>
 						  </ul>
 					  </form>
-					</div>
-					<!-- 실험끝 -->					
+					  	
+					</div> --%>
+					<!-- 마이페이지 -->
+				<li class="nav-item">
+					<div class="dropdown">
+					  <div class="icon" id="myPageDrop" data-toggle="dropdown" aria-expanded="false">
+					  	<!-- padding-top: 3px->2px 변 margin-left:15px 추가 (재윤)-->
+					  	<i class="fa fa-user-circle-o" style="font-size: 40px; padding-top: 2px; color:#4f8067; margin-left:15px"></i>						  		
+					  </div>   
+					  <ul class="dropdown-menu" role="menu" aria-labelledby="myPageDrop">
+					  	<li style="border-bottom: 1px solid white; width: 70%;">
+						  	<div class="icon">
+						  		<i class="fa fa-user-circle-o" style="font-size: 80px; padding: 50px 50px 10px 50px;"></i>						  		
+						  	</div>
+						  	<label>abcd1234</label>
+					  	</li> 						    
+					    <li class="dropLaLi" style="margin-top: 45px;">					    	
+			    			<label><a href=#>회원정보수정</a></label>					    		
+					    </li>	
+					    <li class="dropLaLi">					    	
+			    			<label><a href=#>내 일정관리</a></label>					    		
+					    </li>	
+					    <li class="dropLaLi">					    	
+			    			<label><a href=#>포인트 조회</a></label>					    		
+					    </li>	
+					    <li class="dropLaLi">					    	
+			    			<label><a href=#>1:1문의내역</a></label>					    		
+					    </li>					    
+					    <li class="dropLaLi" style="margin-right: 0px">
+					    	<button class="btn btn-success">로그아웃</button>
+					    </li>					    
+					  </ul>
+					  
+					  	
+					</div>				
 				</li>
 				
 				

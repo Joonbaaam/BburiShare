@@ -35,7 +35,7 @@
 	margin-top: 0px;
 }
 
-#sideContent {
+.sideContent {
 	color: #1a484c;
 	font-size: 14px
 }
