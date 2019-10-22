@@ -47,9 +47,12 @@
 				<li class="nav-item">					
 					<!-- 실험시작 -->
 					<div class="dropdown">					  
-					  <img class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="false" src="<c:url value='/resources/images/login.png'/>" style="width: 28px; height: 28px; margin-top: 5px" />
+					  <%-- <img class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="false" src="<c:url value='/resources/images/login.png'/>" style="width: 28px; height: 28px; margin-top: 5px" /> --%>
+					  <div class="icon" id="loginDrop" data-toggle="dropdown" aria-expanded="false">
+					  	<i class="fa fa-user-circle-o" style="font-size: 40px; padding-top: 3px; color:#4f8067;"></i>						  		
+					  </div>
 					  <form>					    
-						  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						  <ul class="dropdown-menu" role="menu" aria-labelledby="loginDrop">
 						  	<li>
 							  	<div class="icon">
 							  		<i class="fa fa-user-circle-o" style="font-size: 80px; padding: 50px;"></i>						  		
