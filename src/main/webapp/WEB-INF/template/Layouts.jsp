@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="<c:url value='/resources/css/animate.css'/>">
     <link rel="stylesheet" href="<c:url value='/resources/css/main.css'/>">
 
+	<!-- favicon 에러 방지 -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
 </head>
   <body>
   		<!-- 탑 부분  -->
