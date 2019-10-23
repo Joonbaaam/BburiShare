@@ -36,26 +36,23 @@
 										<td>작성자</td><td>곽가</td>
 									</tr>
 									<tr>
-										<td>작성자</td><td>곽가</td>
+										<td>조회수</td><td>197</td>
 									</tr>
 									<tr>
-										<td>작성자</td><td>곽가</td>
+										<td>포인트</td><td>100 P</td>
+									</tr>
+									<tr>
+										<td>대여기간</td><td>최대 7일</td>
+									</tr>
+									<tr>
+										<td>대여 여부</td><td>대여중</td><td><button type="submit" class="btn btn-primary">완료</button></td>
+									</tr>
+									<tr>
+										<td>주소</td><td>서울시 도봉구</td>
 									</tr>
 								</table>
 							</div>
-							<div class="row">
-								<table class="stuff-info">
-									<tr>
-										<td>작성자</td><td>곽가</td>
-									</tr>
-									<tr>
-										<td>작성자</td><td>곽가</td>
-									</tr>
-									<tr>
-										<td>작성자</td><td>곽가</td>
-									</tr>
-								</table>
-							</div>
+							
 						</div>
 						<div class="article-content">
 							<p>것이다. 곧 그들은 길을 끓는다. 철환하였는가 대중을 웅대한 소리다, 물방아 지혜는 얼마나 있는 청춘의 따뜻한 풀이 아름다우냐? 커다란 생생하며. 그들의 같이. 따뜻한 품에 끓는 이상 피어나기 얼마나 그들의 그러므로 교향악이다. 보라. 바이며.
@@ -79,6 +76,62 @@
 		위하여 두기 품었기 유소년에게서 것이다, 옷을 가는 있는 것이다. 과실이 것은 이것을 무엇을 생생하며, 관현악이며. 청춘 이것이다. 무한한 그리하였는가?가장 하는 끓는 설산에서 든 어디 부패뿐이다, 그들의 희망의 무엇을 따뜻한 커다란 봄날의 피어나는 대한 황금시대다. 새 그들의 있는가?장식하는 우리의 몸이 꾸며 곧 가치를 따뜻한 사는가 것이다.</p>
 						</div>
 					</div>
+					<!-- 댓글창 시작 -->
+					<div class="container" id="sharing-comment">
+						<div class="card my-4">
+							<h5 class="card-header">Comment:</h5>
+							<div class="card-body">
+								<form>
+									<div class="form-group">
+										<textarea class="form-control" rows="3"></textarea>
+									</div>
+									<button type="submit" class="btn btn-primary">작성</button>
+									<button type="submit" class="btn btn-primary">좋아요</button>
+								</form>
+							</div>
+						</div>
+		
+						<!-- 댓글 -->
+						<div class="media mb-4" id="infoviewComment">
+							<img class="d-flex mr-3 rounded-circle"
+								src="http://placehold.it/50x50" alt="">
+							<div class="media-body">
+								<h5 class="mt-0">아이디</h5>
+								댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글
+							</div>
+						</div>
+						<!-- 댓글 -->
+		
+						<!-- 대댓글 -->
+						<div class="media mb-4">
+							<img class="d-flex mr-3 rounded-circle"
+								src="http://placehold.it/50x50" alt="">
+							<div class="media-body">
+								<h5 class="mt-0">아이디</h5>
+								댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글
+		
+								<div class="media mt-4">
+									<img class="d-flex mr-3 rounded-circle"
+										src="http://placehold.it/50x50" alt="">
+									<div class="media-body">
+										<h5 class="mt-0">아이디</h5>
+										댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글
+									</div>
+								</div>
+		
+								<div class="media mt-4">
+									<img class="d-flex mr-3 rounded-circle"
+										src="http://placehold.it/50x50" alt="">
+									<div class="media-body">
+										<h5 class="mt-0">아이디</h5>
+										댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글댓글
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 대댓글 -->
+					</div>
+					<!-- 댓글창 끝 -->
 					<div class="view-buttons">
 						<a class="btn" href="<c:url value='/BburiShare/Sharing/SharingEdit.bbs'/>">수정</a>
 						<button class="btn">삭제</button>

@@ -3214,25 +3214,42 @@ textarea.form-control {
 	padding-top: 24px;
 }
 
-#sharing #sharing-view .view-info .writer-info {
-	border-bottom: 1px dotted gray;
-	width: 200px;
-}
-
-#sharing #sharing-view .view-info .stuff-info {
-	width: 200px;
-}
-
 #sharing #sharing-view .view-info tr>td {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left:5px;
+	
+}
+
+
+#sharing #sharing-view .view-info tr>td:not(:nth-child(2)) {
+	
+	column-width: 100px;
+}
+#sharing #sharing-view .view-info tr>td:nth-child(2) {
+	
+	column-width: 150px;
+}
+
+
+
+#sharing #sharing-view .view-info tr:nth-child(3) {
+
+	border-bottom:1px dotted gray;
+}
+
+
+#sharing #sharing-view .view-info tr:nth-child(6) {
+
+	border:none;
 }
 
 #sharing #sharing-view h2 {
 	padding: 20px;
 }
 
-#sharing #sharing-view img {
+#sharing #sharing-view .view-img img {
 	width: 250px;
 	height: 250px;
 	float: left;
@@ -3260,6 +3277,11 @@ textarea.form-control {
 	background-color: #eeeeee;
 }
 
+#sharing #sharing-view #sharing-comment{
+	border-bottom:1px solid gray;
+	padding-bottom:20px;
+}
+
 #sharing #sharing-view .view-buttons .btn:hover {
 	background-color: #cccccc;
 }
@@ -3275,3 +3297,4 @@ textarea.form-control {
 	text-align: center;
 	
 }
+
