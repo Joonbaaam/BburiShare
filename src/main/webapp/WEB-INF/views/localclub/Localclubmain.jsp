@@ -2,155 +2,229 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page session="false"%>
-
-<header class="banner">
-	<div class="gradient"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 heading">
-				<h1 data-aos="fade-right" data-aos-delay="300">소모임-메뉴바 보이게 하기 위한 배너</h1>				
-				
-			</div>
-		</div>
-	</div>
-</header>
 <style>
-.left div{
-display: none;
+#jyContainer {
+	text-align: center
+}
+
+#jyMonth {
+	color: gray;
+	margin-top: 50px;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+	text-align: left;
+	padding-left: 5px;
+	border-bottom: solid 1px gray;
+}
+
+
+
+#jySidebar {
+	text-align: left;
+	color: gray;
+	margin-top: 95px;
+}
+
+#jyCarousel {
+	margin-top: 10px
+}
+
+#jyCard {
+	margin: 20px;
+	margin-top: 0px;
+}
+div.panel-body ul p a{
+	font-size:14px;
+}
+
+.card-img-top{
+width: 150px;
+height: 150px;
+
 }
 </style>
-<body>
-	<div id="time" style="padding-top: 50px;text-align: center;">
-	<div class="row">
-		<div class="left" style="margin-left: 100px;margin-top: 20px;padding:50px;"><span style="font-weight: bold; font-size: 1.5em;">카테고리 </span>
-			<div id="sub">
-				<p></p>
-				<p><a href="#">카테고리</a></p>
-				<p><a href="#">예약일정</a></p>
-				<p><a href="#">추천/신규모임</a></p>
+<!-- container -->
+<div class="container" id="jyContainer">
+	<!-- jyCarousel -->
+	<!-- data-interval="false"카르셀 멈춤 -->
+	<div id="jyCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#jyCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#jyCarousel" data-slide-to="1"></li>
+			<li data-target="#jyCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
+					alt="First slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
+					alt="Second slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
+					alt="Third slide">
 			</div>
 		</div>
-		
-		
-			<div class="sharing-content" style="padding-left: 150px">
-			<div class="container">
-			
-			<h2>&nbsp;&nbsp;&nbsp;</h2>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators"
+			role="button" data-slide="prev"> <span
+			class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+			class="sr-only">Previous</span>
+		</a> <a class="carousel-control-next" href="#carouselExampleIndicators"
+			role="button" data-slide="next"> <span
+			class="carousel-control-next-icon" aria-hidden="true"></span> <span
+			class="sr-only">Next</span>
+		</a>
+	</div>
+	<!-- jyCarousel -->
+	
+	
+	<!-- jyContnet -->
+	<div id="jyContent">
+		<div class="row">
+			<div class="col-lg-2" id="jySidebar">
+				<div class="panel-group" id="accordion" role="tablist"
+					aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingOne">
+							<p class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion"
+									href="#collapseOne" aria-expanded="true"
+									aria-controls="collapseOne">
+									<h5>전체메뉴</h5>
+								</a>
+							</p>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse in"
+							role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body">
+								<ul>
+									<p>
+										<a href="#">카테고리</a>
+									</p>
+									<p>
+										<a href="#">예약된 일정</a>
+									</p>
+									<p>
+										<a href="#">추천/신규 모임</a>
+									</p>
+								</ul>
+							</div>
+						</div>
+					</div>
 					
-			<div class="row content" style="text-align: center; ">
-			
- 				<div class="col-lg-4">
-					<div class="card-img pb-3">
-						<img src="<c:url value='/resources/images/health2.png'/>" style="width: 120px; height: 120px" />
-						<!-- <span class="mbr-iconfont mbri-sale" style="color: rgb(15, 118, 153); fill: rgb(15, 118, 153); font-size: 80px;"></span> -->
-					</div>
-					<div>
-						<h4 class="card-title py-3 mbr-fonts-style display-5">
-							<a href="#">운동해요 </a>
-						</h4>
-						<!-- <p class="mbr-text mbr-fonts-style display-7">가나다라마바사아자차</p> -->
-						
-					</div>
-				</div>
-
-				<div class="col-lg-4">
-					<div class="card-img pb-3">
-						<!-- <span class="mbr-iconfont mbri-speed" style="color: rgb(15, 118, 153); fill: rgb(15, 118, 153); font-size: 80px;"></span> -->
-						<img src="<c:url value='/resources/images/movie.png'/>" style="width: 120px; height: 120px" />
-					</div>
-					<div class="card-box">
-						<h4 class="card-title py-3 mbr-fonts-style display-5">
-							<a href="#">영화봐요!!&nbsp;</a>
-						</h4>
-						<!-- <p class="mbr-text mbr-fonts-style display-7">가나다라마바사아자차</p> -->
-						
-					</div>
-				</div>
-				
-				<div class="col-lg-4">
-					<div class="card-img pb-3">
-						<img src="<c:url value='/resources/images/eat.png'/>" style="width: 120px; height: 120px" />
-						<!-- <span class="mbr-iconfont mbri-gift" style="color: rgb(15, 118, 153); fill: rgb(15, 118, 153); font-size: 80px;"></span> -->
-					</div>
-					<div class="card-box">
-						<h4 class="card-title py-3 mbr-fonts-style display-5">
-							<a href="#">밥 먹어요</a>
-						</h4>
-						<!-- <p class="mbr-text mbr-fonts-style display-7">가나다라마바사아자차</p> -->
-					</div>
-				</div>
-				
-				
-									
-				<div class="col-lg-4">
-					<div class="card-img pb-3">
-						<img src="<c:url value='/resources/images/study.png'/>" style="width: 120px; height: 120px" />
-						<!-- <span class="mbr-iconfont mbri-sale" style="color: rgb(15, 118, 153); fill: rgb(15, 118, 153); font-size: 80px;"></span> -->
-					</div>
-					<div class="card-box">
-						<h4 class="card-title py-3 mbr-fonts-style display-5">
-							<a href="#">공부해요</a>
-						</h4>
-						<!-- <p class="mbr-text mbr-fonts-style display-7">가나다라마바사아자차</p> -->
-						
-					</div>
-				</div>
-
-				<div class="col-lg-4">
-					<div class="card-img pb-3">
-						<img src="<c:url value='/resources/images/volun.png'/>" style="width: 120px; height: 120px" />
-						<!-- <span class="mbr-iconfont mbri-speed" style="color: rgb(15, 118, 153); fill: rgb(15, 118, 153); font-size: 80px;"></span> -->
-					</div>
-					<div class="card-box">
-						<h4 class="card-title py-3 mbr-fonts-style display-5">
-							<a href="#">봉사활동해요&nbsp;</a>
-						</h4>
-						<!-- <p class="mbr-text mbr-fonts-style display-7">가나다라마바사아자차</p> -->
-						
-					</div>
-				</div>
-
-				<div class="col-lg-4" style="text-align: center;">
-					<div class="card-img pb-3">
-						<img src="<c:url value='/resources/images/game.png'/>" style="width: 120px; height: 120px" />
-						<!-- <span class="mbr-iconfont mbri-gift" style="color: rgb(15, 118, 153); fill: rgb(15, 118, 153); font-size: 80px;"></span> -->
-					</div>
-					<div class="card-box">
-						<h4 class="card-title py-3 mbr-fonts-style display-5"
-							><a href="#">게임하자!</a>
-						</h4>
-						<!-- <p class="mbr-text mbr-fonts-style display-7">가나다라마바사아자차</p> -->
-						
-					</div>
-				</div>
 				</div>
 			</div>
+			<!-- /.col-lg-3 -->
+			<div class="col-lg-10">
+				<div>
+					<h6 id="jyMonth"><span>타임쉐어링</span> > <span>카테고리</span></h6>
+				</div>
+				<div class="row">
+					<!-- content -->
+					<div class="col-lg-4 col-md-6 mb-4">
+						<div class="h-600" id="jyCard">
+							<img class="card-img-top"
+								src="<c:url value='/resources/images/health2.png'/>"
+								alt="">
+							
+						</div>
+						<div class="" style="margin: 10px 20px 0px 0px; text-align:center;">
+								<h5><a href="<c:url value='/BburiShare/localclub/LocalclubView.bbs'/>">운동 </a></h5>
+								
+							</div>
+					</div>
+					<!-- content -->
+					
+					<!-- content -->
+					<div class="col-lg-4 col-md-6 mb-4">
+						<div class="h-600" id="jyCard">
+							<img class="card-img-top"
+								src="<c:url value='/resources/images/game.png'/>"
+								alt="" >
+							
+						</div>
+						<div class="" style="margin: 10px 20px 0px 0px; text-align:center;">
+								<h5>게임</h5>
+								
+							</div>
+					</div>
+					<!-- content -->
+					
+					<!-- content -->
+					<div class="col-lg-4 col-md-6 mb-4">
+						<div class="h-600" id="jyCard">
+							<img class="card-img-top"
+								src="<c:url value='/resources/images/movie.png'/>"
+								alt="" >
+							
+						</div>
+						<div class="" style="margin: 10px 20px 0px 0px; text-align:center;">
+								<h5>영화</h5>
+								
+							</div>
+					</div>
+					<!-- content -->
+					
+					<!-- content -->
+					<div class="col-lg-4 col-md-6 mb-4">
+						<div class="h-600" id="jyCard">
+							<img class="card-img-top"
+								src="<c:url value='/resources/images/study.png'/>"
+								alt="" >
+							
+						</div>
+						<div class="" style="margin: 10px 20px 0px 0px; text-align:center;">
+								<h5>공부</h5>
+								
+							</div>
+					</div>
+					<!-- content -->
+					
+					<!-- content -->
+					<div class="col-lg-4 col-md-6 mb-4">
+						<div class="h-600" id="jyCard">
+							<img class="card-img-top"
+								src="<c:url value='/resources/images/volun.png'/>"
+								alt="" >
+							
+						</div>
+						<div class="" style="margin: 10px 20px 0px 0px; text-align:center;">
+								<h5>자원봉사</h5>
+								
+							</div>
+					</div>
+					<!-- content -->
+					
+					<!-- content -->
+					<div class="col-lg-4 col-md-6 mb-4">
+						<div class="h-600" id="jyCard">
+							<img class="card-img-top"
+								src="<c:url value='/resources/images/eat.png'/>"
+								alt="" >
+							
+						</div>
+						<div class="" style="margin: 10px 20px 0px 0px; text-align:center;">
+								<h5>식사</h5>
+								
+							</div>
+					</div>
+					<!-- content -->
+				
+					
+				</div>
+				<div class="row">
+				
+				
+				
+				</div>
+				<!-- /.row -->
 			</div>
-			</div><!-- row -->
-			</div><!-- time -->
-			
-
-	
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-
-<script>
-
-$('.left span').click(function(){
-	
-	if($("#sub").css('display') == "none"){
-	$("#sub").show();
-	}
-	else{
-		$("#sub").hide();	
-	} 
-	
-});
-
-
-
-
-
-
-</script>
+			<!-- /.col-lg-9 -->
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /#jyContent -->
+</div>
+<!-- #jyContainer -->
