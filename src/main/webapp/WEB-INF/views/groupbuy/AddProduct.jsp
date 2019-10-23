@@ -15,12 +15,10 @@
 	</div>
 </header>
 
-<div class="row">
-	<div class="offset-md-3">
-		<img alt="topImg" src="<c:url value='/resources/images/details/group-add-form.png'/>">
+<section>
+	<div class="container">
+			<img alt="topImg" src="<c:url value='/resources/images/details/group-add-form.png'/>">
 	</div>
-	
-</div>
+</section>
 
-<h1>스크롤바만들기</h1><h1>스크롤바만들기</h1><h1>스크롤바만들기</h1>
 
