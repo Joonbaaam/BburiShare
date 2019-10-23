@@ -21,6 +21,9 @@
     <!-- Custom JavaScript -->
     <script src="<c:url value='/resources/js/animate.js'/>"></script>
     <script src="<c:url value='/resources/js/custom.js'/>"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJmd7btWA_kV03GQewpP7aFTBHTwrRqP4&callback=initMap">
+    </script>
 <script>
 $('.carousel').carousel({
   interval: 2000
@@ -38,6 +41,19 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 } 
+
+//지도 js(재윤)
+//Initialize and add the map
+function initMap() {
+// The location of Uluru
+var uluru = {lat: 37.482391, lng: 126.877427};
+// The map, centered at Uluru
+var map = new google.maps.Map(
+   document.getElementById('map'), {zoom: 15, center: uluru});
+// The marker, positioned at Uluru
+var marker = new google.maps.Marker({position: uluru, map: map});
+}
+//지도 js(재윤)
 </script>
      <script>
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {

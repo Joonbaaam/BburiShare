@@ -43,7 +43,7 @@ body {
 	line-height: 1.8;
 	overflow-x: hidden;
 	background-color: #fff;
-	font-family: S-CoreDream-3Light;/* 'Montserrat', sans-serif; */
+	font-family: S-CoreDream-3Light; /* 'Montserrat', sans-serif; */
 }
 
 body, html {
@@ -163,7 +163,7 @@ nav {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: #1a474d;	
+	color: #1a474d;
 }
 
 .navbar-dark .navbar-nav .active:after {
@@ -181,8 +181,8 @@ nav {
 .navbar-expand-lg .navbar-nav li {
 	position: relative;
 	padding: 0 9px;
-	padding-left:0px;
-	padding-right:0px;
+	padding-left: 0px;
+	padding-right: 0px;
 	letter-spacing: 0.5px;
 }
 /* navbar 로그인메뉴 드롭다운 관련(준범) */
@@ -211,10 +211,12 @@ nav {
 	margin-bottom: 30px;
 	margin-left: 45px;
 }
+
 .dropdown-menu .dropLaLi {
-	display: block;	
+	display: block;
 	margin-bottom: 30px;
 }
+
 .dropdown-menu .btnLi {
 	display: block;
 	margin-bottom: 30px;
@@ -237,11 +239,13 @@ nav {
 	margin-left: 30px;
 	color: white;
 }
-#loginDrop :hover{
+
+#loginDrop :hover {
 	color: #1a474d;
 	cursor: pointer;
 }
-#myPageDrop :hover{
+
+#myPageDrop :hover {
 	color: #1a474d;
 	cursor: pointer;
 }
@@ -731,9 +735,9 @@ header .btn-primary:hover {
 	font-weight: 500;
 	letter-spacing: 1px;
 }
-
+/* 지도와 글 간격 수정(재윤) */
 .blog .row:nth-child(2) {
-	padding-bottom: 70px;
+	padding-bottom: 10px;
 }
 
 .blog .text-block h4 a {
@@ -3215,34 +3219,25 @@ textarea.form-control {
 }
 
 #sharing #sharing-view .view-info tr>td {
-	
 	padding-top: 8px;
 	padding-bottom: 8px;
-	padding-left:5px;
-	
+	padding-left: 5px;
 }
 
-
-#sharing #sharing-view .view-info tr>td:not(:nth-child(2)) {
-	
+#sharing #sharing-view .view-info tr>td:not (:nth-child(2) ) {
 	column-width: 100px;
 }
+
 #sharing #sharing-view .view-info tr>td:nth-child(2) {
-	
 	column-width: 150px;
 }
 
-
-
 #sharing #sharing-view .view-info tr:nth-child(3) {
-
-	border-bottom:1px dotted gray;
+	border-bottom: 1px dotted gray;
 }
 
-
 #sharing #sharing-view .view-info tr:nth-child(6) {
-
-	border:none;
+	border: none;
 }
 
 #sharing #sharing-view h2 {
@@ -3277,9 +3272,9 @@ textarea.form-control {
 	background-color: #eeeeee;
 }
 
-#sharing #sharing-view #sharing-comment{
-	border-bottom:1px solid gray;
-	padding-bottom:20px;
+#sharing #sharing-view #sharing-comment {
+	border-bottom: 1px solid gray;
+	padding-bottom: 20px;
 }
 
 #sharing #sharing-view .view-buttons .btn:hover {
@@ -3287,319 +3282,303 @@ textarea.form-control {
 }
 
 #sharing #sharing-write, #sharing #sharing-edit {
-	border:1px solid;
-	border-color:#999999;
-	padding-left:10%;
-	padding-top:3%;
-	
-}
-#sharing #sharing-write .write-buttons, #sharing #sharing-edit .edit-buttons {
-	text-align: center;
-	
+	border: 1px solid;
+	border-color: #999999;
+	padding-left: 10%;
+	padding-top: 3%;
 }
 
+#sharing #sharing-write .write-buttons, #sharing #sharing-edit .edit-buttons
+	{
+	text-align: center;
+}
 
 /*fullcalendar*/
-
 .fc-dropNewEvent {
-  font-size: 13px;
+	font-size: 13px;
 }
 
 .popoverTitleCalendar {
-  width: 100%;
-  height: 100%;
-  padding: 15px 15px;
-  font-size: 13px;
-  border-radius: 5px 5px 0 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px 15px;
+	font-size: 13px;
+	border-radius: 5px 5px 0 0;
 }
 
 .popoverInfoCalendar i {
-  font-size: 14px;
-  margin-right: 10px;
-  line-height: inherit;
-  color: #d3d4da;
+	font-size: 14px;
+	margin-right: 10px;
+	line-height: inherit;
+	color: #d3d4da;
 }
 
 .popoverInfoCalendar p {
-  margin-bottom: 1px;
+	margin-bottom: 1px;
 }
 
 .popoverDescCalendar {
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid #E3E3E3;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+	margin-top: 12px;
+	padding-top: 12px;
+	border-top: 1px solid #E3E3E3;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
 }
 
 .popover-title {
-  background: transparent;
-  font-weight: 600;
-  padding: 0 !important;
-  border: none;
+	background: transparent;
+	font-weight: 600;
+	padding: 0 !important;
+	border: none;
 }
 
 .popover-content {
-  padding: 15px 15px;
-  font-size: 13px;
+	padding: 15px 15px;
+	font-size: 13px;
 }
 
 .inputModal {
-  width: 65%;
-  margin-bottom: 10px;
+	width: 65%;
+	margin-bottom: 10px;
 }
 
 #fc-contextMenu {
-  position: absolute;
-  display: none;
-  z-index: 2;
+	position: absolute;
+	display: none;
+	z-index: 2;
 }
 
 #fc-contextMenu .dropdown-menu {
-  border: none;
+	border: none;
 }
 
 .opacityWeekend {
-  background-color: #f4f4fb !important;
+	background-color: #f4f4fb !important;
 }
 
 .fc-avatar-image {
-  top: 4px;
-  left: 20px;
-  height: 28px;
-  width: 28px;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 2;
+	top: 4px;
+	left: 20px;
+	height: 28px;
+	width: 28px;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 2;
 }
 
 .fc-avatar-image img {
-  height: 28px;
-  width: 28px;
-  border-radius: 50%;
+	height: 28px;
+	width: 28px;
+	border-radius: 50%;
 }
 
 .fc-avatar-image:before {
-  content: none !important;
+	content: none !important;
 }
 
 .fc-day-header {
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 500;
-  color: #505363;
-  background-color: #FAFAFA;
-  padding: 11px 0px !important;
-  text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	color: #505363;
+	background-color: #FAFAFA;
+	padding: 11px 0px !important;
+	text-decoration: none;
 }
 
 .fc-day-header a {
-  text-decoration: none !important;
-  color: #505363;
+	text-decoration: none !important;
+	color: #505363;
 }
 
 .fc-center h2 {
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 600;
-  color: #505363;
-  line-height: 32px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 600;
+	color: #505363;
+	line-height: 32px;
 }
 
 .fc-toolbar.fc-header-toolbar {
-  margin-bottom: 22px;
-  padding-top: 22px;
+	margin-bottom: 22px;
+	padding-top: 22px;
 }
 
 .fc-agenda-view .fc-day-grid .fc-row .fc-content-skeleton {
-  padding-bottom: 1em;
-  padding-top: 1em;
+	padding-bottom: 1em;
+	padding-top: 1em;
 }
 
 .fc-day {
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 
 .fc-day:hover {
-  background: #EEF7FF;
-  cursor: pointer;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+	background: #EEF7FF;
+	cursor: pointer;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 
 .fc-highlight {
-  background: #EEF7FF;
-  opacity: 0.7;
+	background: #EEF7FF;
+	opacity: 0.7;
 }
 
 .fc-time-grid-event.fc-short .fc-time:before {
-  content: attr(data-start);
-  display: none;
+	content: attr(data-start);
+	display: none;
 }
 
 .fc-time-grid-event.fc-short .fc-time span {
-  display: inline-block;
+	display: inline-block;
 }
 
 .fc-time-grid-event.fc-short .fc-avatar-image {
-  display: none;
-  -webkit-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+	display: none;
+	-webkit-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
 }
 
-.fc-time-grid .fc-bgevent,
-.fc-time-grid .fc-event {
-  border: 1px solid #fff !important;
+.fc-time-grid .fc-bgevent, .fc-time-grid .fc-event {
+	border: 1px solid #fff !important;
 }
 
 .fc-time-grid-event.fc-short .fc-content {
-  padding: 4px 20px 10px 22px !important;
+	padding: 4px 20px 10px 22px !important;
 }
 
 .fc-time-grid-event .fc-avatar-image {
-  top: 9px;
+	top: 9px;
 }
 
 .fc-event-vert {
-  min-height: 22px;
+	min-height: 22px;
 }
 
 .fc .fc-axis {
-  vertical-align: middle;
-  padding: 0 4px;
-  white-space: nowrap;
-  font-size: 10px;
-  color: #505362;
-  text-transform: uppercase;
-  text-align: center !important;
-  background-color: #fafafa;
+	vertical-align: middle;
+	padding: 0 4px;
+	white-space: nowrap;
+	font-size: 10px;
+	color: #505362;
+	text-transform: uppercase;
+	text-align: center !important;
+	background-color: #fafafa;
 }
 
-.fc-unthemed .fc-event .fc-content,
-.fc-unthemed .fc-event-dot .fc-content {
-  padding: 5px 10px 5px 10px;
-  font-family: 'Roboto', sans-serif;
-  margin-left: -1px;
-  height: 100%;
+.fc-unthemed .fc-event .fc-content, .fc-unthemed .fc-event-dot .fc-content
+	{
+	padding: 5px 10px 5px 10px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: -1px;
+	height: 100%;
 }
 
 .fc-event {
-  border: none !important;
+	border: none !important;
 }
 
 .fc-day-grid-event .fc-time {
-  font-weight: 700;
-  text-transform: uppercase;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
-.fc-unthemed .fc-day-grid td:not(.fc-axis).fc-event-container {
-  /* padding: 0.2rem 0.5rem; */
+.fc-unthemed .fc-day-grid td:not (.fc-axis ).fc-event-container {
+	/* padding: 0.2rem 0.5rem; */
+	
 }
 
-.fc-unthemed .fc-content,
-.fc-unthemed .fc-divider,
-.fc-unthemed .fc-list-heading td,
-.fc-unthemed .fc-list-view,
-.fc-unthemed .fc-popover,
-.fc-unthemed .fc-row,
-.fc-unthemed tbody,
-.fc-unthemed td,
-.fc-unthemed th,
-.fc-unthemed thead {
-  border-color: #DADFEA;
+.fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td,
+	.fc-unthemed .fc-list-view, .fc-unthemed .fc-popover, .fc-unthemed .fc-row,
+	.fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead
+	{
+	border-color: #DADFEA;
 }
 
-.fc-ltr .fc-h-event .fc-end-resizer,
-.fc-ltr .fc-h-event .fc-end-resizer:before,
-.fc-ltr .fc-h-event .fc-end-resizer:after,
-.fc-rtl .fc-h-event .fc-start-resizer,
-.fc-rtl .fc-h-event .fc-start-resizer:before,
-.fc-rtl .fc-h-event .fc-start-resizer:after {
-  left: auto;
-  cursor: e-resize;
-  background: none;
+.fc-ltr .fc-h-event .fc-end-resizer, .fc-ltr .fc-h-event .fc-end-resizer:before,
+	.fc-ltr .fc-h-event .fc-end-resizer:after, .fc-rtl .fc-h-event .fc-start-resizer,
+	.fc-rtl .fc-h-event .fc-start-resizer:before, .fc-rtl .fc-h-event .fc-start-resizer:after
+	{
+	left: auto;
+	cursor: e-resize;
+	background: none;
 }
 
 select.filter {
-  width: 500px !important;
+	width: 500px !important;
 }
 
 .popover {
-  background: #fff !important;
-  color: #2E2F34;
-  border: none;
-  margin-bottom: 10px;
+	background: #fff !important;
+	color: #2E2F34;
+	border: none;
+	margin-bottom: 10px;
 }
 
 /*popover header*/
 .popover-title {
-  background: #F7F7FC;
-  font-weight: 600;
-  padding: 15px 15px 11px;
-  border: none;
+	background: #F7F7FC;
+	font-weight: 600;
+	padding: 15px 15px 11px;
+	border: none;
 }
 
 /*popover arrows*/
 .popover.top .arrow:after {
-  border-top-color: #fff;
+	border-top-color: #fff;
 }
 
 .popover.right .arrow:after {
-  border-right-color: #fff;
+	border-right-color: #fff;
 }
 
 .popover.bottom .arrow:after {
-  border-bottom-color: #fff;
+	border-bottom-color: #fff;
 }
 
 .popover.left .arrow:after {
-  border-left-color: #fff;
+	border-left-color: #fff;
 }
 
 .popover.bottom .arrow:after {
-  border-bottom-color: #fff;
+	border-bottom-color: #fff;
 }
 
 .material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  -webkit-font-feature-settings: 'liga';
-          font-feature-settings: 'liga';
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	/* Preferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+	/* Support for IE. */
+	-webkit-font-feature-settings: 'liga';
+	font-feature-settings: 'liga';
 }
 
-#add-color,
-#edit-color {
-  color: #d25565;
+#add-color, #edit-color {
+	color: #d25565;
 }
 /*=====================================*/
-
-
 .checkbox, .radio {
 	position: relative;
 	display: block;
@@ -3641,12 +3620,6 @@ select.filter {
 	margin-left: 10px
 }
 
-
-
-
-
-
-
 /*==========달력 하단 input-group(등록자별)=========*/
 .fc-input-group {
 	position: relative;
@@ -3680,8 +3653,6 @@ select.filter {
 	line-height: 1.3333333;
 	border-radius: 6px
 }
-
-
 
 /*=========== 패 널 =============== */
 .panel {
@@ -3939,7 +3910,7 @@ select.filter {
 .panel-group .panel-footer+.panel-collapse .panel-body {
 	border-bottom: 1px solid #ddd
 }
- 
+
 .panel-default {
 	border-color: #ddd
 }
@@ -3962,6 +3933,7 @@ select.filter {
 .panel-default>.panel-footer+.panel-collapse>.panel-body {
 	border-bottom-color: #ddd
 }
+
 .panel-primary {
 	border-color: #337ab7
 }
@@ -4076,8 +4048,6 @@ select.filter {
 .panel-danger>.panel-footer+.panel-collapse>.panel-body {
 	border-bottom-color: #ebccd1
 }
- 
-
 
 /* 뻨킨 캘린더 드랍다운 */
 .fc-dropdown, .dropup {
@@ -4139,8 +4109,8 @@ select.filter {
 	background-color: #f5f5f5
 }
 
-.fc-dropdown-menu>.active>a, .fc-dropdown-menu>.active>a:focus, .fc-dropdown-menu>.active>a:hover
-	{
+.fc-dropdown-menu>.active>a, .fc-dropdown-menu>.active>a:focus,
+	.fc-dropdown-menu>.active>a:hover {
 	color: #fff;
 	text-decoration: none;
 	background-color: #337ab7;
@@ -4152,7 +4122,8 @@ select.filter {
 	color: #777
 }
 
-.fc-dropdown-menu>.disabled>a:focus, .fc-dropdown-menu>.disabled>a:hover {
+.fc-dropdown-menu>.disabled>a:focus, .fc-dropdown-menu>.disabled>a:hover
+	{
 	text-decoration: none;
 	cursor: not-allowed;
 	background-color: transparent;
@@ -4163,26 +4134,110 @@ select.filter {
 /* fullcalendar */
 
 /* f*ckin' carousel */
-.crs-responsive{
+.crs-responsive {
 	margin: 15px;
 }
 
 /* 상세보기 css
 ProductView */
-.right-info{
+.right-info {
 	font-size: 2em;
 	padding-top: 15px;
 	padding-left: 15px;
-	
 }
 
-.faq-text{
+.faq-text {
 	padding-top: 10px;
 	font-size: 2em;
 }
-.demand-btn{
+
+.demand-btn {
 	padding: 10px;
 }
-.btn.btn-success.btn-lg{
+
+.btn.btn-success.btn-lg {
 	margin-bottom: 10px;
+}
+
+/* 재윤CSS */
+/* 메인 */
+#jycard {
+	padding: 30px;
+}
+
+#jyContainer {
+	text-align: center
+}
+
+#jyMonth {
+	color: gray;
+	margin-top: 50px;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+	text-align: left;
+	padding-left: 5px;
+	border-bottom: solid 1px lightgray;
+}
+
+#jyButton {
+	margin-right: 10px;
+	padding: 5px;
+	font-size: 14px;
+}
+
+#jySidebar {
+	text-align: left;
+	margin-top: 130px;
+}
+
+#jyCarousel {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#jycard {
+	padding: 50px;
+}
+
+.sideContent {
+	color: #1a484c;
+	font-size: 14px
+}
+
+#jyCarousel div div div.carousel-caption {
+	padding-bottom: 120px;
+	color: #193c3c;
+	font-family: TmonMonsori;
+}
+
+div.row div.jycard {
+	padding: 30px;
+}
+/* 메인 */
+/* 뷰 */
+#infoviewDiv {
+	text-align: center;
+}
+
+#infoviewTime {
+	text-align: left;
+}
+
+#jyTitle {
+	margin-top: 30px;
+}
+
+#infoviewComment {
+	text-align: left;
+	font-size: 15px;
+}
+/* 뷰 */
+/* 재윤 CSS 끝*/
+
+/* 지도를 위한 css*/
+
+/* Set the size of the div element that contains the map */
+#map {
+	height: 600px; /* The height is 400 pixels */
+	width: 100%; /* The width is the width of the web page */
 }

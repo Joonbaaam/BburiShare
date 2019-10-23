@@ -2,44 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page session="false"%>
-<style>
-#jyContainer {
-	text-align: center
-}
 
-#jyMonth {
-	color: gray;
-	margin-top: 50px;
-	padding-bottom: 5px;
-	margin-bottom: 30px;
-	text-align: left;
-	padding-left: 5px;
-	border-bottom: solid 1px lightgray;
-}
-
-#jyButton {
-	margin-right: 10px
-}
-
-#jySidebar {
-	text-align: left;
-	margin-top: 80px;
-}
-
-#jyCarousel {
-	margin-top: 30px
-}
-
-#jyCard {
-	margin: 20px;
-	margin-top: 0px;
-}
-
-.sideContent {
-	color: #1a484c;
-	font-size: 14px
-}
-</style>
 <!-- container -->
 <div class="container" id="jyContainer">
 	<!-- jyCarousel -->
@@ -48,20 +11,27 @@
 		<ol class="carousel-indicators">
 			<li data-target="#jyCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#jyCarousel" data-slide-to="1"></li>
-			<li data-target="#jyCarousel" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner" role="listbox">
 			<div class="carousel-item active">
-				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
+				<img class="d-block img-fluid"
+					src="<c:url value='/resources/images/jyimages/infomain_banner_02.jpg'/>"
 					alt="First slide">
+				<div class="gradient"></div>
+				<div class="carousel-caption">
+					<h1>지역정보</h1>
+					<h2>우리 동네에서는 무슨 일이 벌어지고 있을까?</h2>
+				</div>
 			</div>
 			<div class="carousel-item">
-				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
+				<img class="d-block img-fluid"
+					src="<c:url value='/resources/images/jyimages/infomain_banner_02.jpg'/>"
 					alt="Second slide">
-			</div>
-			<div class="carousel-item">
-				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
-					alt="Third slide">
+				<div class="gradient"></div>
+				<div class="carousel-caption">
+					<h1>지역정보</h1>
+					<h2>우리 동네에서는 무슨 일이 벌어지고 있을까?</h2>
+				</div>
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators"
@@ -120,8 +90,8 @@
 				</div>
 				<div class="row">
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-600" id="jyCard">
+					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
+						<div class="card h-500">
 							<a
 								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
 								class="card-img-top"
@@ -135,8 +105,8 @@
 					</div>
 					<!-- content -->
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-600" id="jyCard">
+					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
+						<div class="card h-600">
 							<a
 								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
 								class="card-img-top"
@@ -150,8 +120,8 @@
 					</div>
 					<!-- content -->
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-600" id="jyCard">
+					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
+						<div class="card h-600">
 							<a href="#"><img class="card-img-top"
 								src="http://www.dongatoday.com/imgdata/dongatoday_com/201811/2018113028204690.jpg"
 								alt=""></a>
@@ -164,8 +134,8 @@
 					</div>
 					<!-- content -->
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-600" id="jyCard">
+					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
+						<div class="card h-600">
 							<a
 								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
 								class="card-img-top"
@@ -179,8 +149,8 @@
 					</div>
 					<!-- content -->
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-600" id="jyCard">
+					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
+						<div class="card h-600">
 							<a
 								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
 								class="card-img-top"
@@ -194,8 +164,8 @@
 					</div>
 					<!-- content -->
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-600" id="jyCard">
+					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
+						<div class="card h-600">
 							<a
 								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
 								class="card-img-top"

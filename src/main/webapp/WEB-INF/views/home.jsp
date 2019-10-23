@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page session="false"%>
 
 
@@ -20,7 +20,9 @@
 			<!-- Slide One - Set the background image for this slide in the line below -->
 			<div class="carousel-item active">
 				<!-- 백그라운드 이미지 변경(재윤) -->
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
+				<img
+					src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>"
+					alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>첫번째 슬라이드</h3>
@@ -30,7 +32,9 @@
 			</div>
 			<!-- Slide Two - Set the background image for this slide in the line below -->
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
+				<img
+					src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>"
+					alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>두번째 슬라이드</h3>
@@ -42,7 +46,9 @@
 			</div>
 			<!-- Slide Three - Set the background image for this slide in the line below -->
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
+				<img
+					src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>"
+					alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>세번째 슬라이드</h3>
@@ -53,7 +59,9 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
+				<img
+					src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>"
+					alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>네번째 슬라이드</h3>
@@ -64,7 +72,9 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
+				<img
+					src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>"
+					alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>다섯번째 슬라이드</h3>
@@ -75,7 +85,9 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>" alt="...">
+				<img
+					src="<c:url value='/resources/images/jyimages/main_banner_01.png'/>"
+					alt="...">
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>여섯번째 슬라이드</h3>
@@ -100,29 +112,28 @@
 
 <!-- 지도섹션시작 -->
 <section class="blog">
-    <div class="container">
-    	<div class="col-sm-12 heading">
+	<div class="container">
+		<div class="col-sm-12 heading">
 			<div class="icon">
 				<i class="fa fa-globe" aria-hidden="true"></i>
 			</div>
-		</div>		
-        <div class="row">
-            <div class="col-sm-12 heading">
-                <h3>우리동네 한눈에 보기</h3>                
-            </div>
-        </div>       
-        <div class="row" data-aos="fade-up">
-            <div class="col-lg-12 col-sm-12">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                       <div class="image-map">
-                       		<img src="<c:url value='/resources/images/map_example.PNG'/>" alt="" class="img-cal blog-1">                      		                      
-                       </div>
-                    </div>                                    
-                </div>                
-            </div>                    
-        </div>        
-    </div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 heading">
+				<h3>우리동네 한눈에 보기</h3>
+			</div>
+		</div>
+		<div class="row" data-aos="fade-up">
+			<div class="col-lg-12 col-sm-12">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<!-- 지도 추가(재윤) -->
+						<div id="map"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- 지도섹션끝 -->
 <section class="blog">
@@ -135,31 +146,35 @@
 			</div>
 			<div class="col-sm-12 heading">
 				<h3>빌려주는 기쁨, 빌려쓰는 고마움</h3>
-			</div>			
+			</div>
 		</div>
 		<div class="row" data-aos="fade-up">
 			<div class="col-lg-12 col-sm-12">
-				<div class="row">					
+				<div class="row">
 					<div class="col-lg-3 col-md-12">
 						<div class="image-one">
-							<img src="<c:url value='/resources/images/main_sharing1.png'/>" alt="" class="img-thumbnail blog-1">							
+							<img src="<c:url value='/resources/images/main_sharing1.png'/>"
+								alt="" class="img-thumbnail blog-1">
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-12">
 						<div class="image-one">
-							<img src="<c:url value='/resources/images/main_sharing1.png'/>" alt="" class="img-thumbnail blog-1">							
+							<img src="<c:url value='/resources/images/main_sharing1.png'/>"
+								alt="" class="img-thumbnail blog-1">
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-12">
 						<div class="image-one">
-							<img src="<c:url value='/resources/images/main_sharing1.png'/>" alt="" class="img-thumbnail blog-1">							
+							<img src="<c:url value='/resources/images/main_sharing1.png'/>"
+								alt="" class="img-thumbnail blog-1">
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-12">
 						<div class="image-one">
-							<img src="<c:url value='/resources/images/main_sharing1.png'/>" alt="" class="img-thumbnail blog-1">							
+							<img src="<c:url value='/resources/images/main_sharing1.png'/>"
+								alt="" class="img-thumbnail blog-1">
 						</div>
-					</div>							
+					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-3 col-md-12">
@@ -211,135 +226,161 @@
 						</div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 	</div>
 </section>
 <!-- 섹션2 -->
 <section class="blog">
-    <div class="container">
-    	<div class="col-sm-12 heading">
+	<div class="container">
+		<div class="col-sm-12 heading">
 			<div class="icon">
 				<i class="fa fa-handshake-o" aria-hidden="true"></i>
 			</div>
-		</div>		
-        <div class="row">
-            <div class="col-sm-12 heading">
-                <h3>주간 HOT 클립/모임</h3>                
-            </div>
-        </div>
-        <div class="row">
-	       		<div class="col-lg-6 col-sm-6">	       			
-	       			<h4><i class="fa fa-star"></i> 이번주 HOT 클립</h4>
-	       		</div>
-	       		<div class="col-lg-6 col-sm-6">
-	       			<h4><i class="fa fa-star"></i> 이번주 HOT 소모임</h4>
-	       		</div>
-        	</div>
-        <div class="row" data-aos="fade-up">
-        	
-        	
-            <div class="col-lg-6 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                       <div class="image-clip">
-                       		<img src="<c:url value='/resources/images/blog-1.jpg'/>" alt="" class="img-clip blog-1">
-                      		<div class="overlay">                           		
-								<i class="fa fa-play-circle-o playfa"></i>								
-                        	</div>                             
-                       </div>
-                    </div>                    
-                </div>
-                <div class="row">
-                	<div class="col-lg-12 col-md-12">
- 					    <div class="blog-column1">
- 	            		   <h5><a href="#">이번주 핫클립 제목</a></h5>
- 						   <p>클립 내용 </p>
- 						   <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
- 					   </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-            	<div class="row">
-                    <div class="col-lg-6 col-md-12">
-                       <div class="image-clip">
-                           <img src="<c:url value='/resources/images/blog-1.jpg'/>" alt="" class="img-thumbnail blog-1">                             
-                       </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                       <div class="image-clip">
-                           <img src="<c:url value='/resources/images/blog-1.jpg'/>" alt="" class="img-thumbnail blog-1">                             
-                       </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
- 					    <div class="blog-column1">
- 	            		   <h5><a href="#">이번주 핫모임1 제목</a></h5>
- 						   <p>모임소개 등</p>
- 						   <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
- 					   </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
- 					    <div class="blog-column1">
- 	            		   <h5><a href="#">이번주 핫모임2 제목</a></h5>
- 						   <p>모임소개 등</p>
- 						   <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
- 					   </div>
-                    </div>
-                </div>
-            </div>        
-        </div>        
-    </div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 heading">
+				<h3>주간 HOT 클립/모임</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6">
+				<h4>
+					<i class="fa fa-star"></i> 이번주 HOT 클립
+				</h4>
+			</div>
+			<div class="col-lg-6 col-sm-6">
+				<h4>
+					<i class="fa fa-star"></i> 이번주 HOT 소모임
+				</h4>
+			</div>
+		</div>
+		<div class="row" data-aos="fade-up">
+
+
+			<div class="col-lg-6 col-sm-6">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<div class="image-clip">
+							<img src="<c:url value='/resources/images/blog-1.jpg'/>" alt=""
+								class="img-clip blog-1">
+							<div class="overlay">
+								<i class="fa fa-play-circle-o playfa"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<div class="blog-column1">
+							<h5>
+								<a href="#">이번주 핫클립 제목</a>
+							</h5>
+							<p>클립 내용</p>
+							<a class="btn btn-primary" href="blog_single.html" role="button">More
+								>></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-sm-6">
+				<div class="row">
+					<div class="col-lg-6 col-md-12">
+						<div class="image-clip">
+							<img src="<c:url value='/resources/images/blog-1.jpg'/>" alt=""
+								class="img-thumbnail blog-1">
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12">
+						<div class="image-clip">
+							<img src="<c:url value='/resources/images/blog-1.jpg'/>" alt=""
+								class="img-thumbnail blog-1">
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12">
+						<div class="blog-column1">
+							<h5>
+								<a href="#">이번주 핫모임1 제목</a>
+							</h5>
+							<p>모임소개 등</p>
+							<a class="btn btn-primary" href="blog_single.html" role="button">More
+								>></a>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12">
+						<div class="blog-column1">
+							<h5>
+								<a href="#">이번주 핫모임2 제목</a>
+							</h5>
+							<p>모임소개 등</p>
+							<a class="btn btn-primary" href="blog_single.html" role="button">More
+								>></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <!-- 섹션2 끝 -->
 <!-- 섹션3 시작-->
 <section class="blog">
-    <div class="container">
-    	<div class="col-sm-12 heading">
+	<div class="container">
+		<div class="col-sm-12 heading">
 			<div class="icon">
 				<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
 			</div>
-		</div>		
-        <div class="row">
-            <div class="col-sm-12 heading">
-                <h3>진행중인 공동구매 / 지역정보</h3>                
-            </div>
-        </div>
-        <div class="row">
-	       		<div class="col-lg-9 col-sm-6">	       			
-	       			<h4><i class="fa fa-star"></i> 진행중인 공동구매</h4>
-	       		</div>
-	       		<div class="col-lg-3 col-sm-6">
-	       			<h4><i class="fa fa-star"></i> 지역정보</h4>
-	       		</div>
-        	</div>
-        <div class="row" data-aos="fade-up">
-            <div class="col-lg-9 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-9 col-md-12">
-                       <div class="image-cal">
-                       		<img src="<c:url value='/resources/images/cal_example.PNG'/>" alt="" class="img-cal blog-1">                      		                      
-                       </div>
-                    </div>
-                    <div class="col-lg-3 col-md-12">
-                       	<h4>공동구매 제목</h4>
-                       	<h5>공동구매 내용</br>일정 클릭 시 노출</h5>
-                       	<p></br>물건:물탱크</br>가격:xxx원</br>지역:노원구</br>인원:15명</p>
-                    </div>                    
-                </div>                
-            </div>
-            <div class="col-lg-3 col-sm-6">
-            	<div class="row">
-                    <div class="col-lg-12 col-md-12">
-                       <div class="image-loc">
-                           <img src="<c:url value='/resources/images/locinfo_example.PNG'/>" alt="" class="img-loc blog-1">                             
-                       </div>
-                    </div>                                   
-                </div>
-            </div>        
-        </div>        
-    </div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 heading">
+				<h3>진행중인 공동구매 / 지역정보</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-9 col-sm-6">
+				<h4>
+					<i class="fa fa-star"></i> 진행중인 공동구매
+				</h4>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<h4>
+					<i class="fa fa-star"></i> 지역정보
+				</h4>
+			</div>
+		</div>
+		<div class="row" data-aos="fade-up">
+			<div class="col-lg-9 col-sm-6">
+				<div class="row">
+					<div class="col-lg-9 col-md-12">
+						<div class="image-cal">
+							<img src="<c:url value='/resources/images/cal_example.PNG'/>"
+								alt="" class="img-cal blog-1">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-12">
+						<h4>공동구매 제목</h4>
+						<h5>
+							공동구매 내용</br>일정 클릭 시 노출
+						</h5>
+						<p>
+							</br>물건:물탱크</br>가격:xxx원</br>지역:노원구</br>인원:15명
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<div class="image-loc">
+							<img src="<c:url value='/resources/images/locinfo_example.PNG'/>"
+								alt="" class="img-loc blog-1">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <!-- 섹션3 끝 -->
