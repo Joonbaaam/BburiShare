@@ -1872,7 +1872,13 @@ textarea.form-control {
 }
 
 #portfolio .img-fluid {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
+	margin-top:10px;
+}
+
+/* 지울 태그 */
+#portfolio .imgtxt {
+	text-align: center;
 }
 
 #portfolio button {
@@ -3298,6 +3304,51 @@ textarea.form-control {
 	text-align: center;
 }
 
+/* 상세보기 css
+ProductView */
+.top-left img{
+	top: 0;
+	left: 0;
+	min-width: 50%;
+	min-height: 100px;
+	height:auto;
+	width:550px;
+	display: block; 
+	margin: 0px auto;
+}
+
+.pv-graph{
+	font-size: 1.3em;
+	padding : 5px 0px 0px 0px;
+	text-align: center;
+	height:200px;
+	float: left;
+}
+
+.prdtbtn{
+	text-align: right;
+}
+
+.right-info{
+	font-size: 1.7em;
+	padding: 20px 0px 0px 0px;
+	width:auto;
+	height: 250px;
+	/* padding-left: 0px; */
+	float:left;
+}
+
+.faq-text{
+	padding-top: 10px;
+	font-size: 2em;
+}
+.demand-btn{
+	padding: 10px;
+}
+.btn.btn-success.btn-lg{
+	margin-bottom: 10px;
+}
+
 /*fullcalendar*/
 .fc-dropNewEvent {
 	font-size: 13px;
@@ -4185,53 +4236,7 @@ select.filter {
   max-width: none;
 }
  */
-/* 상세보기 css
-ProductView */
-.top-left img{
-	top: 0;
-	left: 0;
-	min-width: 50%;
-	min-height: 100px;
-	height:auto;
-	width:550px;
-	display: block; 
-	margin: 0px auto;
-}
 
-.pv-graph{
-	font-size: 1.3em;
-	padding : 5px 0px 0px 0px;
-	text-align: center;
-	height:200px;
-	float: left;
-}
-
-/* .pv-graph>#donut_example{
-	padding : 5px 0px 0px 0px;
-	background-color: red;
-	height:250px;
-	float: right;
-} */
-
-.right-info{
-	font-size: 1.7em;
-	padding: 20px 0px 0px 0px;
-	width:auto;
-	height: 250px;
-	/* padding-left: 0px; */
-	float:left;
-}
-
-.faq-text{
-	padding-top: 10px;
-	font-size: 2em;
-}
-.demand-btn{
-	padding: 10px;
-}
-.btn.btn-success.btn-lg{
-	margin-bottom: 10px;
-}
 
 /* 지도를 위한 css*/
 /* Set the size of the div element that contains the map */
