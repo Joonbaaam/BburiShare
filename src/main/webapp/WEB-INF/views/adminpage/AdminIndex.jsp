@@ -142,7 +142,7 @@
             <div class="col-md-4 col-sm-4 mb" >
             	<div class="twitter-panel pn">
 	            	<div class="twitter-header">
-	            		<h5>블랙리스트 목록</h5>
+	            		<h5>블랙리스트 신고 목록</h5>
 	            	</div>
 	            	<div class="twitter-content" align="left" style="margin: 10px;padding: 10px">
 	                  <p><img src="<c:url value='/resources/adminlib/img/ui-zac.jpg'/>" class="img-circle" width="50">&nbsp;&nbsp;다람쥐 헌 쳇바퀴에 타고파</p>
