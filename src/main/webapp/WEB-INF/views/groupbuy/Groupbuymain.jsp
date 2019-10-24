@@ -4,7 +4,7 @@
 <%@ page session="false"%>
 
 	<!-- fullcalendar -->
-    <link rel=" shortcut icon" href="<c:url value='/resources/image/favicon.ico'/>">
+    <%-- <link rel=" shortcut icon" href="<c:url value='/resources/image/favicon.ico'/>"> --%>
     <link rel="stylesheet" href="<c:url value='/resources/css/fullcalendar.min.css'/>" />
     <!-- 충돌 발생하는 css -->
     <%-- <link rel="stylesheet" href="<c:url value='/resources/css/bootstrap.min.css'/>"> --%>
@@ -38,31 +38,30 @@
 	</div>
 </header>
 
-
 <div>
 
 <div class="container">
 	<!-- 캐러셀 -->
 	<div class="crs-responsive">
-		<div class="col-md-3">
+		<div class="fc-div">
 	      <img src="<c:url value='/resources/images/crs/adds.png'/>">
 	    </div>
-	    <div class="col-md-3">
+	    <div class="fc-div">
 	      <img src="<c:url value='/resources/images/crs/bmw.png'/>">
 	    </div>
-	    <div class="col-md-3">
+	    <div class="fc-div">
 	      <img src="<c:url value='/resources/images/crs/ea.png'/>">
 	    </div>
-	    <div class="col-md-3">
+	    <div class="fc-div">
 	      <img src="<c:url value='/resources/images/crs/cpcs.png'/>">
 	    </div>
-	    <div>
+	    <div class="fc-div">
 	      <img src="<c:url value='/resources/images/crs/nike.png'/>">
 	    </div>
-	    <div>
+	    <div class="fc-div">
 	      <img src="<c:url value='/resources/images/crs/rok.jpg'/>">
 	    </div>
-	    <div>
+	    <div class="fc-div">
 	      <img src="<c:url value='/resources/images/crs/stbs.jpg'/>">
 	    </div>
 	</div>
@@ -357,22 +356,21 @@
   	
   	</script> -->
   	
-  	<!-- 캐러셀 -->
-  	
+  	<!-- 캐러셀 스크립트 -->
   	<script type="text/javascript">
   	$('.crs-responsive').slick({
   		arrows:true,
 		  dots: true,
 		  infinite: false,
 		  speed: 300,
-		  slidesToShow: 4,
-		  slidesToScroll: 4,
+		  slidesToShow: 5,
+		  slidesToScroll: 3,
 		  responsive: [
 		    {
 		      breakpoint: 1024,
 		      settings: {
-		        slidesToShow: 3,
-		        slidesToScroll: 3,
+		        slidesToShow: 4,
+		        slidesToScroll: 2,
 		        infinite: true,
 		        arrows:true,
 		        dots: true
@@ -381,7 +379,7 @@
 		    {
 		      breakpoint: 600,
 		      settings: {
-		        slidesToShow: 2,
+		        slidesToShow: 3,
 		        slidesToScroll: 2
 		      }
 		    },
@@ -398,6 +396,5 @@
 		  ]
 		});
   	</script>
-
   	
 </div>

@@ -4,14 +4,14 @@
 <script type="text/javascript" src="https://static.nid.naver.com/js/naverLogin_implicit-1.0.3.js" charset="utf-8"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-<div
+<%-- <div
 	style="position: fixed; right: 22px; bottom: 92px; width: 78px; height: 67px; text-align: center; z-index: 1002;">
 	<a href="#" title="채팅창 띄우기"> <img
 		src="<c:url value='/resources/images/chat-button.png'/>"
 		style="width: 68px; height: 57px;" />
 	</a>
 
-</div>
+</div> 채팅, 고객센터 아이콘 주석--%>
 <!-- testing for pushing -->
 <!-- Navigation -->
 <nav id="myHeader" class="header navbar navbar-expand-lg navbar-dark">
@@ -116,10 +116,10 @@
 			    			<label><a href=#>회원정보수정</a></label>					    		
 					    </li>	
 					    <li class="dropLaLi">					    	
-			    			<label><a href=#>내 일정관리</a></label>					    		
+			    			<label><a href="<c:url value='/BburiShare/MyPage/MySchedule.bbs'/>">내 일정관리</a></label>					    		
 					    </li>	
 					    <li class="dropLaLi">					    	
-			    			<label><a href=#>포인트 조회</a></label>					    		
+			    			<label><a href="<c:url value='/BburiShare/MyPage/MyPoint.bbs'/>">포인트 조회</a></label>					    		
 					    </li>	
 					    <li class="dropLaLi">					    	
 			    			<label><a href=#>1:1문의내역</a></label>					    		

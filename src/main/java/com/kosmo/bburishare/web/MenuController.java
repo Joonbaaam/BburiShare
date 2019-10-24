@@ -48,11 +48,25 @@ public class MenuController {
 		return "member/SignUp.tiles";
 	}
 	
-	// 회원가입폼으로 이동]
+	// 비밀번호찾기폼으로 이동]
 	@RequestMapping(value = "/BburiShare/Auth/FindPwd.bbs", method = RequestMethod.GET)
 	public String findPwd() {
 		// 뷰정보 반환]
 		return "member/FindPwd.tiles";
+	}
+	
+	// 포인트조회폼으로 이동]
+	@RequestMapping(value = "/BburiShare/MyPage/MyPoint.bbs", method = RequestMethod.GET)
+	public String myPoint() {
+		// 뷰정보 반환]
+		return "mypage/MyPoint.tiles";
+	}
+	
+	// 포인트조회폼으로 이동]
+	@RequestMapping(value = "/BburiShare/MyPage/MySchedule.bbs", method = RequestMethod.GET)
+	public String mySchedule() {
+		// 뷰정보 반환]
+		return "mypage/MySchedule.tiles";
 	}
 
 }

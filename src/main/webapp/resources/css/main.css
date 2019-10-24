@@ -3578,6 +3578,8 @@ select.filter {
 #add-color, #edit-color {
 	color: #d25565;
 }
+
+
 /*=====================================*/
 .checkbox, .radio {
 	position: relative;
@@ -4138,12 +4140,61 @@ select.filter {
 	margin: 15px;
 }
 
+.crs-responsive .fc-div {
+	overflow:hidden;
+	height:auto;
+	color:red;
+	/* border:1px solid lightgray; */
+}
+
+.crs-responsive .fc-div > img {
+  top: 0;
+  left: 0;
+  min-width: 50%;
+  height:120px;
+  min-height: 50px;
+  width:auto;
+  display: block; 
+  margin: 0px auto;
+} 
+
+.clear{clear:both;}
+/* 
+.crs-responsive div > img{
+    width:200px;float:left;
+}
+.fc-div img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.crs-responsive img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  max-width: none;
+}
+ */
 /* 상세보기 css
 ProductView */
+<<<<<<< HEAD
 .right-info {
 	font-size: 2em;
+=======
+.right-info{
+	font-size: 1.3em;
+>>>>>>> branch 'master' of https://github.com/Joonbaaam/BburiShare.git
 	padding-top: 15px;
 	padding-left: 15px;
+<<<<<<< HEAD
+=======
+	float:left;
+>>>>>>> branch 'master' of https://github.com/Joonbaaam/BburiShare.git
 }
 
 .faq-text {
@@ -4235,7 +4286,6 @@ div.row div.jycard {
 /* 재윤 CSS 끝*/
 
 /* 지도를 위한 css*/
-
 /* Set the size of the div element that contains the map */
 #map {
 	height: 600px; /* The height is 400 pixels */

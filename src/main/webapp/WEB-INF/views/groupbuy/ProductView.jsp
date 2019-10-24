@@ -8,7 +8,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 heading">
-				<h1 data-aos="fade-right" data-aos-delay="300">상세페이지</h1>				
+				<h1 data-aos="fade-right" data-aos-delay="300"><!-- 상세페이지 --></h1>				
 				
 			</div>
 		</div>
@@ -17,21 +17,33 @@
 
 <!-- 그래프 -->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
-
-
+<section>
 <div class="container">
 	<div class="row">
+		
+		<!-- <div class="right-info">
+		</div> -->
+			<div class="right-info col-md-6">
 			<img alt="topImg" src="<c:url value='/resources/images/ProductView/video.JPG'/>">
-		<div class="right-info">
 				<p><strong>100,200,300</strong>원 달성</p>
 				<p><strong>13일 남음</strong></p>
 				<p>2019.12.12 15:00 마감</p>
-				<a class="btn btn-success btn-lg" href="<c:url value='/BburiShare/GroupBuy/JoinGroup.bbs'/>">공동구매 참여하기</a>
-				<a class="btn btn-success btn-lg" href="<c:url value='/BburiShare/GroupBuy/AddProduct.bbs'/>">공동구매 수정요청</a>
-				<a class="btn btn-success btn-lg" href="<c:url value='/BburiShare/GroupBuy/AddProduct.bbs'/>">공동구매 삭제요청</a>
-		</div>
+				
+				<a class="btn btn-success btn-sm" href="<c:url value='/BburiShare/GroupBuy/JoinGroup.bbs'/>">참여하기</a>
+				<a class="btn btn-success btn-sm" href="<c:url value='/BburiShare/GroupBuy/AddProduct.bbs'/>">수정요청</a>
+				<a class="btn btn-success btn-sm" href="<c:url value='/BburiShare/GroupBuy/AddProduct.bbs'/>">삭제요청</a>
+			</div>
+			<div class="col-md-6">							
+				<div class="faq-text">
+					<!-- 그래프 -->
+					<div class="col-md-4" id="donut_example" style="height: 250px;">참여자 연령분포</div>
+					<%--<div class="offset-md-2 col-md-6"><img alt="achieve" src="<c:url value='/resources/images/ProductView/achieve.JPG'/>"></div>
+					<img alt="faq" src="<c:url value='/resources/images/ProductView/faq.JPG'/>"> --%>
+				</div>
+			</div>
 		
-		<div class="faq-text">
+		
+		<%-- <div class="faq-text">
 			<!-- 그래프 -->
 			<div class="col-md-4" id="donut_example" style="height: 250px;">참여자 연령분포</div>
 			<!-- <p>간단 <strong>FAQ</strong></p>
@@ -40,14 +52,14 @@
 			<div class="offset-md-2 col-md-6"><img alt="achieve" src="<c:url value='/resources/images/ProductView/achieve.JPG'/>"></div>
 			<img alt="faq" src="<c:url value='/resources/images/ProductView/faq.JPG'/>">
 			
-		</div>
+		</div> --%>
 		
 		<img alt="reply" src="<c:url value='/resources/images/ProductView/reply.JPG'/>">
 
 	</div><!-- row -->
 	
 </div><!-- container -->
-
+</section>
 <!-- 그래프 스크립트 -->  
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
