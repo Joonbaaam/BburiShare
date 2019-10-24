@@ -38,12 +38,12 @@
 					href="<c:url value='/BburiShare/LocalClub/LocalClubMain.bbs'/>">소모임</a>
 				</li>
 				<li class="nav-item"><a class="nav-link"
-					href="<c:url value='/BburiShare/ClubReview/ClubReviewMain.bbs'/>">모임후기</a>
+					href="<c:url value='/BburiShare/ClubReview/ClubReviewMain.bbs'/>">커뮤니티</a>
 				</li>
 				<li class="nav-item"><a class="nav-link"
 					href="<c:url value='/BburiShare/LocalInfo/LocalInfoMain.bbs'/>">지역정보</a>
 				</li>
-				<%-- <!-- 로그인드랍다운 -->
+				<!-- 로그인드랍다운 -->
 				<li class="nav-item">					
 					
 					<div class="dropdown">		  
@@ -97,8 +97,8 @@
 						  </ul>
 					  </form>
 					  	
-					</div> --%>
-					<!-- 마이페이지 -->
+					</div>
+				<%-- <!-- 마이페이지 -->
 				<li class="nav-item">
 					<div class="dropdown">
 					  <div class="icon" id="myPageDrop" data-toggle="dropdown" aria-expanded="false">
@@ -132,7 +132,7 @@
 					  	
 					</div>				
 				</li>
-				
+				<!-- 마이페이지끝 --> --%>
 				
 			</ul>
 		</div>
