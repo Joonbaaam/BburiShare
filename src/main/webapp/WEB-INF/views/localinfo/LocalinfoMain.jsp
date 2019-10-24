@@ -3,6 +3,46 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page session="false"%>
 
+<style>
+#jycard {
+	padding: 40px;
+	width:270px;
+}
+
+#jySidebar {
+	font-size: 14px;
+	margin-top: 85px;
+}
+
+#jyCarousel div div div.carousel-caption {
+	margin-bottom: 80px;
+	color: #2c4945;
+}
+
+#jyButton {
+	font-size: 13px;
+	padding: 4px;
+	margin-left: 7px;
+}
+
+#jyMonth {
+	padding-top: 50px;
+	padding-left: 5px;
+	border-bottom: solid 1px lightgray;
+	font-size: 14px;
+}
+#infoContnet{
+	padding-left:65px;
+}
+div.carousel-caption h1{
+	font-family:TmonMonsori;
+}
+div.carousel-caption h3{
+	padding-top:20px;
+}
+</style>
+
+
 <!-- container -->
 <div class="container" id="jyContainer">
 	<!-- jyCarousel -->
@@ -20,7 +60,7 @@
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h1>지역정보</h1>
-					<h2>우리 동네에서는 무슨 일이 벌어지고 있을까?</h2>
+					<h3>우리 동네에서는 무슨 일이 벌어지고 있을까?</h3>
 				</div>
 			</div>
 			<div class="carousel-item">
@@ -30,7 +70,7 @@
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h1>지역정보</h1>
-					<h2>우리 동네에서는 무슨 일이 벌어지고 있을까?</h2>
+					<h3>우리 동네에서는 무슨 일이 벌어지고 있을까?</h3>
 				</div>
 			</div>
 		</div>
@@ -52,7 +92,7 @@
 			<div class="col-lg-2" id="jySidebar">
 				<!-- 사이드바 상단 시작 -->
 				<div class="card my-4">
-					<h5 class="card-header">Categories</h5>
+					<h5 class="card-header">카테고리</h5>
 					<div class="card-body">
 						<div class="row">
 							<div class="container">
@@ -67,7 +107,7 @@
 									</p>
 
 									<p>
-										<a href="#">글쓰기</a>
+										<a href="<c:url value='/BburiShare/Localinfo/LocalinfoWrite.bbs'/>">글쓰기</a>
 									</p>
 								</ul>
 							</div>
@@ -88,9 +128,9 @@
 				<div>
 					<h6 id="jyMonth">12월</h6>
 				</div>
-				<div class="row">
+				<div class="row" id="infoContnet">
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
+					<div id="jycard">
 						<div class="card h-500">
 							<a
 								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
@@ -105,8 +145,8 @@
 					</div>
 					<!-- content -->
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
-						<div class="card h-600">
+					<div id="jycard">
+						<div class="card h-400">
 							<a
 								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
 								class="card-img-top"
@@ -120,7 +160,7 @@
 					</div>
 					<!-- content -->
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
+					<div id="jycard">
 						<div class="card h-600">
 							<a href="#"><img class="card-img-top"
 								src="http://www.dongatoday.com/imgdata/dongatoday_com/201811/2018113028204690.jpg"
@@ -134,7 +174,7 @@
 					</div>
 					<!-- content -->
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
+					<div id="jycard">
 						<div class="card h-600">
 							<a
 								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
@@ -149,7 +189,7 @@
 					</div>
 					<!-- content -->
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
+					<div id="jycard">
 						<div class="card h-600">
 							<a
 								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
@@ -164,7 +204,7 @@
 					</div>
 					<!-- content -->
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4" id="jycard">
+					<div id="jycard">
 						<div class="card h-600">
 							<a
 								href="<c:url value='/BburiShare/Localinfo/LocalinfoView.bbs'/>"><img
@@ -178,6 +218,7 @@
 						</div>
 					</div>
 					<!-- content -->
+					
 				</div>
 				<!-- /.row -->
 			</div>
@@ -186,5 +227,23 @@
 		<!-- /.row -->
 	</div>
 	<!-- /#jyContent -->
+	<!-- /.row -->
+	<div class="row" style="width: 100%; margin-left: 395px; padding-top:20px;" >
+
+		<div class="container">
+
+			<ul class="pagination">
+				<li class="page-item"><a class="page-link" href="#">Prev</a></li>
+				<li class="page-item"><a class="page-link" href="#">1</a></li>
+				<li class="page-item"><a class="page-link" href="#">2</a></li>
+				<li class="page-item"><a class="page-link" href="#">3</a></li>
+				<li class="page-item"><a class="page-link" href="#">4</a></li>
+				<li class="page-item"><a class="page-link" href="#">5</a></li>
+				<li class="page-item"><a class="page-link" href="#">Next</a></li>
+			</ul>
+		</div>
+
+
+	</div>
 </div>
 <!-- #jyContainer -->
