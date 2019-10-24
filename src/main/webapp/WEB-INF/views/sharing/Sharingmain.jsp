@@ -12,9 +12,9 @@
 						<li class="li-category">
 						<a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">쉐어링</a>
 						<ul class="dropdown-menu" id="mydd" >
-							<li><a href="#">날짜순으로 정렬</a></li>
-							<li><a href="#">날짜순으로 정렬</a></li>
-							<li><a href="#">날짜순으로 정렬</a></li>
+							<li><a href="#">거리순 정렬</a></li>							
+							<li><a href="#">가격순 정렬</a></li>
+							<li><a href="#">최신 정렬</a></li>
 						</ul>
 					</li>
 					

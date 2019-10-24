@@ -66,7 +66,7 @@
 			    				</div>
 			    				<div class="form-group">
 			    					<div class="edit-buttons">
-			    						<button type="submit" class="btn btn-info">수정</button>
+			    						<button type="submit" class="btn btn-info">작성</button>
 			    						<button class="btn btn-primary">취소</button>
 			    					</div>
 			    				</div>
