@@ -26,8 +26,7 @@
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>첫번째 슬라이드</h3>
-					<h1>뿌리쉐어 개요 및 소개</h1>
-					<h2>내용</h2>
+					<h1>뿌리쉐어 개요 및 소개</h1>					
 				</div>
 			</div>
 			<!-- Slide Two - Set the background image for this slide in the line below -->
@@ -38,9 +37,9 @@
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>두번째 슬라이드</h3>
-					<h1>쉐어링(가제)</h1>
+					<h1>쉐어링</h1>
 					<h2>빌려주는 기쁨, 빌려쓰는 기쁨</h2>
-					<h5>가까운 지역의 사람들과 물건,재능을 공유하세요</h5>
+					<h5>가까운 지역의 이웃들과 다양한 물건을 공유하세요</h5>
 					<a class="btn btn-primary" href="#about" role="button">섹션으로 이동</a>
 				</div>
 			</div>
@@ -52,9 +51,9 @@
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>세번째 슬라이드</h3>
-					<h1>공동구매(가제)</h1>
-					<h2>원하는 사람들과, 원하는 물건을 공유하세요</h2>
-					<h5>값비싼 물건을 공동구매하여 함께 구매한 인원들과만 공유하세요</h5>
+					<h1>공동구매</h1>
+					<h2>함께사는 기쁨</h2>
+					<h5>원하는 물건을 공동구매하여 함께 구매한 인원들과만 공유하세요</h5>
 					<a class="btn btn-primary" href="#" role="button">섹션으로 이동</a>
 				</div>
 			</div>
@@ -65,9 +64,9 @@
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>네번째 슬라이드</h3>
-					<h1>타임쉐어링(가제)</h1>
-					<h2>다양한 주제의 지역 소모임을 만나보세요</h2>
-					<h5>운동,식사,어쩌구 등 다양한 주제의 소모임에서 새로운 인연을 만나보세요</h5>
+					<h1>소모임</h1>
+					<h2>함께하는 즐거움</h2>
+					<h5>다양한 주제의 소모임에서 새로운 이웃을 만나보세요</h5>
 					<a class="btn btn-primary" href="#" role="button">섹션으로 이동</a>
 				</div>
 			</div>
@@ -78,9 +77,9 @@
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>다섯번째 슬라이드</h3>
-					<h1>커뮤니티(가제)</h1>
-					<h2>다양한 후기, 즐거운 모임 영상</h2>
-					<h5>뿌리쉐어에서 만난 소중한 사람과의 즐거운 시간을 공유하세요</h5>
+					<h1>모임후기</h1>
+					<h2>나누는 즐거움</h2>									
+					<h5>다양한 후기, 즐거운 모임 영상을 공유하세요</h5>
 					<a class="btn btn-primary" href="#" role="button">섹션으로 이동</a>
 				</div>
 			</div>
@@ -91,9 +90,9 @@
 				<div class="gradient"></div>
 				<div class="carousel-caption">
 					<h3>여섯번째 슬라이드</h3>
-					<h1>지역정보제공(가제)</h1>
-					<h2>우리 지역,공원은 어디에?</h2>
-					<h5>관공서,공원과 같은 지역 공공시설의 위치를 확인하세요</h5>
+					<h1>지역정보</h1>
+					<h2>함께 바꾸는 불편함</h2>
+					<h5>지역행사, 지역 공공시설의 정보를 확인하고 불편함을 건의하세요</h5>
 					<a class="btn btn-primary" href="#" role="button">섹션으로 이동</a>
 				</div>
 			</div>
