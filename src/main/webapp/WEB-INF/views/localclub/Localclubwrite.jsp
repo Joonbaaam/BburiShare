@@ -42,6 +42,62 @@ display: none;
 }
 
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
 </style>
 
 
@@ -133,39 +189,8 @@ display: none;
 								alt="" style="height: 450px">
 								
 								
-								<div class="" style="margin: 10px 0px 0px 34px;text-align: left; position: absolute;">
-								<div class="container">
-								   <!-- Button to Open the Modal -->
-								  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="mapbutton">
-								    길찾기
-								  </button>
+								<div class="" style="margin: 10px 0px 0px 34px;text-align: center; position: absolute;">
 								
-								  <!-- The Modal -->
-								  <div class="modal" id="myModal">
-								    <div class="modal-dialog">
-								      <div class="modal-content">
-								      
-								        <!-- Modal Header -->
-								        <div class="modal-header">
-								          <h4 class="modal-title">Modal Heading</h4>
-								          <button type="button" class="close" data-dismiss="modal">&times;</button>
-								        </div>
-								        
-								        <!-- Modal body -->
-								        <div class="modal-body">
-								          Modal body..
-								        </div>
-								        
-								        <!-- Modal footer -->
-								        <div class="modal-footer">
-								          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-								        </div>
-								        
-								      </div>
-								    </div>
-								  </div>
-								  
-								</div>
 							</div>
 								
 								
@@ -179,7 +204,7 @@ display: none;
 						<div class=""">
 						<table width="75%"  cellspacing="1" style="margin: 0px auto;"> 
                        <tr bgcolor="white"  >
-                        <td width="30%" align="center" colspan="2" style="text-align: left;">모집 중</td>
+                        <td width="30%" align="center" colspan="2" style="text-align: left;">작성 중</td>
                         
                        </tr>
                           <tr bgcolor="white" >
@@ -200,58 +225,63 @@ display: none;
                                        
                       </table> 
 							
-							<div class="" style="margin: 10px 0px 0px 34px;text-align: left;">
-								
-							</div>
+						
 						</div>
 					</div>
 				
 					
 				</div>
-				<div class="row">
 				
-				
-					<div class="container" style="text-align: left;margin-left: 20px">
-					  
-					  <button type="button" class="btn btn-default" style="background: white;">
-					    조회수 <span class="badge badge-light">4</span>
-					  </button>
-					  <button type="button" class="btn btn-default">
-					    좋아요 <span class="badge badge-light">7</span>
-					  </button>
-					  <button type="button" class="btn btn-default">
-					    댓글수 <span class="badge badge-light">7</span>
-					  </button>
-					  
-					</div>
-				
-				
-				
-				</div>
 				<div>
-				<div class="container">
-        
-			  <table class="table table-hover">
-			    <tbody>
-			      <tr>
-			        <td>카테고리</td>
-			        <td>운동</td>
-			      </tr>
-			      <tr>
-			        <td>기한</td>
-			        <td>10.25</td>
-			      </tr>
-			      <tr>
-			        <td>제목</td>
-			        <td>가나다라마바사아자</td>
-			      </tr>
-			      <tr>
-			        <td>장소/시간</td>
-			        <td>가산시 가산동 가산리 1234 19시</td>
-			      </tr>
-			    </tbody>
-			  </table>
+				
+				
+				<div class="container" style="text-align: left;">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-10">
+        <label for="fname">기한</label>
+      </div>
+      <div class="col-40">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+       <div class="col-10">
+        <label for="lname">날짜</label>
+      </div>
+      <div class="col-40">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+     
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
 </div>
+				
+				
+				
 				
 				</div>
 				<!-- /.row -->

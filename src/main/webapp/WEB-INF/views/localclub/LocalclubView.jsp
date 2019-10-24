@@ -206,7 +206,7 @@ margin-top: 20px
 								src="<c:url value='/resources/images/map2.png'/>"
 								alt=""></a>
 							
-								<p style="margin-top: 5px">제목이다 뭘 보냐?</p>
+								<p style="margin-top: 5px">제목입니다</p>
 							
 						</div>
 					</div>
@@ -223,7 +223,7 @@ margin-top: 20px
 								class="card-img-top"
 								src="<c:url value='/resources/images/map2.png'/>"
 								alt=""></a>
-								<p style="margin-top: 5px">제목이다 뭘 보냐?</p>
+								<p style="margin-top: 5px">제목입니다</p>
 							
 						</div>
 					</div>
@@ -240,7 +240,7 @@ margin-top: 20px
 								class="card-img-top"
 								src="<c:url value='/resources/images/map2.png'/>"
 								alt=""></a>
-								<p style="margin-top: 5px">제목이다 뭘 보냐?</p>
+								<p style="margin-top: 5px">제목입니다</p>
 						</div>
 					</div>
 					<!-- content -->
@@ -256,7 +256,7 @@ margin-top: 20px
 								class="card-img-top"
 								src="<c:url value='/resources/images/map2.png'/>"
 								alt=""></a>
-								<p style="margin-top: 5px">제목이다 뭘 보냐?</p>
+								<p style="margin-top: 5px">제목입니다</p>
 						</div>
 					</div>
 					<!-- content -->
@@ -273,7 +273,7 @@ margin-top: 20px
 								class="card-img-top"
 								src="<c:url value='/resources/images/map2.png'/>"
 								alt=""></a>
-								<p style="margin-top: 5px">제목이다 뭘 보냐?</p>
+								<p style="margin-top: 5px">제목입니다</p>
 							
 						</div>
 					</div>
@@ -290,12 +290,17 @@ margin-top: 20px
 								class="card-img-top"
 								src="<c:url value='/resources/images/map2.png'/>"
 								alt=""></a>
-								<p style="margin-top: 5px">제목이다 뭘 보냐?</p>
+								<p style="margin-top: 5px">제목입니다</p>
 						</div>
 					</div>
 					<!-- content -->
 				
 					
+				</div>
+				
+				<div style="text-align: right;width: 100%;margin-right: 20px">
+					<a class="btn btn-primary" href="<c:url value='/BburiShare/localclub/Localclubwrite.bbs'/>">🖉&nbsp;글쓰기</a>
+				
 				</div>
 				
 				<!-- /.row -->

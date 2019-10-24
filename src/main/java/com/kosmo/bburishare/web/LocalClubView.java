@@ -21,6 +21,15 @@ public class LocalClubView {
 	}
 	
 	
+	
+	// 쉐어링 상세페이지로 이동]
+	@RequestMapping(value = "/BburiShare/localclub/Localclubwrite.bbs", method = RequestMethod.GET)
+	public String sharingwrite() {
+		// 뷰정보 반환]
+		return "localclub/Localclubwrite.tiles";
+	}
+	
+	
 
 	
 
