@@ -25,10 +25,10 @@
 		<div class="col-md-6">
 			<img src="<c:url value='/resources/images/ProductView/video.JPG'/>">	
 			<!-- 그래프 -->
-			<div class="pv-graph col-md-6" id="donut_example">
+			<div class="pv-graph col-md-5" id="donut_example">
 				참여자 연령분포	
 			</div>
-			<div class="right-info col-md-6">
+			<div class="right-info col-md-7">
 				<p><strong>100,200,300</strong>원 달성</p>
 				<p><strong>13일 남음</strong></p>
 				<p>2019.12.12 15:00 마감</p>

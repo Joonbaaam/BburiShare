@@ -26,45 +26,61 @@
     <link rel="stylesheet" type="text/css" href="<c:url value='/resources/css/slick.css'/>"/>
     <link rel="stylesheet" type="text/css" href="<c:url value='/resources/css/slick-theme.css'/>"/>
 
-<header class="banner">
+<!-- <header class="banner">
 	<div class="gradient"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 heading">
-				<h1 data-aos="fade-right" data-aos-delay="300"><!-- 공동구매 메인페이지 --></h1>				
+				<h1 data-aos="fade-right" data-aos-delay="300">공동구매 메인페이지</h1>				
 				
 			</div>
 		</div>
 	</div>
-</header>
+</header> -->
 
-<div>
 
 <div class="container">
 	<!-- 캐러셀 -->
 	<div class="crs-responsive">
 		<div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/adds.png'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/adds.png'/>">
+			</a>
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/bmw.png'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/bmw.png'/>">
+			</a>
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/ea.png'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/ea.png'/>">
+			</a>
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/cpcs.png'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/cpcs.png'/>">
+			</a>	    
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/nike.png'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/nike.png'/>">
+			</a>	    
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/rok.jpg'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/rok.jpg'/>">
+			</a>	    
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/stbs.jpg'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/stab.jpg'/>">
+			</a>	    
 	    </div>
 	</div>
+ </div>
+ <!-- /.container -->
+	
 
 
 <!-- fullcalendar -->
@@ -226,11 +242,9 @@
         </div>
         <!-- /.filter panel -->
      </div>
- </div>
- <!-- /.container -->
 
 <section id="portfolio">
-   <div class="container">
+<div class="offset-md-2 col-md-8">
       <div class="row justify-content-center">
           <div class="col-md-12">
               <div class="row" data-aos="fade-right" data-aos-duration="800">
@@ -323,9 +337,8 @@
           <button type="button" class="btn btn-secondary">load more</button>
       </div>
       
-   </div><!--portfolio container -->
-   
-</section>
+</div>
+</section><!-- portfolio -->
 	
     <script src="<c:url value='/resources/js/jquery.min.js'/>"></script>
     <script src="<c:url value='/resources/js/bootstrap.min.js'/>"></script>
@@ -397,4 +410,3 @@
 		});
   	</script>
   	
-</div>

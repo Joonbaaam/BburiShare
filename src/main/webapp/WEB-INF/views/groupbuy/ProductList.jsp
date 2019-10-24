@@ -25,25 +25,39 @@
 	<!-- 캐러셀 -->
 	<div class="crs-responsive">
 		<div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/adds.png'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/adds.png'/>">
+			</a>
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/bmw.png'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/bmw.png'/>">
+			</a>
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/ea.png'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/ea.png'/>">
+			</a>
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/cpcs.png'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/cpcs.png'/>">
+			</a>	    
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/nike.png'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/nike.png'/>">
+			</a>	    
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/rok.jpg'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/rok.jpg'/>">
+			</a>	    
 	    </div>
 	    <div class="fc-div">
-	      <img src="<c:url value='/resources/images/crs/stbs.jpg'/>">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/stab.jpg'/>">
+			</a>	    
 	    </div>
 	</div>
 </div><!-- container -->

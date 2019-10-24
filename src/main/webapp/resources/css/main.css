@@ -4135,7 +4135,7 @@ select.filter {
 
 /* fullcalendar */
 
-/* f*ckin' carousel */
+/* f*ckin' carousel 캐러셀 */
 .crs-responsive {
 	margin: 15px;
 }
@@ -4147,7 +4147,7 @@ select.filter {
 	/* border:1px solid lightgray; */
 }
 
-.crs-responsive .fc-div > img {
+.crs-responsive .fc-div img {
   top: 0;
   left: 0;
   min-width: 50%;
@@ -4197,7 +4197,7 @@ ProductView */
 	font-size: 1.3em;
 	padding : 5px 0px 0px 0px;
 	text-align: center;
-	height:250px;
+	height:200px;
 	float: left;
 }
 
@@ -4209,7 +4209,7 @@ ProductView */
 } */
 
 .right-info{
-	font-size: 1.1em;
+	font-size: 1.7em;
 	padding: 20px 0px 0px 0px;
 	width:auto;
 	height: 250px;
