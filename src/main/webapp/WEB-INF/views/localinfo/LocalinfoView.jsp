@@ -3,19 +3,48 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page session="false"%>
 
+<style>
+#infoviewDiv {
+	text-align: center;
+}
+
+#infoviewComment {
+	text-align: left;
+	font-size: 14px;
+}
+
+#infoviewTime {
+	padding-left: 20px;
+	text-align: left;
+}
+
+#infoviewId {
+	padding-right:20px;
+	text-align: right;
+}
+#jyTitle{
+	margin-top:20px;
+}
+</style>
+
 <!-- 컨테이너 -->
 <div class="container" id="infoviewDiv">
 	<!-- 컬럼 -->
 	<div class="col-md-12 ">
 		<!-- Title -->
 		<h1 id="jyTitle">Title</h1>
-		<hr>
-		<!-- 작성시간 -->
-		<p id="infoviewTime">Posted on January 1, 2019 at 12:00 PM</p>
+		<!-- 작성시간/아이디 -->
+		<div class="row">
+			<div class="col-md-6" id="infoviewTime">작성시간</div>
+			<div class="col-md-6" id="infoviewId">아이디</div>
+		</div>
 
+
+		<!-- <span id="infoviewTime">Posted on January 1, 2019 at 12:00 PM</span> <span
+			id="infoviewId">아이디</span> -->
 		<hr>
 		<!-- 이미지 -->
-		<img src="http://placehold.it/600x750" alt="" id=>
+		<img src="http://placehold.it/400x500" alt="" id=>
 		<hr>
 
 		<!-- 내용 -->
