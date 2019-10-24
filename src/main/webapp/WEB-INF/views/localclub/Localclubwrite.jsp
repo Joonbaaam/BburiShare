@@ -3,6 +3,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page session="false"%>
 <style>
+
+#jyCarousel div div div.carousel-caption {
+	margin-bottom: 80px;
+	color: #2c4945;
+}
 #jyContainer {
 	text-align: center
 }
@@ -25,9 +30,7 @@
 	margin-top: 95px;
 }
 
-#jyCarousel {
-	margin-top: 10px
-}
+
 
 #jyCard {
 	margin: 20px;
@@ -37,10 +40,55 @@ div.panel-body ul p a{
 	font-size:14px;
 }
 
-#mapbutton{
-display: none;
+
+
+input[type=text], select, textarea, #fname {
+  width: 100%;
+  padding: 12px;
+  
+  border-radius: 4px;
+  resize: vertical;
 }
 
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.col-15 {
+  float: left;
+  width: 10%;
+  
+}
+
+.col-85 {
+  float: left;
+  width: 90%;
+}
+
+.profiltable tr td{
+	margin-top: 100px;
+}
+
+#infoviewComment {
+	text-align: left;
+	font-size: 14px;
+}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -70,31 +118,28 @@ input[type=submit]:hover {
 }
 
 
+
+
 .col-25 {
   float: left;
   width: 25%;
-  margin-top: 6px;
+  
+  
 }
 
 .col-75 {
   float: left;
   width: 75%;
-  margin-top: 6px;
+  
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.profiltable tr td{
+	margin-top: 100px;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
+#infoviewComment {
+	text-align: left;
+	font-size: 14px;
 }
 
 
@@ -107,25 +152,32 @@ input[type=submit]:hover {
 <!-- container -->
 <div class="container" id="jyContainer">
 	<!-- jyCarousel -->
-	<!-- data-interval="false"카르셀 멈춤 -->
+	<!-- jyCarousel -->
 	<div id="jyCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#jyCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#jyCarousel" data-slide-to="1"></li>
-			<li data-target="#jyCarousel" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner" role="listbox">
 			<div class="carousel-item active">
-				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
+				<img class="d-block img-fluid"
+					src="<c:url value='/resources/images/jyimages/infomain_banner_02.jpg'/>"
 					alt="First slide">
+				<div class="gradient"></div>
+				<div class="carousel-caption">
+					<h1>소모임</h1>
+					<h3>혼자 놀기 심심한데 누가 없을까?</h3>
+				</div>
 			</div>
 			<div class="carousel-item">
-				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
+				<img class="d-block img-fluid"
+					src="<c:url value='/resources/images/jyimages/infomain_banner_02.jpg'/>"
 					alt="Second slide">
-			</div>
-			<div class="carousel-item">
-				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
-					alt="Third slide">
+				<div class="gradient"></div>
+				<div class="carousel-caption">
+					<h1>소모임</h1>
+					<h3>혼자 놀기 심심한데 누가 없을까?</h3>
+				</div>
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators"
@@ -138,43 +190,37 @@ input[type=submit]:hover {
 			class="sr-only">Next</span>
 		</a>
 	</div>
-	<!-- jyCarousel -->
+	
 	<!-- jyContnet -->
 	<div id="jyContent">
 		<div class="row">
-			<div class="col-lg-2" id="jySidebar">
-				<div class="panel-group" id="accordion" role="tablist"
-					aria-multiselectable="true">
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="headingOne">
-							<p class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion"
-									href="#collapseOne" aria-expanded="true"
-									aria-controls="collapseOne">
-									<h5>전체메뉴</h5>
-								</a>
-							</p>
-						</div>
-						<div id="collapseOne" class="panel-collapse collapse in"
-							role="tabpanel" aria-labelledby="headingOne">
-							<div class="panel-body">
+			<div class="col-lg-2" id="jySidebar"><!-- 왼쪽메뉴 시작 -->
+				
+				<div class="card my-4">
+					<h5 class="card-header">전체메뉴</h5>
+					<div class="card-body">
+						<div class="row">
+							<div class="container">
 								<ul>
 									<p>
-										<a href="#">카테고리</a>
+										<a
+											href="<c:url value='/BburiShare/LocalClub/LocalClubMain.bbs'/>">카테고리</a>
 									</p>
 									<p>
-										<a href="#">예약된 일정</a>
+										<a
+											href="<c:url value='/BburiShare/LocalClub/LocalClubMain.bbs'/>">추천모임</a>
 									</p>
 									<p>
-										<a href="#">추천/신규 모임</a>
+										<a
+											href="<c:url value='/BburiShare/localclub/LocalclubView.bbs'/>">목록가기</a>
 									</p>
+
 								</ul>
 							</div>
 						</div>
 					</div>
-					
 				</div>
-			</div>
+			</div><!-- 왼쪽 메뉴 -->
 			<!-- /.col-lg-3 -->
 			<div class="col-lg-10">
 				<div>
@@ -183,14 +229,45 @@ input[type=submit]:hover {
 				<div class="row">
 					<!-- content -->
 					<div class="col-lg-8 col-md-6 mb-4">
-						<div class="card h-600" id="jyCard" style="position: relative;">
+						<div class="card h-600" id="jyCard" style="position: relative;border-radius: 5px;">
 							<img class="card-img-top"
-								src="<c:url value='/resources/images/map2.png'/>"
-								alt="" style="height: 450px">
+								src=""
+								alt="" style="height: 402px;">
 								
 								
-								<div class="" style="margin: 10px 0px 0px 34px;text-align: center; position: absolute;">
+								<div class="" style="top: 50%;left: 50%;transform: translate(-50%, -50%); position: absolute;">
+								<div class="container">
+								   <!-- Button to Open the Modal -->
+								  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" id="mapbutton">
+								    주소 입력하기
+								  </button>
 								
+								  <!-- The Modal -->
+								  <div class="modal" id="myModal">
+								    <div class="modal-dialog">
+								      <div class="modal-content">
+								      
+								        <!-- Modal Header -->
+								        <div class="modal-header">
+								          <h4 class="modal-title">길찾기</h4>
+								          <button type="button" class="close" data-dismiss="modal">&times;</button>
+								        </div>
+								        
+								        <!-- Modal body -->
+								        <div class="modal-body">
+								          	지도 길찾기 이용
+								        </div>
+								        
+								        <!-- Modal footer -->
+								        <div class="modal-footer">
+								          <button type="button" class="btn btn-danger" data-dismiss="modal">닫기</button>
+								        </div>
+								        
+								      </div>
+								    </div>
+								  </div>
+								  
+								</div>
 							</div>
 								
 								
@@ -200,90 +277,143 @@ input[type=submit]:hover {
 					</div>
 					<!-- content -->
 					<!-- content -->
-					<div class="col-lg-4 col-md-6 mb-4" style="margin: 10px 0px;">
-						<div class=""">
+					<div class="col-lg-4 col-md-6 mb-4" >
+						<div class="profiltable" >
 						<table width="75%"  cellspacing="1" style="margin: 0px auto;"> 
+						
+						
                        <tr bgcolor="white"  >
-                        <td width="30%" align="center" colspan="2" style="text-align: left;">작성 중</td>
+                        <td width="30%" align="center" colspan="2" style="text-align: left;">모집 중</td>
                         
                        </tr>
                           <tr bgcolor="white" >
                         <td width="30%" align="center" style="text-align: left;">작성일</td>
                         <td >19.10.22</td>
                        </tr> 
+                            <tr bgcolor="white" >
+                        <td width="30%" align="center" colspan="2">&nbsp;</td>
+                  
+                       </tr>
                        <tr bgcolor="white">
                         <td width="60%" align="center" colspan="2"><img class="card-img-top"
-								src="<c:url value='/resources/images/person.PNG'/>"
-								alt="" style="height: 300px"></td>
+								src="<c:url value='/resources/images/leader.PNG'/>"
+								alt="" style="height: 290px"></td>
                         
                        </tr>             
                        <tr bgcolor="white" >
-                        <td width="30%" align="center" colspan="2">프로필</td>
+                        <td width="30%" align="center" colspan="2">닉네임</td>
                   
                        </tr>
                       
                                        
                       </table> 
 							
-						
+							<div class="" style="margin: 10px 0px 0px 34px;text-align: left;">
+								
+							</div>
 						</div>
 					</div>
 				
 					
 				</div>
 				
+			
+				
+				
 				<div>
-				
-				
-				<div class="container" style="text-align: left;">
-  <form action="/action_page.php">
-    <div class="row">
-      <div class="col-10">
-        <label for="fname">기한</label>
-      </div>
-      <div class="col-40">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      </div>
-       <div class="col-10">
-        <label for="lname">날짜</label>
-      </div>
-      <div class="col-40">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      </div>
-    </div>
-    <div class="row">
-     
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="country">Country</label>
-      </div>
-      <div class="col-75">
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Subject</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      </div>
-    </div>
-    <div class="row">
-      <input type="submit" value="Submit">
-    </div>
-  </form>
-</div>
-				
-				
-				
+					<div class="jscontainer">
+					  <form action="/action_page.php">
+					   <div class="row">
+					      <div class="col-25">
+					        <label for="country">카테고리</label>
+					      </div>
+					      <div class="col-75">
+					        <select id="country" name="country">
+					        <option value="australia">카테고리 선택</option>
+					          <option value="australia">운동</option>
+					          <option value="canada">식사</option>
+					          <option value="usa">영화</option>
+					        </select>
+					      </div>
+					    </div>
+					     <div class="row">
+					      <div class="col-25">
+					        <label for="country">날짜</label>
+					      </div>
+					      <div class="col-75">
+					        <select id="country" name="country">
+					        <option value="australia">날짜 선택</option>
+					          <option value="australia">오늘</option>
+					          <option value="canada">내일</option>
+					          <option value="usa">모레</option>
+					        </select>
+					      </div>
+					    </div>
+					     <div class="row">
+					      <div class="col-25">
+					        <label for="country">지역</label>
+					      </div>
+					      <div class="col-75">
+					        <select id="country" name="country">
+					        <option value="australia">지역 선택</option>
+					          <option value="australia">강남</option>
+					          <option value="canada">역삼</option>
+					          <option value="usa">삼성</option>
+					        </select>
+					      </div>
+					    </div>
+					     <div class="row">
+					      <div class="col-25">
+					        <label for="country">인원</label>
+					      </div>
+					      <div class="col-75">
+					        <select id="country" name="country">
+					        <option value="australia">인원 선택</option>
+					          <option value="australia">1명</option>
+					          <option value="canada">2명</option>
+					          <option value="usa">기타</option>
+					        </select>
+					      </div>
+					    </div>
+					    <div class="row">
+					      <div class="col-25">
+					        <label for="fname">제목</label>
+					      </div>
+					      <div class="col-75">
+					        <input type="text" id="fname" name="firstname" placeholder="제목을 입력해주세요..">
+					      </div>
+					    </div>
+					    <div class="row">
+					      <div class="col-25">
+					        <label for="lname">장소/시간</label>
+					      </div>
+					      <div class="col-75">
+					        <input type="text" id="lname" name="lastname" placeholder="장소/시간을 입력해주세요..">
+					      </div>
+					    </div>
+					   
+					    <div class="row">
+					      <div class="col-25">
+					        <label for="subject">내용</label>
+					      </div>
+					      <div class="col-75">
+					        <textarea id="subject" name="subject" placeholder="내용을 입력해주세요.." style="height:200px"></textarea>
+					      </div>
+					    </div>
+					    <div class="row" style="float: right;">
+					    
+						    
+						     <input type="submit" value="신청하기">&nbsp;&nbsp;<input type="submit" value="목록가기">
+						    
+					    </div>
+					  </form>
+					</div>
+			
+		
 				
 				</div>
+				
+				
 				<!-- /.row -->
 			</div>
 			<!-- /.col-lg-9 -->
@@ -295,12 +425,12 @@ input[type=submit]:hover {
 <!-- #jyContainer -->
 
 <script>
-
+/* 
 $('.card-img-top').hover(function(){
 	if($('#mapbutton').css('display')=="none")
 		$('#mapbutton').show();	
 	else
 		$('#mapbutton').hide();	
-})
+}) */
 
 </script>

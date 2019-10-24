@@ -3,8 +3,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page session="false"%>
 <style>
-#jyContainer {
-	text-align: center
+
+
+#jyCarousel div div div.carousel-caption {
+	margin-bottom: 80px;
+	color: #2c4945;
 }
 
 #jyMonth {
@@ -25,9 +28,7 @@
 	margin-top: 95px;
 }
 
-#jyCarousel {
-	margin-top: 10px
-}
+
 
 #jyCard {
 	margin: 20px;
@@ -42,6 +43,20 @@ width: 150px;
 height: 150px;
 
 }
+
+div.carousel-caption h1{
+	font-family:TmonMonsori;
+}
+div.carousel-caption h3{
+	padding-top:20px;
+}
+
+.card-img-top{
+	width: 50%;
+	height: 50%;
+	margin-top: 5px
+}
+
 </style>
 <!-- container -->
 <div class="container" id="jyContainer">
@@ -51,20 +66,27 @@ height: 150px;
 		<ol class="carousel-indicators">
 			<li data-target="#jyCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#jyCarousel" data-slide-to="1"></li>
-			<li data-target="#jyCarousel" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner" role="listbox">
 			<div class="carousel-item active">
-				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
+				<img class="d-block img-fluid"
+					src="<c:url value='/resources/images/jyimages/infomain_banner_02.jpg'/>"
 					alt="First slide">
+				<div class="gradient"></div>
+				<div class="carousel-caption">
+					<h1>소모임</h1>
+					<h3>혼자 놀기 심심한데 누가 없을까?</h3>
+				</div>
 			</div>
 			<div class="carousel-item">
-				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
+				<img class="d-block img-fluid"
+					src="<c:url value='/resources/images/jyimages/infomain_banner_02.jpg'/>"
 					alt="Second slide">
-			</div>
-			<div class="carousel-item">
-				<img class="d-block img-fluid" src="http://placehold.it/1200x300"
-					alt="Third slide">
+				<div class="gradient"></div>
+				<div class="carousel-caption">
+					<h1>소모임</h1>
+					<h3>혼자 놀기 심심한데 누가 없을까?</h3>
+				</div>
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators"
@@ -82,40 +104,31 @@ height: 150px;
 	
 	<!-- jyContnet -->
 	<div id="jyContent">
-		<div class="row">
-			<div class="col-lg-2" id="jySidebar">
-				<div class="panel-group" id="accordion" role="tablist"
-					aria-multiselectable="true">
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="headingOne">
-							<p class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion"
-									href="#collapseOne" aria-expanded="true"
-									aria-controls="collapseOne">
-									<h5>전체메뉴</h5>
-								</a>
-							</p>
-						</div>
-						<div id="collapseOne" class="panel-collapse collapse in"
-							role="tabpanel" aria-labelledby="headingOne">
-							<div class="panel-body">
+		<div class="row" style="text-align: center;">
+			<div class="col-lg-2" id="jySidebar"><!-- 왼쪽메뉴 시작 -->
+				
+				<div class="card my-4">
+					<h5 class="card-header">전체메뉴</h5>
+					<div class="card-body">
+						<div class="row">
+							<div class="container">
 								<ul>
 									<p>
-										<a href="#">카테고리</a>
+										<a
+											href="<c:url value='/BburiShare/LocalClub/LocalClubMain.bbs'/>">카테고리</a>
 									</p>
 									<p>
-										<a href="#">예약된 일정</a>
+										<a
+											href="<c:url value='/BburiShare/LocalClub/LocalClubMain.bbs'/>">추천모임</a>
 									</p>
-									<p>
-										<a href="#">추천/신규 모임</a>
-									</p>
+
 								</ul>
 							</div>
 						</div>
 					</div>
-					
 				</div>
-			</div>
+			</div><!-- 왼쪽 메뉴 -->
+			
 			<!-- /.col-lg-3 -->
 			<div class="col-lg-10">
 				<div>
@@ -146,7 +159,7 @@ height: 150px;
 							
 						</div>
 						<div class="" style="margin: 10px 20px 0px 0px; text-align:center;">
-								<h5>게임</h5>
+								<h5><a href="<c:url value='/BburiShare/localclub/LocalclubView.bbs'/>">게임 </a></h5>
 								
 							</div>
 					</div>
@@ -161,7 +174,7 @@ height: 150px;
 							
 						</div>
 						<div class="" style="margin: 10px 20px 0px 0px; text-align:center;">
-								<h5>영화</h5>
+								<h5><a href="<c:url value='/BburiShare/localclub/LocalclubView.bbs'/>">영화 </a></h5>
 								
 							</div>
 					</div>
@@ -176,7 +189,7 @@ height: 150px;
 							
 						</div>
 						<div class="" style="margin: 10px 20px 0px 0px; text-align:center;">
-								<h5>공부</h5>
+								<h5><a href="<c:url value='/BburiShare/localclub/LocalclubView.bbs'/>">공부 </a></h5>
 								
 							</div>
 					</div>
@@ -191,7 +204,7 @@ height: 150px;
 							
 						</div>
 						<div class="" style="margin: 10px 20px 0px 0px; text-align:center;">
-								<h5>자원봉사</h5>
+								<h5><a href="<c:url value='/BburiShare/localclub/LocalclubView.bbs'/>">자원봉사 </a></h5>
 								
 							</div>
 					</div>
@@ -206,7 +219,7 @@ height: 150px;
 							
 						</div>
 						<div class="" style="margin: 10px 20px 0px 0px; text-align:center;">
-								<h5>식사</h5>
+								<h5><a href="<c:url value='/BburiShare/localclub/LocalclubView.bbs'/>">식사 </a></h5>
 								
 							</div>
 					</div>
@@ -215,8 +228,11 @@ height: 150px;
 					
 				</div>
 				<div class="row">
+				<p></p>
+				<p></p>
+				<p></p>
 				
-				
+					
 				
 				</div>
 				<!-- /.row -->
