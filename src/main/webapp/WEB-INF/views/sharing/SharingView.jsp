@@ -23,7 +23,7 @@
 					</div>
 					<div class="view-article">
 						<div class="view-img">
-							<img src="<c:url value='/resources/images/blog-1.jpg'/>"/>
+							<img src="<c:url value='/resources/images/drill1.jpg'/>"/>
 						</div>
 						<div class="view-info">
 							<div class="row">
@@ -38,7 +38,7 @@
 										<td>포인트</td><td>100 P</td>
 									</tr>
 									<tr>
-										<td>대여기간</td><td>최대 7일</td>
+										<td>카테고리</td><td>#생활용품 #공구</td>
 									</tr>
 									<tr>
 										<td>대여 여부</td><td>대여중</td><td><button type="submit" class="btn btn-primary">완료</button></td>
@@ -51,7 +51,7 @@
 							
 						</div>
 						<div class="article-content">
-							<p>것이다. 곧 그들은 길을 끓는다. 철환하였는가 대중을 웅대한 소리다, 물방아 지혜는 얼마나 있는 청춘의 따뜻한 풀이 아름다우냐? 커다란 생생하며. 그들의 같이. 따뜻한 품에 끓는 이상 피어나기 얼마나 그들의 그러므로 교향악이다. 보라. 바이며.
+							<p>것이다. 곧 그들은 길을 끓는다. 대중을 웅대한 소리다, 물방아 지혜는 얼마나 있는 청춘의 따뜻한 풀이 아름다우냐? 커다란 생생하며. 그들의 같이. 따뜻한 품에 끓는 이상 피어나기 얼마나 그들의 그러므로 교향악이다. 보라. 바이며.
 		
 		것이다, 풍부하게 역사를 청춘의 심장은 인간은 사랑의 아름다우냐? 불러 인간의 황금시대를 것은 지혜는 곧 때문이다. 때까지 피가 있으며, 힘차게 긴지라 심장의 못할 사막이다. 대중을 고동을 이상 것이다. 살았으며. 고행을 청춘을 있는 인간에 때문이다. 이 것이다.
 		

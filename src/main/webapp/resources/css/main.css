@@ -3187,10 +3187,15 @@ textarea.form-control {
 	text-align: right;
 }
 
-#sharing #sharing-content form {
-	width: 60%;
-	margin: 0 auto;
-	margin-top: 20px;
+#sharing #sharing-content .container .pagination {
+	width:25%;
+	margin:30px auto;
+}
+
+#sharing #sharing-content .container form {
+	width: 65%;
+	margin: 20px auto;
+	padding-left:125px;
 }
 
 #sharing #sharing-content form .form-group {
@@ -3198,7 +3203,7 @@ textarea.form-control {
 }
 
 #sharing #sharing-content form .form-group input {
-	width: 300px;
+	width: 200px;
 }
 
 #sharing #sharing-view {
@@ -3224,12 +3229,12 @@ textarea.form-control {
 	padding-left: 5px;
 }
 
-#sharing #sharing-view .view-info tr>td:not (:nth-child(2) ) {
-	column-width: 100px;
+#sharing #sharing-view .view-info tr>td:not(:nth-child(2) ) {
+	column-width: 150px;
 }
 
 #sharing #sharing-view .view-info tr>td:nth-child(2) {
-	column-width: 150px;
+	column-width: 200px;
 }
 
 #sharing #sharing-view .view-info tr:nth-child(3) {

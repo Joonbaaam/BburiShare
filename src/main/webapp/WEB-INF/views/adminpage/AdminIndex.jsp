@@ -17,12 +17,12 @@
             <div class="row">
 	            <div class="col-md-8 col-sm-8 mb">
 		            <div class="border-head">
-		              <h3>USER VISITS</h3>
+		              <h3>방문자 수</h3>
 		            </div>
 		            <div align="right">
-		            	<button id="annual">annual</button>
-		            	<button id="monthly">monthly</button>
-		            	<button id="daily">daily</button>
+		            	<button id="monthly">월간</button>
+		            	<button id="annual">주간</button>
+		            	<button id="daily">일간</button>
 		            </div>
 		            <div class="custom-bar-chart" id="monthlyChart">
 		              <ul class="y-axis">
@@ -34,31 +34,31 @@
 		                <li><span>0</span></li>
 		              </ul>
 		              <div class="bar">
-		                <div class="title">JAN</div>
+		                <div class="title">1월</div>
 		                <div class="value tooltips" data-original-title="8.500" data-toggle="tooltip" data-placement="top">85%</div>
 		              </div>
 		              <div class="bar ">
-		                <div class="title">FEB</div>
+		                <div class="title">2월</div>
 		                <div class="value tooltips" data-original-title="5.000" data-toggle="tooltip" data-placement="top">50%</div>
 		              </div>
 		              <div class="bar ">
-		                <div class="title">MAR</div>
+		                <div class="title">3월</div>
 		                <div class="value tooltips" data-original-title="6.000" data-toggle="tooltip" data-placement="top">60%</div>
 		              </div>
 		              <div class="bar ">
-		                <div class="title">APR</div>
+		                <div class="title">4월</div>
 		                <div class="value tooltips" data-original-title="4.500" data-toggle="tooltip" data-placement="top">45%</div>
 		              </div>
 		              <div class="bar">
-		                <div class="title">MAY</div>
+		                <div class="title">5월</div>
 		                <div class="value tooltips" data-original-title="3.200" data-toggle="tooltip" data-placement="top">32%</div>
 		              </div>
 		              <div class="bar ">
-		                <div class="title">JUN</div>
+		                <div class="title">6월</div>
 		                <div class="value tooltips" data-original-title="6.200" data-toggle="tooltip" data-placement="top">62%</div>
 		              </div>
 		              <div class="bar">
-		                <div class="title">JUL</div>
+		                <div class="title">7월</div>
 		                <div class="value tooltips" data-original-title="7.500" data-toggle="tooltip" data-placement="top">75%</div>
 		              </div>
 		            </div>
@@ -72,7 +72,7 @@
 		                <li><span>0</span></li>
 		              </ul>
 		              <div class="bar">
-		                <div class="title">01</div>
+		                <div class="title"></div>
 		                <div class="value tooltips" data-original-title="6.500" data-toggle="tooltip" data-placement="top">65%</div>
 		              </div>
 		              <div class="bar ">
@@ -142,7 +142,7 @@
             <div class="col-md-4 col-sm-4 mb" >
             	<div class="twitter-panel pn">
 	            	<div class="twitter-header">
-	            		<h5>TEST</h5>
+	            		<h5>블랙리스트 목록</h5>
 	            	</div>
 	            	<div class="twitter-content" align="left" style="margin: 10px;padding: 10px">
 	                  <p><img src="<c:url value='/resources/adminlib/img/ui-zac.jpg'/>" class="img-circle" width="50">&nbsp;&nbsp;다람쥐 헌 쳇바퀴에 타고파</p>
@@ -162,7 +162,7 @@
               <div class="col-md-4 col-sm-4 mb">
                 <div class="grey-panel pn donut-chart">
                   <div class="grey-header">
-                    <h5>SERVER LOAD</h5>
+                    <h5>인기 글 목록</h5>
                   </div>
                   <div class="grey-content" align="left" style="margin: 10px;padding: 10px">
 	                  <p><img src="<c:url value='/resources/adminlib/img/ui-zac.jpg'/>" class="img-circle" width="50">&nbsp;&nbsp;다람쥐 헌 쳇바퀴에 타고파</p>
@@ -178,7 +178,7 @@
               <div class="col-md-4 col-sm-4 mb">
                 <div class="darkblue-panel pn">
                   <div class="darkblue-header">
-                    <h5>DROPBOX STATICS</h5>
+                    <h5>우수회원 목록</h5>
                   </div>
                   <div class="darkblue-content" align="left" style="margin: 10px;padding: 10px">
 	                  <p><img src="<c:url value='/resources/adminlib/img/ui-zac.jpg'/>" class="img-circle" width="50">&nbsp;&nbsp;다람쥐 헌 쳇바퀴에 타고파</p>
@@ -194,7 +194,7 @@
                 <!-- REVENUE PANEL -->
                 <div class="green-panel pn">
                   <div class="green-header">
-                    <h5>REVENUE</h5>
+                    <h5>기프티콘 교환 선호 업체 목록</h5>
                   </div>
                   <div class="green-content" align="left" style="margin: 10px;padding: 10px">
 	                  <p><img src="<c:url value='/resources/adminlib/img/ui-zac.jpg'/>" class="img-circle" width="50">&nbsp;&nbsp;다람쥐 헌 쳇바퀴에 타고파</p>
@@ -219,7 +219,7 @@
             
             
             <!-- RECENT ACTIVITIES SECTION -->
-            <h4 class="centered mt">RECENT ACTIVITY</h4>
+            <h4 class="centered mt">최근 문의사항</h4>
             <!-- First Activity -->
             <div class="desc">
               <div class="thumb">
