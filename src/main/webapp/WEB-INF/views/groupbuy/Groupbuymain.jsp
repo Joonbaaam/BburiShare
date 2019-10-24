@@ -4,7 +4,6 @@
 <%@ page session="false"%>
 
 	<!-- fullcalendar -->
-    <%-- <link rel=" shortcut icon" href="<c:url value='/resources/image/favicon.ico'/>"> --%>
     <link rel="stylesheet" href="<c:url value='/resources/css/fullcalendar.min.css'/>" />
     <!-- 충돌 발생하는 css -->
     <%-- <link rel="stylesheet" href="<c:url value='/resources/css/bootstrap.min.css'/>"> --%>
@@ -74,7 +73,7 @@
 	    </div>
 	    <div class="fc-div">
 			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
-			<img src="<c:url value='/resources/images/crs/stab.jpg'/>">
+			<img src="<c:url value='/resources/images/crs/stbs.jpg'/>">
 			</a>	    
 	    </div>
 	</div>
@@ -84,18 +83,19 @@
 
 
 <!-- fullcalendar -->
-	<div class="offset-md-2 col-md-8">
+<div class="container">
+	<div class="">
 		<!-- 물품 버튼 -->
 		<div class="row">
 			<div class="col-md-2">
 				<a class="btn btn-success btn-lg" href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">물품 목록</a>	
 			</div>
-			<div class="offset-md-8 col-md-2">
+			<div class="prdtbtn offset-md-8 col-md-2">
 				<a class="btn btn-success btn-lg" href="<c:url value='/BburiShare/GroupBuy/AddProduct.bbs'/>">물품 등록</a>
 			</div>
 		</div>
 		
-        <!-- 일자 클릭시 메뉴오픈 -->
+<!--         일자 클릭시 메뉴오픈
         <div id="fc-contextMenu" class="fc-dropdown clearfix">
             <ul class="fc-dropdown-menu fc-dropNewEvent" role="menu" aria-labelledby="dropdownMenu"
                 style="display:block; /* position:static; */ margin-bottom:5px;">
@@ -106,7 +106,7 @@
                 <li class="divider"></li>
                 <li><a tabindex="-1" href="#" data-role="close">Close</a></li>
             </ul>
-        </div>
+        </div> -->
 
         <div id="wrapper" >
             <div id="loading"></div>
@@ -242,75 +242,65 @@
         </div>
         <!-- /.filter panel -->
      </div>
+  </div>
 
 <section id="portfolio">
-<div class="offset-md-2 col-md-8">
+<div class="container">
       <div class="row justify-content-center">
           <div class="col-md-12">
               <div class="row" data-aos="fade-right" data-aos-duration="800">
                   <div class="col-sm-4 box" >
-                      <img src="<c:url value='/resources/images/blog-1.jpg'/>" class="img-fluid">
+                      <img src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
                         <%-- <div class="overlay">
                          <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
                           <div class="text">his palms are sweaty knees wick arms are heavy</div>
                         </div> --%>
-                        <div>
-		                  	<a href="<c:url value='/BburiShare/GroupBuy/ProductView.bbs'/>">아아아아아앙아아아아아아아아아아아아아ㅑㅅ버대벧거데ㅐㅈㄳㅂㅈㅅㅂㅈㅅㄷ게ㅐㅑㄷㅂㅈ</a>
+                        <div class="imgtxt">
+		                  	<a href="<c:url value='/resources/images/portfolio-4.jpg'/>">
+		                  		준비중입니다
+							</a>
 		                </div>
                   </div>
                   
                   <div class="col-sm-4 box" >
-                      <img src="<c:url value='/resources/images/about.jpg'/>" class="img-fluid">
+                      <img src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
                         <%-- <div class="overlay">
                          <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                         </div> --%>
+                        <div class="imgtxt">
+		                  	<a href="<c:url value='/BburiShare/GroupBuy/ProductView.bbs'/>">
+		                  		준비중입니다
+							</a>
+		                </div>
                   </div>
                   
                   <div class="col-sm-4 box" >
-                      <img src="<c:url value='/resources/images/blog-2.jpg'/>" class="img-fluid">
+                      <img src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
                         <%-- <div class="overlay">
                          <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                         </div> --%>
+                        <div class="imgtxt">
+		                  	<a href="<c:url value='/BburiShare/GroupBuy/ProductView.bbs'/>">
+		                  		준비중입니다
+							</a>
+		                </div>
                   </div>
               </div><!-- row1 -->
               
               <div class="row" data-aos="fade-left" data-aos-duration="800">
                   <div class="col-sm-4 box" >
-                      <img src="<c:url value='/resources/images/main_sharing1.png'/>" class="img-fluid">
+                      <img src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
                      <%-- <div class="overlay">
                          <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                      </div> --%>
-                     <div>
-		                  	<a href="<c:url value='/WEB-INF/views/groupbuy/ProductView.jsp'/>">아아아아아앙아아아</a>
-		                  </div>
-                  </div>
-                  
-                  <div class="col-sm-4 box" >
-                      <img src="<c:url value='/resources/images/main_sharing2.png'/>" class="img-fluid">
-                     <%-- <div class="overlay">
-                         <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
-                          <div class="text">Beautiful Sunset at Mountain</div>
-                     </div> --%>
-                  </div>
-                  <div class="col-sm-4 box" >
-                      <img src="<c:url value='/resources/images/sumnail.png'/>" class="img-fluid">
-                     <%-- <div class="overlay">
-                         <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
-                          <div class="text">Beautiful Sunset at Mountain</div>
-                     </div> --%>
-                  </div>
-              </div><!-- row2 -->
-              
-              <div class="row" data-aos="fade-right" data-aos-duration="800">
-                  <div class="col-sm-4 box" >
-                      <img src="<c:url value='/resources/images/portfolio-3.jpg'/>" class="img-fluid">
-                     <%-- <div class="overlay">
-                         <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
-                          <div class="text">Beautiful Sunset at Mountain</div>
-                     </div> --%>
+                     	<div class="imgtxt">
+		                  	<a href="<c:url value='/BburiShare/GroupBuy/ProductView.bbs'/>">
+		                  		준비중입니다
+							</a>
+		                </div>
                   </div>
                   
                   <div class="col-sm-4 box" >
@@ -319,14 +309,64 @@
                          <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                      </div> --%>
+                     	<div class="imgtxt">
+		                  	<a href="<c:url value='/BburiShare/GroupBuy/ProductView.bbs'/>">
+		                  		준비중입니다
+							</a>
+		                </div>
                   </div>
-                  
                   <div class="col-sm-4 box" >
-                      <img src="<c:url value='/resources/images/portfolio-1.jpg'/>" class="img-fluid">
+                      <img src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
                      <%-- <div class="overlay">
                          <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
                           <div class="text">Beautiful Sunset at Mountain</div>
                      </div> --%>
+                     	<div class="imgtxt">
+		                  	<a href="<c:url value='/BburiShare/GroupBuy/ProductView.bbs'/>">
+		                  		준비중입니다
+							</a>
+		                </div>
+                  </div>
+              </div><!-- row2 -->
+              
+              <div class="row" data-aos="fade-right" data-aos-duration="800">
+                  <div class="col-sm-4 box" >
+                      <img src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
+                     <%-- <div class="overlay">
+                         <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
+                          <div class="text">Beautiful Sunset at Mountain</div>
+                     </div> --%>
+                     	<div class="imgtxt">
+		                  	<a href="<c:url value='/BburiShare/GroupBuy/ProductView.bbs'/>">
+		                  		준비중입니다
+							</a>
+		                </div>
+                  </div>
+                  
+                  <div class="col-sm-4 box" >
+                      <img src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
+                     <%-- <div class="overlay">
+                         <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
+                          <div class="text">Beautiful Sunset at Mountain</div>
+                     </div> --%>
+                     	<div class="imgtxt">
+		                  	<a href="<c:url value='/BburiShare/GroupBuy/ProductView.bbs'/>">
+		                  		준비중입니다
+							</a>
+		                </div>
+                  </div>
+                  
+                  <div class="col-sm-4 box" >
+                      <img src="<c:url value='/resources/images/portfolio-4.jpg'/>" class="img-fluid">
+                     <%-- <div class="overlay">
+                         <img src="<c:url value='/resources/images/plus-img.png'/>" alt="plus-icon">
+                          <div class="text">Beautiful Sunset at Mountain</div>
+                     </div> --%>
+                     	<div class="imgtxt">
+		                  	<a href="<c:url value='/BburiShare/GroupBuy/ProductView.bbs'/>">
+		                  		준비중입니다
+							</a>
+		                </div>
                   </div>
               </div><!-- row3 -->
               
@@ -351,11 +391,11 @@
     <script src="<c:url value='/resources/js/addEvent.js'/>"></script>
     <script src="<c:url value='/resources/js/editEvent.js'/>"></script>
     <script src="<c:url value='/resources/js/etcSetting.js'/>"></script>
-    
+
     <!-- 캐러셀 -->
     <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
     <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script> -->
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js" type="text/javascript" ></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="<c:url value='/resources/js/slick.min.js'/>"></script>
 
