@@ -5,7 +5,7 @@
 <footer>
 
 	 <div class="footer-copyright text-center">     
-       <p>© 2019, All Rights Reserved. <a href="#">뿌리쉐어</a>	       	
+       <p><a href="<c:url value='/BburiShare/Admin/Admin.bbs'/>">©</a> 2019, All Rights Reserved. <a href="#">뿌리쉐어</a>	       	
        </p>       
     </div>
 
