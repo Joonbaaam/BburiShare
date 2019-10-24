@@ -17,14 +17,18 @@
 
 <!-- 그래프 -->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
-<section>
+
+
+<section id="portfolio">
 <div class="container">
 	<div class="row">
-		
-		<!-- <div class="right-info">
-		</div> -->
+		<div class="col-md-6">
+			<img src="<c:url value='/resources/images/ProductView/video.JPG'/>">	
+			<!-- 그래프 -->
+			<div class="pv-graph col-md-6" id="donut_example">
+				참여자 연령분포	
+			</div>
 			<div class="right-info col-md-6">
-			<img alt="topImg" src="<c:url value='/resources/images/ProductView/video.JPG'/>">
 				<p><strong>100,200,300</strong>원 달성</p>
 				<p><strong>13일 남음</strong></p>
 				<p>2019.12.12 15:00 마감</p>
@@ -32,15 +36,27 @@
 				<a class="btn btn-success btn-sm" href="<c:url value='/BburiShare/GroupBuy/JoinGroup.bbs'/>">참여하기</a>
 				<a class="btn btn-success btn-sm" href="<c:url value='/BburiShare/GroupBuy/AddProduct.bbs'/>">수정요청</a>
 				<a class="btn btn-success btn-sm" href="<c:url value='/BburiShare/GroupBuy/AddProduct.bbs'/>">삭제요청</a>
+			
 			</div>
-			<div class="col-md-6">							
-				<div class="faq-text">
-					<!-- 그래프 -->
-					<div class="col-md-4" id="donut_example" style="height: 250px;">참여자 연령분포</div>
-					<%--<div class="offset-md-2 col-md-6"><img alt="achieve" src="<c:url value='/resources/images/ProductView/achieve.JPG'/>"></div>
-					<img alt="faq" src="<c:url value='/resources/images/ProductView/faq.JPG'/>"> --%>
-				</div>
+			
+		</div>
+		
+		<div class="col-md-4">
+			<img alt="reply" src="<c:url value='/resources/images/ProductView/reply.JPG'/>">
+		</div>			
+		
+		
+		
+		<%-- 			
+		<div class="col-md-6">							
+			
+			<div class="col-md-4" id="donut_example" style="height: 250px;">참여자 연령분포</div>
+			<div class="faq-text">
+				
+				<div class="offset-md-2 col-md-6"><img alt="achieve" src="<c:url value='/resources/images/ProductView/achieve.JPG'/>"></div>
+				<img alt="faq" src="<c:url value='/resources/images/ProductView/faq.JPG'/>">
 			</div>
+		</div> --%>
 		
 		
 		<%-- <div class="faq-text">
@@ -54,7 +70,7 @@
 			
 		</div> --%>
 		
-		<img alt="reply" src="<c:url value='/resources/images/ProductView/reply.JPG'/>">
+		
 
 	</div><!-- row -->
 	
