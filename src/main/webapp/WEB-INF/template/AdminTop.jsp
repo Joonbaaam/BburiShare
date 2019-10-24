@@ -14,7 +14,7 @@
         <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
       </div>
       <!--logo start-->
-      <a href="index.html" class="logo"><b><span>뿌리</span> 쉐어</b></a>
+      <a href="<c:url value='/'/>" class="logo"><b><span>뿌리</span> 쉐어</b></a>
       <!--logo end-->
       <div class="nav notify-row" id="top_menu">
         <!--  notification start -->

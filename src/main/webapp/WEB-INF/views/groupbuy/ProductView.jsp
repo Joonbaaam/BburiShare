@@ -3,18 +3,18 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page session="false"%>
 
-<header class="banner">
+<!-- <header class="banner">
 	<div class="gradient"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 heading">
-				<h1 data-aos="fade-right" data-aos-delay="300"><!-- 상세페이지 --></h1>				
+				<h1 data-aos="fade-right" data-aos-delay="300">상세페이지</h1>				
 				
 			</div>
 		</div>
 	</div>
 </header>
-
+ -->
 <!-- 그래프 -->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
 
@@ -44,31 +44,6 @@
 		<div class="col-md-4">
 			<img alt="reply" src="<c:url value='/resources/images/ProductView/reply.JPG'/>">
 		</div>			
-		
-		
-		
-		<%-- 			
-		<div class="col-md-6">							
-			
-			<div class="col-md-4" id="donut_example" style="height: 250px;">참여자 연령분포</div>
-			<div class="faq-text">
-				
-				<div class="offset-md-2 col-md-6"><img alt="achieve" src="<c:url value='/resources/images/ProductView/achieve.JPG'/>"></div>
-				<img alt="faq" src="<c:url value='/resources/images/ProductView/faq.JPG'/>">
-			</div>
-		</div> --%>
-		
-		
-		<%-- <div class="faq-text">
-			<!-- 그래프 -->
-			<div class="col-md-4" id="donut_example" style="height: 250px;">참여자 연령분포</div>
-			<!-- <p>간단 <strong>FAQ</strong></p>
-			<p><strong>공동구매 참여방법</strong>이 궁금하다면?</p>
-			<p>afdasdf &nbsp;<span class="caret"></span></p> -->
-			<div class="offset-md-2 col-md-6"><img alt="achieve" src="<c:url value='/resources/images/ProductView/achieve.JPG'/>"></div>
-			<img alt="faq" src="<c:url value='/resources/images/ProductView/faq.JPG'/>">
-			
-		</div> --%>
 		
 		
 

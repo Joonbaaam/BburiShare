@@ -9,7 +9,8 @@ function getDisplayEventDate(event) {
     var startTimeEventInfo = moment(event.start).format('HH:mm');
     var endTimeEventInfo = moment(event.end).format('HH:mm');
     displayEventDate = startTimeEventInfo + " - " + endTimeEventInfo;
-  } else {
+  } 
+  else {
     displayEventDate = "하루종일";
   }
 
@@ -161,6 +162,7 @@ var calendar = $('#calendar').fullCalendar({
     $.ajax({
       type: "get",
       url: "data.json",
+      dataType:"json",
       data: {
         // 실제 사용시, 날짜를 전달해 일정기간 데이터만 받아오기를 권장
       },
@@ -194,7 +196,8 @@ var calendar = $('#calendar').fullCalendar({
     //리사이즈한 일정 업데이트
     $.ajax({
       type: "get",
-      url: "",
+      url: "/resources/data.json",
+      dataType:"json",
       data: {
         //id: event._id,
         //....
@@ -229,7 +232,8 @@ var calendar = $('#calendar').fullCalendar({
     //드롭한 일정 업데이트
     $.ajax({
       type: "get",
-      url: "",
+      url: "/resources/data.json",
+      dataType:"json",
       data: {
         //...
       },
@@ -239,7 +243,7 @@ var calendar = $('#calendar').fullCalendar({
     });
 
   },
-//달력 클릭시 모달창 위치
+  //달력 클릭시 모달창 위치
   select: function (startDate, endDate, jsEvent, view) {
 
     $(".fc-body").unbind('click');
@@ -249,8 +253,8 @@ var calendar = $('#calendar').fullCalendar({
         .addClass("contextOpened")
         .css({
           display: "block",
-          left: e.pageX -500,
-          top: e.pageY -500
+          left: e.pageX,
+          top: e.pageY
         });
       return false;
     });
