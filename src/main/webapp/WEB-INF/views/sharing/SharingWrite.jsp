@@ -8,12 +8,17 @@
 		<div id="sharing">
 			<div class="row">
 				<div id="sharing-left" class="col-sm-2">
-					<button class="accordion">TEST</button>
-					<div class="panel">
-						<p>TEST01</p>
-						<p>TEST02</p>
-						<p>TEST03</p>
-					</div>
+					<ul class="nav  navbarborder" >
+						<li class="li-category">
+						<a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">쉐어링</a>
+						<ul class="dropdown-menu" id="mydd" >
+							<li><a href="#">거리순 정렬</a></li>							
+							<li><a href="#">가격순 정렬</a></li>
+							<li><a href="#">최신 정렬</a></li>
+						</ul>
+						</li>
+					
+					</ul>
 					
 				</div>
 				<div class="col-sm-1"></div>
@@ -61,7 +66,7 @@
 			    				</div>
 			    				
 			    				<div class="form-group">
-				    				<textarea name="content" id="content" rows="10" class="form-control" placeholder="내용을 입력하세요."></textarea>
+				    				<textarea name="content" id="content" rows="20" class="form-control" placeholder="내용을 입력하세요."></textarea>
 			    					
 			    				</div>
 			    				<div class="form-group">

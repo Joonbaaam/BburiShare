@@ -16,7 +16,7 @@
 							<li><a href="#">가격순 정렬</a></li>
 							<li><a href="#">최신 정렬</a></li>
 						</ul>
-					</li>
+						</li>
 					
 					</ul>
 				</div>
