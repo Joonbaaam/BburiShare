@@ -16,7 +16,7 @@
 
 #jyMonth {
 	color: gray;
-	margin-top: 50px;
+	margin-top: 27px;
 	padding-bottom: 5px;
 	margin-bottom: 30px;
 	text-align: left;

@@ -19,11 +19,12 @@
 }
 
 #infoviewId {
-	padding-right:20px;
+	padding-right: 20px;
 	text-align: right;
 }
-#jyTitle{
-	margin-top:20px;
+
+#jyTitle {
+	margin-top: 20px;
 }
 </style>
 
@@ -53,6 +54,10 @@
 			내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</p>
 
 		<hr>
+		<div class="like-btn" style="text-align: center">
+			<a class="btn btn-primary"
+				href="<c:url value='/BburiShare/Sharing/SharingWrite.bbs'/>">일정추가</a>
+		</div>
 		<!-- 댓글창 시작 -->
 		<div class="container" id="infoviewComment">
 			<div class="card my-4">
@@ -62,8 +67,8 @@
 						<div class="form-group">
 							<textarea class="form-control" rows="3"></textarea>
 						</div>
-						<button type="submit" class="btn btn-primary">작성</button>
-						<button type="submit" class="btn btn-primary">좋아요</button>
+						<button type="submit" class="btn btn-primary">🖉&nbsp;작성</button>
+						<button type="submit" class="btn btn-primary">♡&nbsp;공감</button>
 					</form>
 				</div>
 			</div>

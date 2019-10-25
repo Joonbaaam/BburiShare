@@ -6,12 +6,12 @@
 <style>
 #jycard {
 	padding: 40px;
-	width:270px;
+	width: 270px;
 }
 
 #jySidebar {
 	font-size: 14px;
-	margin-top: 85px;
+	margin-top: 150px;
 }
 
 #jyCarousel div div div.carousel-caption {
@@ -26,19 +26,22 @@
 }
 
 #jyMonth {
-	padding-top: 50px;
+	padding-top: 27px;
 	padding-left: 5px;
 	border-bottom: solid 1px lightgray;
 	font-size: 14px;
 }
-#infoContnet{
-	padding-left:65px;
+
+#infoContnet {
+	padding-left: 65px;
 }
-div.carousel-caption h1{
-	font-family:TmonMonsori;
+
+div.carousel-caption h1 {
+	font-family: TmonMonsori;
 }
-div.carousel-caption h3{
-	padding-top:20px;
+
+div.carousel-caption h3 {
+	padding-top: 20px;
 }
 </style>
 
@@ -107,7 +110,8 @@ div.carousel-caption h3{
 									</p>
 
 									<p>
-										<a href="<c:url value='/BburiShare/Localinfo/LocalinfoWrite.bbs'/>">글쓰기</a>
+										<a
+											href="<c:url value='/BburiShare/Localinfo/LocalinfoWrite.bbs'/>">글쓰기</a>
 									</p>
 								</ul>
 							</div>
@@ -125,6 +129,55 @@ div.carousel-caption h3{
 			<!-- 사이드바 끝 -->
 			<!-- 컬럼 -->
 			<div class="col-lg-10">
+				<!-- 상단메뉴 -->
+				<div class="row" style="margin-top: 50px; width: 730px;">
+					<div class="col-md-6">
+						<ul class="nav  navbarborder">
+							<li class="li-category"><a
+								class="btn  dropdown-toggle btn-costume" id="dropdownMenu1"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">카테고리</a>
+								<ul class="dropdown-menu viewdrop" id="mydd">
+									<li><a href="#">운동</a></li>
+									<li><a href="#">영화</a></li>
+									<li><a href="#">식사</a></li>
+									<li><a href="#">게임</a></li>
+									<li><a href="#">자원봉사</a></li>
+									<li><a href="#">공부</a></li>
+								</ul></li>
+							<li class="li-minyear"><a
+								class="btn  dropdown-toggle btn-costume" id="dropdownMenu2"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">지역
+							</a>
+								<ul class="dropdown-menu viewdrop" id="mydd2">
+									<li><a href="#">강남</a></li>
+									<li><a href="#">역삼</a></li>
+									<li><a href="#">종로</a></li>
+									<li><a href="#">용산</a></li>
+									<li><a href="#">강북</a></li>
+									<li><a href="#">기타</a></li>
+								</ul></li>
+							<li class="li-maxyear2"><a
+								class="btn dropdown-toggle btn-costume" id="dropdownMenu4"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">날짜</a>
+								<ul class="dropdown-menu viewdrop" id="mydd4">
+									<li><a href="#">오늘</a></li>
+									<li><a href="#">내일</a></li>
+									<li><a href="#">모레</a></li>
+								</ul></li>
+
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<form class="searchform" role="search">
+							<div class="search-div">
+								<input type="text" class="searchinput"
+									placeholder="Enter Keyword"> <span class="fa fa-search"></span>
+							</div>
+
+						</form>
+					</div>
+				</div>
+				<!-- 상단메뉴 끝 -->
 				<div>
 					<h6 id="jyMonth">12월</h6>
 				</div>
@@ -218,7 +271,7 @@ div.carousel-caption h3{
 						</div>
 					</div>
 					<!-- content -->
-					
+
 				</div>
 				<!-- /.row -->
 			</div>
@@ -228,7 +281,12 @@ div.carousel-caption h3{
 	</div>
 	<!-- /#jyContent -->
 	<!-- /.row -->
-	<div class="row" style="width: 100%; margin-left: 395px; padding-top:20px;" >
+	<div class="write-btn" style="text-align:right">
+		<a class="btn btn-primary"
+			href="<c:url value='/BburiShare/Sharing/SharingWrite.bbs'/>">🖉&nbsp;글쓰기</a>
+	</div>
+	<div class="row"
+		style="width: 100%; margin-left: 395px; padding-top: 20px;">
 
 		<div class="container">
 
