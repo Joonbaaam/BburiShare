@@ -43,6 +43,16 @@
 	<div class="crs-responsive">
 		<div class="fc-div">
 			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/benz.jpg'/>">
+			</a>	    
+	    </div>	
+	    <div class="fc-div">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/nike.png'/>">
+			</a>	    
+	    </div>	
+		<div class="fc-div">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
 			<img src="<c:url value='/resources/images/crs/adds.png'/>">
 			</a>
 	    </div>
@@ -63,11 +73,6 @@
 	    </div>
 	    <div class="fc-div">
 			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
-			<img src="<c:url value='/resources/images/crs/nike.png'/>">
-			</a>	    
-	    </div>
-	    <div class="fc-div">
-			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
 			<img src="<c:url value='/resources/images/crs/rok.jpg'/>">
 			</a>	    
 	    </div>
@@ -76,6 +81,32 @@
 			<img src="<c:url value='/resources/images/crs/stbs.jpg'/>">
 			</a>	    
 	    </div>
+	    <div class="fc-div">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/ls.jpg'/>">
+			</a>	    
+	    </div>
+	    <div class="fc-div">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/se.jpg'/>">
+			</a>	    
+	    </div>
+	    <div class="fc-div">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/pepsi.jpg'/>">
+			</a>	    
+	    </div>
+	    <div class="fc-div">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/atnt.jpg'/>">
+			</a>	    
+	    </div>
+	    <div class="fc-div">
+			<a href="<c:url value='/BburiShare/GroupBuy/ProductList.bbs'/>">
+			<img src="<c:url value='/resources/images/crs/mtrl.jpg'/>">
+			</a>	    
+	    </div>
+	    
 	</div>
  </div>
  <!-- /.container -->
@@ -400,10 +431,10 @@
 	<script type="text/javascript" src="<c:url value='/resources/js/slick.min.js'/>"></script>
 
 
-<!--     <script>
+<!--     <script type="text/javascript">
   	
   		$(function(){
-  			$('.responsive').carousel({interval: 1000});  			
+  			$('.crs-responsive').slick({interval: 1000});  			
   			
   		});
   	
