@@ -18,6 +18,7 @@
 	text-align: left;
 }
 
+
 #infoviewId {
 	padding-right:20px;
 	text-align: right;

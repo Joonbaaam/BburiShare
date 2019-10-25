@@ -45,7 +45,6 @@ div.carousel-caption h3 {
 }
 </style>
 
-
 <!-- container -->
 <div class="container" id="jyContainer">
 	<!-- jyCarousel -->

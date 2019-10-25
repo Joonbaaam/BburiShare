@@ -32,6 +32,7 @@
 	font-size: 14px;
 }
 
+
 #infoContnet {
 	padding-left: 65px;
 }

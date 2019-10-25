@@ -13,6 +13,7 @@
 	font-size: 14px;
 }
 
+
 #infoviewTime {
 	padding-left: 20px;
 	text-align: left;
