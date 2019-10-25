@@ -54,7 +54,8 @@
 					<h1>공동구매</h1>
 					<h2>함께사는 기쁨</h2>
 					<h5>원하는 물건을 공동구매하여 함께 구매한 인원들과만 공유하세요</h5>
-					<a class="btn btn-primary" href="#" role="button">섹션으로 이동</a>
+					<a class="btn btn-primary" href="<c:url value='/BburiShare/GroupBuy/Groupbuymain.bbs'/>" 
+						role="button">섹션으로 이동</a>
 				</div>
 			</div>
 			<div class="carousel-item">
